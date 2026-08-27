@@ -21,10 +21,18 @@ only ask for genuinely missing data.
   edition, don't reuse a stale figure.
 
 ## Inputs needed from Kyle each week
-- This week's Bright MLS stats (statewide + relevant counties) — or confirm
-  Kyle wants these pulled/researched directly
-- Any specific story angle, county focus, or seasonal hook for the week
-- Anything unusual to flag (rate moves, local news, inventory shifts)
+- Before asking Kyle for anything, read `friedman-report-log.md` for the most
+  recent entry — that's last week's data, needed for the comparison table.
+- Then ask Kyle for: this week's Bright MLS stats (statewide + relevant
+  counties). Do NOT ask him to re-supply last week's numbers — pull those
+  from the log.
+- Also ask: any specific story angle, county focus, or seasonal hook for the
+  week, and anything unusual to flag (rate moves, local news, inventory
+  shifts).
+- Freddie Mac rate is NOT asked of Kyle — pull it yourself (see below).
+- Once Kyle provides this week's numbers, append a new dated entry to
+  `friedman-report-log.md` (format specified in that file) — don't overwrite
+  prior entries.
 
 ## Distribution — every edition goes to all of these
 - Gamma (custom theme ID `m6zymtbkauah9qd`)
