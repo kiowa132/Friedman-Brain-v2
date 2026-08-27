@@ -1,4 +1,4 @@
-# Friday Blog Article — Topic Log
+# Blog Article — Topic Log
 
 Complete list from Kyle's actual Substack archive (provided 2026-08-27).
 Check the "Deep-dive topic pieces" section before proposing any new topic —
