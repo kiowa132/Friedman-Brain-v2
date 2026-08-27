@@ -1,0 +1,6 @@
+# Obsidian local config (graph layout, workspace state, plugin settings)
+# — device-specific, not worth syncing/versioning
+.obsidian/
+
+# OS clutter
+.DS_Store

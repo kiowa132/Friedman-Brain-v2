@@ -1,0 +1,46 @@
+# The Friedman Team — Brain (Root Map)
+
+This is Kyle Friedman's knowledge base for The Friedman Team real estate
+business. If you are an AI agent (Claude Code or otherwise) working from this
+folder, read this file first — it tells you where everything lives and how to
+use it.
+
+## Folder structure
+- `projects/` — standing procedures and status for recurring/ongoing work.
+  Each file documents a repeatable workflow end-to-end: what to build, what
+  inputs are needed, and any templates. When Kyle drops in raw inputs for one
+  of these, follow the file's procedure rather than asking him to re-explain
+  it from scratch.
+- `notes/` — durable reference facts: brand guidelines, naming rules, tool
+  configuration. One topic per file.
+- `people/` — cards for key contacts (clients, mentor, vendors). Not
+  pre-populated — add as needed.
+- `decisions.md` — running log of open decisions and resolved calls, so
+  nothing gets re-litigated or forgotten.
+
+## Standing procedures — start here for recurring work
+- [[projects/listing-presentation.md]] — seller listing presentation package
+- [[projects/friedman-report.md]] — weekly Friedman Report
+- [[projects/friedmanreteam-website.md]] — friedmanreteam.com build status
+- [[projects/prospecting-ledger-app.md]] — Ledger prospecting tracker app
+
+## Reference
+- [[notes/brand-guidelines.md]] — visual identity, naming rules, brand voice
+- [[decisions.md]] — open questions and resolved decisions
+
+## Rules for any agent working in this folder
+- Team name is always "The Friedman Team" — never "Friedman Real Estate Team"
+  or any "real estate"-inclusive variant.
+- Before building anything branded (decks, emails, social posts), check
+  `notes/brand-guidelines.md` for current visual identity and voice — don't
+  assume, check.
+- If a procedure file and a live conversation disagree about current process,
+  ask Kyle which is current rather than silently picking one — then update
+  this brain to match.
+
+## A note on scope
+This folder is the source of truth for *procedures and durable facts* about
+Kyle's business. It does not run anything on its own — scheduled tasks, live
+data pulls (MLS, mortgage rates, CRM), and posting automation are separate
+tools that should read their instructions from here rather than duplicating
+them internally.
