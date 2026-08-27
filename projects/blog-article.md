@@ -3,11 +3,21 @@
 Generalized from the original Friday-only version. Handles two separate
 request types — read which one applies before starting.
 
-## What every finished article is — 3 deliverables
-1. **A written article** (buyer- or seller-focused educational deep-dive)
-   for Substack and the website SEO article
-2. **4 detailed image prompts** for use in ChatGPT/DALL-E/Midjourney
-3. **A 15–20 second social video script** — story/hook-driven, NOT Kyle
+## What every finished article is — 4 deliverables
+1. **Substack version** (`substack.md`) — shorter, punchier, conversational.
+   Roughly 500-700 words. This is what actually gets read start-to-finish in
+   an email/feed — get to the point fast, less structural scaffolding.
+2. **Website SEO version** (`website-seo.md`) — longer and structured for
+   search. Roughly 900-1300 words, clear H2s built around what someone
+   would actually search, natural keyword usage (don't force it). Include
+   at the top:
+   - **Meta title** (≤60 characters)
+   - **Meta description** (≤155 characters)
+   - **Target keyword/phrase** it's written around
+   These two versions cover the same topic and points but are NOT the same
+   text reformatted — write each for how it's actually consumed.
+3. **4 detailed image prompts** for use in ChatGPT/DALL-E/Midjourney
+4. **A 15–20 second social video script** — story/hook-driven, NOT Kyle
    reciting data to camera. Hook in first 2-3s, a turn/twist, short payoff.
    Time-coded table (time / visual+edit direction / audio or on-screen
    text).
@@ -19,7 +29,8 @@ Kyle names a topic directly, any day, any time.
    fresh angle on it, but ask first.
 2. Research it (web search — don't state Maryland-specific legal/tax/
    financing facts from memory alone).
-3. Write the article + 4 image prompts + video script.
+3. Write the Substack version + website SEO version + 4 image prompts +
+   video script.
 4. Deliver directly to Kyle — no queue detour needed for an on-demand
    request.
 5. Log it in `blog-article-log.md`.
@@ -35,8 +46,8 @@ whatever's next.
 2. Propose new topic candidates to Kyle first — don't write on spec.
    Favor topics reinforcing brand positioning (see
    `../notes/brand-guidelines.md`), especially the farm/equestrian niche.
-3. Once approved, research and fully write each one (article + 4 image
-   prompts + video script), save to
+3. Once approved, research and fully write each one (Substack version +
+   website SEO version + 4 image prompts + video script), save to
    `../drafts/blog-articles/<date-slug>/`, add to `blog-article-queue.md`
    as "ready" with a one-line summary — no fixed Friday date attached.
 

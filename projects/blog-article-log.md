@@ -7,6 +7,9 @@ never repeat one. Append new pieces to the top after each publish.
 ## Deep-dive topic pieces already published
 (check this list before proposing a new topic)
 
+- The clause that wins bidding wars (and the one that can blow up your
+  deal) — escalation clauses and appraisal gaps explained — picked
+  2026-08-27, publishing week of 2026-08-28
 - Buying a farm or equestrian property in Maryland — drafted 2026-08-27,
   queued for 2026-08-28
 - What $500K+ Actually Gets You in Carroll County Right Now — Aug 21, 2026

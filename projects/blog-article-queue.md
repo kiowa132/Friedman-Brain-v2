@@ -10,10 +10,6 @@ drops below that.
   tax, MALPF easements, well/septic, USDA financing
   → `drafts/blog-articles/2026-08-28-farm-equestrian-buying-guide/`
 
-- **The clause that wins bidding wars (and the one that can blow up your
-  deal)** — escalation clauses and appraisal gaps explained
-  → `drafts/blog-articles/2026-09-escalation-appraisal-gap/`
-
 - **You just inherited a house in Maryland — here's what happens next** —
   stepped-up basis, Maryland's inheritance tax, probate, sibling buyouts
   → `drafts/blog-articles/2026-09-inherited-property-maryland/`
@@ -27,4 +23,4 @@ drops below that.
   → `drafts/blog-articles/2026-09-radon-testing-disclosure/`
 
 ## Needs topic approval
-(empty — 5 ready, well above the 3-item refill threshold)
+(empty — 4 ready, above the 3-item refill threshold)
