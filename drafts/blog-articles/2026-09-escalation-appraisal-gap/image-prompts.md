@@ -29,7 +29,7 @@ Editorial real-estate / finance photography, restrained and premium.
 
 ---
 
-## 1. HERO — `escalation-appraisal-gap-hero.png`
+## 1. HERO — `bidding-wars-hero.png`
 **Size:** 1792×1024 px — 16:9 horizontal landscape banner. Set this in the
 tool's aspect-ratio control before generating; do not rely on the prompt.
 **Upload:** SITE, LOGO, SWATCH
@@ -62,7 +62,7 @@ tool's aspect-ratio control before generating; do not rely on the prompt.
 > marketing. Negative: no people, no faces, no misspelled or warped text,
 > no extra logos, no watermark, no clutter.
 
-## 2. ESCALATION STEP-UP — `escalation-appraisal-gap-stepup.png`
+## 2. ESCALATION STEP-UP — `bidding-wars-escalation-stepup.png`
 **Size:** 1792×1024 px — 16:9 horizontal landscape banner. Set this in the
 tool's aspect-ratio control before generating; do not rely on the prompt.
 **Upload:** SITE (the stat-card grid), SWATCH, LOGO
@@ -94,7 +94,7 @@ tool's aspect-ratio control before generating; do not rely on the prompt.
 > people, no photorealistic clutter, no stock-photo look, no distorted
 > numbers.
 
-## 3. THE APPRAISAL GAP — `escalation-appraisal-gap-gap.png`
+## 3. THE APPRAISAL GAP — `bidding-wars-appraisal-gap.png`
 **Size:** 1792×1024 px — 16:9 horizontal landscape banner. Set this in the
 tool's aspect-ratio control before generating; do not rely on the prompt.
 **Upload:** SWATCH, SITE, LOGO
@@ -123,7 +123,7 @@ tool's aspect-ratio control before generating; do not rely on the prompt.
 > Negative: no people, no photoreal props, no 3-D render look, no clutter,
 > no extra text.
 
-## 4. BEFORE YOU WRITE THE OFFER (with Kyle) — `escalation-appraisal-gap-agent.png`
+## 4. BEFORE YOU WRITE THE OFFER (with Kyle) — `bidding-wars-two-numbers.png`
 **Size:** 1792×1024 px — 16:9 horizontal landscape banner. Set this in the
 tool's aspect-ratio control before generating; do not rely on the prompt.
 **Upload:** HEADSHOT (exact face reference), GUIDE, LOGO, SWATCH
