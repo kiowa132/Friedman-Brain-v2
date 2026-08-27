@@ -3,11 +3,17 @@ title: "Escalation Clauses and Appraisal Gaps: What Maryland Homebuyers Need to 
 metaDescription: "How escalation clauses and appraisal gap coverage actually work in Maryland contracts, how the two combine in a competitive offer, and what to line up first."
 category: Buyer Strategy
 publishDate: "2026-08-28"
-heroImage: /images/uploads/TODO-escalation-appraisal-gap-hero.png
+heroImage: /images/uploads/escalation-appraisal-gap-hero.png
+carouselImages:
+  - /images/uploads/escalation-appraisal-gap-stepup.png
+  - /images/uploads/escalation-appraisal-gap-gap.png
+  - /images/uploads/escalation-appraisal-gap-agent.png
 youtubeVideoId: ""
 youtubeIsShort: true
 ---
 <!-- Target keyword: escalation clause appraisal gap Maryland -->
+<!-- IMAGES: 4 generated. Save to The-friedman-team-website/public/images/uploads/ with the exact frontmatter filenames. BRAND FIX NEEDED before publish: hero + stepup images show a "FRIEDMAN REAL ESTATE TEAM" logo — must read "The Friedman Team" (no "real estate"). youtubeVideoId still blank. -->
+
 
 Dana found the house in early August. So did four other buyers.
 
@@ -51,15 +57,9 @@ The addendum comes down to three numbers:
 - **The escalation increment (the "factor")** - how much your offer jumps above the next-highest bid each step. In most Maryland submarkets $1,000-$5,000 is enough to stay in front without vaulting tens of thousands past the competition
 - **Your cap** - the absolute most you will pay, no matter how high the bidding goes
 
-<div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:18px 20px;margin:24px 0;">
-<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:10px;">Worked Example &mdash; How The Step-Up Works</div>
-<div style="color:#0D2226;font-size:15px;line-height:1.6;">
-You offer <strong>$525,000</strong>, with a <strong>$3,000</strong> increment and a <strong>$560,000</strong> cap.<br />
-A competing buyer comes in at <strong>$540,000</strong>.<br />
-Your offer automatically escalates to <strong>$543,000</strong> &mdash; $3,000 above their number &mdash; and stops there, well under your cap.<br />
-If that competing buyer <em>also</em> used an escalation clause, the two of you keep stepping up until one buyer's cap is reached.
-</div>
-</div>
+<img src="/images/uploads/escalation-appraisal-gap-stepup.png" alt="How an escalation clause works: a $525,000 offer auto-escalates $3,000 above a $540,000 competing bid to $543,000, still under the buyer's $560,000 cap" style="width:100%;height:auto;margin:24px 0;" />
+
+In this example you offer **$525,000** with a **$3,000** increment and a **$560,000** cap. A competing bid comes in at **$540,000**, so your offer steps to **$543,000** and stops - well under your cap. If that competing buyer *also* used an escalation clause, the two of you keep stepping up until one cap is reached.
 
 One Maryland-specific protection: the seller is expected to provide **proof of the bona fide competing offer** that triggered your escalation. If that proof never shows up, you and your agent can challenge an unsubstantiated claim rather than simply paying the escalated price. Ask your agent to request the competing contract - the price and terms pages, even with the buyer's name redacted - before you accept that your clause fired.
 
@@ -76,6 +76,8 @@ And know this going in: an escalation clause does not win you the house. It wins
 An appraisal gap is the difference between your agreed purchase price and the value the lender's appraiser assigns to the home. It has nothing to do with your escalation clause - it's a financing issue that surfaces two or three weeks *after* you're under contract.
 
 Most lenders will only finance up to the appraised value. So if you're under contract at $525,000 and the appraisal comes back at $505,000, the lender builds your loan on $505,000. That $20,000 difference is now cash you bring to closing - on top of your down payment - if you still want the deal to close at your price.
+
+<img src="/images/uploads/escalation-appraisal-gap-gap.png" alt="The appraisal gap: a $525,000 offer versus a $505,000 appraised value leaves a $20,000 gap the buyer pays in cash at closing, on top of the down payment" style="width:100%;height:auto;margin:24px 0;" />
 
 In a fast-moving market this happens because appraisals lean on recent comparable sales, and comps trail what buyers are actually paying right now. That's the mechanism behind a home selling well over asking and still handing the buyer a five-figure bill to close.
 
@@ -141,6 +143,8 @@ By your own math you didn't overpay. You just committed to two moving numbers at
 - **Use the contingency** - if you kept it - to renegotiate or exit without losing your deposit
 
 ## One Thing I'd Do Before You Offer
+
+<img src="/images/uploads/escalation-appraisal-gap-agent.png" alt="Kyle Friedman of The Friedman Team: before you write the offer, know your two numbers first - your cap and your gap cash" style="width:100%;height:auto;margin:24px 0;" />
 
 **If I were buying in a competitive Maryland market:** Set two numbers on paper before you tour anything you love. Your true price ceiling - the cap you'd write into an escalation addendum - and your true gap cash, the amount above your down payment you could actually bring if the appraisal came in low. Then set your gap coverage limit at or below that second number. Buyers who do this fine aren't the ones who offer the most. They're the ones who knew both numbers before there was a bidding war.
 

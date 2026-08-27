@@ -72,7 +72,42 @@ request types — read which one applies before starting.
      Howard, Frederick), signature "— Kyle Friedman, The Friedman Team"
    These two versions cover the same topic and points but are NOT the same
    text reformatted — write each for how it's actually consumed.
-3. **4 detailed image prompts** for use in ChatGPT/DALL-E/Midjourney
+3. **4 detailed image prompts** for a modern reference-image tool
+   (ChatGPT / Midjourney / Nano Banana etc.). These are **not** one-line
+   prompts. Each prompt block has four parts:
+   - **Filename** — exact `slug-name.png` matching the article frontmatter
+   - **Size** — an explicit line, e.g. `1792×1024 px — 16:9 horizontal
+     landscape banner. Set this in the tool's aspect-ratio control.` Every
+     block carries this; never leave size implied in prose only
+   - **Reference assets to upload** — name which of Kyle's files to attach
+     so the output isn't generic: his professional headshot (face/character
+     reference), screenshots of the live friedmanreteam.com site (match
+     type, layout, the stat-card system), the logo / wordmark PNG
+     (transparent), a brand color swatch, and phone photos of Kyle's
+     printed buyer/seller guides or existing collateral (paper stock,
+     layout, brand feel)
+   - **In-image text** — exact copy and placement. Text baked into the
+     image is wanted now: kicker, serif headline, stat labels, and a
+     `The Friedman Team` wordmark lockup. Always instruct the tool that
+     spelling must be correct and text naturally integrated. **The negative
+     list must forbid the string "REAL ESTATE" anywhere in the image** —
+     tools keep inventing a "FRIEDMAN REAL ESTATE TEAM" logo, which
+     violates the naming rule. Upload the real transparent LOGO every time
+     and tell the tool to reproduce it exactly, not design its own
+   - **The prompt** — spell out scene, subject, composition (explicitly
+     reserve a side/third for the headline with a soft gradient scrim),
+     lens / focal length / aperture, lighting, color grade citing the brand
+     hex values (`#0F5C63` teal, `#C9A96A` gold, `#FAF8F5` cream, `#0D2226`
+     ink, `#B5544A` loss-red), textures, post (grain, vignette), the style
+     references being uploaded, aspect ratio, and a negative list
+   **All prompts are banner / landscape (~16:9, crops cleanly to 3:1)**
+   unless a specific prompt notes a different ratio. Tools ignore "16:9"
+   written in prose — the prompt block must tell Kyle to set the ratio with
+   the tool's own control (ChatGPT: "wide 16:9 landscape 1792×1024";
+   Midjourney: `--ar 16:9`; others: the landscape preset; or upload a blank
+   1920×1080 canvas as a reference frame). Consistent brand grading — see
+   `../notes/brand-guidelines.md`. At least one of the four should use
+   Kyle's uploaded headshot to put him in the frame.
 4. **A 15–20 second social video script** — story/hook-driven, NOT Kyle
    reciting data to camera. Hook in first 2-3s, a turn/twist, short payoff.
    Time-coded table (time / visual+edit direction / audio or on-screen
@@ -118,9 +153,15 @@ whatever's next.
 ## Standing build rules
 - Branding & tone: follow `../notes/brand-guidelines.md` — don't duplicate
   those rules here, check there.
-- Never generate Kyle's actual face via AI image tools — text-to-image
-  tools can't reliably reproduce a specific real person anyway. If Kyle
-  wants himself in a graphic: use a real photo + add text/graphics in
-  Canva, not AI generation.
-- Don't rely on AI tools for legible on-image text — recommend adding text
-  as a post-process step (Canva) instead.
+- Putting Kyle in an image is fine when it's driven by his uploaded
+  headshot as a face/character reference (not free-generated from a text
+  description). For a hero where his face is the focus and must be exact, a
+  real photo composited in Canva is still the safest route — but a
+  reference-image tool is now acceptable.
+- Baked-in image text is wanted (headline, kicker, stat labels, wordmark).
+  Every prompt must specify exact copy and placement and tell the tool
+  spelling must be correct. Canva is still fine for final text cleanup, but
+  don't strip text out of the prompts.
+- Every prompt should lean on uploaded reference assets (headshot, live
+  site screenshots, logo, brand swatch, photos of Kyle's printed guides) so
+  outputs match the brand instead of looking like generic stock.
