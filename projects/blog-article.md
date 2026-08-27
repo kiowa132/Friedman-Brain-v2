@@ -18,24 +18,58 @@ request types — read which one applies before starting.
 
    — Kyle Friedman, The Friedman Team
    ```
-2. **Website SEO version** (`website-seo.md`) — longer and structured for
-   search. **Roughly 1,300-1,800 words, longer than the Substack version.**
-   Structure, in order:
-   - Top matter: **Meta title** (≤60 chars), **Meta description**
-     (≤155 chars), **Target keyword/phrase**
-   - H1, then a bold **`Quick answer:`** paragraph (~60-100 words,
-     featured-snippet style — the whole topic answered in one block)
-   - A short reframe intro (what most content on this topic gets wrong)
-   - H2 sections built around what someone would actually search, each
-     grounded in concrete Maryland numbers/examples, not generalities
-   - A "What to do before…" checklist section
+2. **Website version** (`website-seo.md`) — longer, structured for search,
+   and **coded in the live website's format** (Hugo content markdown with
+   YAML frontmatter + inline-styled HTML furniture). This file should be
+   drop-in ready for `The-friedman-team-website/content/blog/<slug>.md`.
+   **Roughly 1,300-1,800 words of prose, longer than the Substack version.**
+   Reference file (match its conventions):
+   `The-friedman-team-website/content/blog/maryland-real-estate-market-report-week-of-august-17-23-2026.md`
+
+   **YAML frontmatter** (top of file, between `---` fences):
+   - `title` — full H1 headline in quotes
+   - `metaDescription` — ≤155 chars, in quotes
+   - `category` — e.g. `Buyer Strategy`, `Seller Strategy`, `Market Reports`
+   - `publishDate` — `"YYYY-MM-DD"`
+   - `heroImage` — `/images/uploads/...` (leave a clearly-marked TODO path
+     if the asset doesn't exist yet)
+   - `carouselImages` — optional YAML list
+   - `youtubeVideoId` / `youtubeIsShort` — from deliverable 4; leave
+     `youtubeVideoId: ""` with a TODO if not filmed yet
+   Also keep a plain-text **Target keyword/phrase** line as an HTML comment
+   just under the frontmatter so it's not lost.
+
+   **Body structure**, in order:
+   - Open with a short illustrative buyer/seller scenario (first name only,
+     e.g. "Marcus has been playing it patient all summer"), then a
+     turn/stakes line
+   - A bold **`Quick answer:`** paragraph (~60-100 words) OR a `>` pull
+     quote near the top — the whole topic answered in one block
+   - H2 sections built around real search queries, each grounded in
+     concrete Maryland numbers/examples, not generalities
+   - **Use the website content card system** (see
+     `../notes/brand-guidelines.md` → "Website content card system" for the
+     exact color/style tokens — don't reinvent them):
+     - Stat-tile grid (inline-styled `<div>` grid) for any set of key
+       figures — with ▲/▼ deltas where a comparison exists
+     - Inline-styled HTML `<table>` for options / trade-off comparisons
+     - Styled callout `<div>` for worked examples and any data-transparency
+       note
+     - SVG chart/diagram embeds where a visual explains it better:
+       `<img src="/images/uploads/charts/<slug>/<name>.svg" alt="[takeaway]"
+       style="width:100%;height:auto;margin:20px 0;" />` — list the SVGs
+       that need to be produced in the delivery message; never hard-link a
+       missing asset without flagging it
+     - Centered uppercase section-label caption where it adds a beat
+   - A "What to do before…" / "One thing I'd do" checklist section
    - A "The Bottom Line" section
    - A "Frequently Asked Questions" section — 4-5 Q&As, each a real search
-     query with a tight answer (schema-friendly)
-   - Internal links to other friedmanreteam.com articles, neighborhood
-     pages, or tool pages (valuation, calculators) worked in naturally
-   - County CTA (Carroll, Baltimore, Howard, Frederick) + signature
-     "— Kyle Friedman, The Friedman Team"
+     query as `**Question?**` followed by a tight answer paragraph
+     (schema-friendly), matching the reference file's FAQ formatting
+   - Close with a "Your Next Move Starts Here" CTA section: internal links
+     to friedmanreteam.com articles / neighborhood / tool pages (valuation,
+     calculators) worked in naturally, county mention (Carroll, Baltimore,
+     Howard, Frederick), signature "— Kyle Friedman, The Friedman Team"
    These two versions cover the same topic and points but are NOT the same
    text reformatted — write each for how it's actually consumed.
 3. **4 detailed image prompts** for use in ChatGPT/DALL-E/Midjourney

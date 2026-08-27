@@ -1,226 +1,183 @@
-Meta title: Escalation Clauses & Appraisal Gaps: A Maryland Buyer's Guide (2026)
-Meta description: How escalation clauses and appraisal gap coverage actually work in Maryland contracts, how the two combine in a competitive offer, and what to line up before you write yours.
-Target keyword: escalation clause appraisal gap Maryland
+---
+title: "Escalation Clauses and Appraisal Gaps: What Maryland Homebuyers Need to Know Before Making an Offer"
+metaDescription: "How escalation clauses and appraisal gap coverage actually work in Maryland contracts, how the two combine in a competitive offer, and what to line up first."
+category: Buyer Strategy
+publishDate: "2026-08-28"
+heroImage: /images/uploads/TODO-escalation-appraisal-gap-hero.png
+youtubeVideoId: ""
+youtubeIsShort: true
+---
+<!-- Target keyword: escalation clause appraisal gap Maryland -->
 
-# The Clause That Wins Bidding Wars in Maryland — And the One That Can Blow Up Your Deal
+Dana found the house in early August. So did four other buyers.
 
-**Quick answer:** An escalation clause automatically raises your offer above
-competing bids, in fixed steps, up to a cap you set. In Maryland it's a
-specific Maryland Realtors addendum submitted with your original offer, and
-the seller has to show proof of a genuine competing offer before it
-triggers. An appraisal gap is a separate issue: it's the difference between
-your contract price and the lender's appraised value, and it's cash you
-cover out of pocket on top of your down payment. Buyers increasingly use
-both at once — escalate to win the house, then pledge to cover an appraisal
-gap to keep it — which can lock you into a five-figure cash commitment
-before you know either number. Nationally, appraisal gaps now show up in
-roughly 8–9% of sales, down from about 19% at the 2021 peak, but in a
-competitive Carroll, Howard, Baltimore, or Frederick County price band
-they're still routine.
+She'd done everything right - full pre-approval, flexible closing date, an agent who moved fast. Her agent came back with two recommendations to make the offer competitive: an escalation clause and appraisal gap coverage. Dana signed both that afternoon. She won the house by $3,000. Three weeks later, the appraisal came in $19,000 under her contract price, and because of the second clause she'd signed, that $19,000 was now cash she owed at closing - on top of her down payment.
 
-Most advice about winning a bidding war comes down to "offer more" or "waive
-everything and hope." Neither one tells you what these two clauses actually
-cost you, or how they interact once you're under contract. Here's the
-version that does.
+Nothing went wrong with Dana's purchase. She closed on time and she's happy in the house. But nobody walked her through what those two clauses actually committed her to, and that conversation should happen *before* the offer, not after.
+
+> An escalation clause wins you the price argument. It does nothing about the appraisal that comes three weeks later - that's a separate clause, and a separate risk.
+
+**Quick answer:** An escalation clause automatically raises your offer above competing bids, in fixed steps, up to a cap you set - in Maryland it's a standard Maryland Realtors addendum submitted with your original offer, and the seller must show proof of a genuine competing offer to trigger it. An appraisal gap is separate: it's the difference between your contract price and the lender's appraised value, and it's cash you cover out of pocket because lenders only finance up to the appraised value. Buyers increasingly use both at once - escalate to win, then pledge to cover an appraisal gap to hold the deal - which can lock in a five-figure cash commitment before either number is known.
+
+## The Numbers That Matter
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:24px 0;">
+<div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:16px 14px;text-align:center;">
+<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:6px;">Typical MD Escalation Step</div>
+<div style="font-family:Georgia,serif;font-size:24px;font-weight:800;color:#0D2226;line-height:1.1;">$1K&ndash;$5K</div>
+<div style="font-size:12px;font-weight:700;color:#0F5C63;margin-top:4px;">above the next offer</div>
+</div><div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:16px 14px;text-align:center;">
+<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:6px;">Appraisal Gaps, Share of Sales</div>
+<div style="font-family:Georgia,serif;font-size:24px;font-weight:800;color:#0D2226;line-height:1.1;">~8&ndash;9%</div>
+<div style="font-size:12px;font-weight:700;color:#0F5C63;margin-top:4px;">&#9660; from ~19% in 2021</div>
+</div><div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:16px 14px;text-align:center;">
+<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:6px;">Cash To Plan For A Gap</div>
+<div style="font-family:Georgia,serif;font-size:24px;font-weight:800;color:#0D2226;line-height:1.1;">2&ndash;5%</div>
+<div style="font-size:12px;font-weight:700;color:#0F5C63;margin-top:4px;">of price, beyond your down payment</div>
+</div><div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:16px 14px;text-align:center;">
+<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:6px;">Lender Finances Up To</div>
+<div style="font-family:Georgia,serif;font-size:24px;font-weight:800;color:#0D2226;line-height:1.1;">100%</div>
+<div style="font-size:12px;font-weight:700;color:#B5544A;margin-top:4px;">of appraised value &mdash; not your offer</div>
+</div>
+</div>
 
 ## What an Escalation Clause Actually Does in Maryland
 
-An escalation clause is language added to your purchase offer that
-automatically increases your bid above any competing offer, by a set
-increment, up to a maximum price you name in advance. In Maryland this
-isn't something your agent free-writes into the contract — there's a
-standard **Purchase Price Escalation Addendum** published by Maryland
-Realtors, and it's submitted *with* your original offer, not after the
-seller comes back asking for highest and best.
+An escalation clause is language added to your purchase offer that automatically increases your bid above any competing offer, by a set increment, up to a maximum price you name in advance. In Maryland this isn't something your agent free-writes into the contract - there's a standard **Purchase Price Escalation Addendum** published by Maryland Realtors, and it goes in *with* your original offer, not after the seller asks for highest and best.
 
 The addendum comes down to three numbers:
 
-- **Your starting offer price** — the number on the contract if no
-  competing offer ever materializes
-- **The escalation increment (the "factor")** — how much your offer jumps
-  above the next-highest bid each step. In most Maryland submarkets
-  $1,000–$5,000 is enough to stay in front without vaulting tens of
-  thousands past the competition
-- **Your cap** — the absolute most you will pay for the house, no matter
-  how high the bidding goes
+- **Your starting offer price** - the number on the contract if no competing offer ever materializes
+- **The escalation increment (the "factor")** - how much your offer jumps above the next-highest bid each step. In most Maryland submarkets $1,000-$5,000 is enough to stay in front without vaulting tens of thousands past the competition
+- **Your cap** - the absolute most you will pay, no matter how high the bidding goes
 
-Here's how it plays out. You offer $525,000 with a $3,000 increment and a
-$560,000 cap. A competing buyer comes in at $540,000. Your offer
-automatically escalates to $543,000 — $3,000 above their number — and
-stops there, well under your cap. If that competing buyer *also* used an
-escalation clause, both keep stepping up until one buyer's cap is reached.
+<div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:18px 20px;margin:24px 0;">
+<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:10px;">Worked Example &mdash; How The Step-Up Works</div>
+<div style="color:#0D2226;font-size:15px;line-height:1.6;">
+You offer <strong>$525,000</strong>, with a <strong>$3,000</strong> increment and a <strong>$560,000</strong> cap.<br />
+A competing buyer comes in at <strong>$540,000</strong>.<br />
+Your offer automatically escalates to <strong>$543,000</strong> &mdash; $3,000 above their number &mdash; and stops there, well under your cap.<br />
+If that competing buyer <em>also</em> used an escalation clause, the two of you keep stepping up until one buyer's cap is reached.
+</div>
+</div>
 
-One Maryland-specific protection worth knowing: the seller is expected to
-provide **proof of the bona fide competing offer** that triggered your
-escalation. If that proof never shows up, you and your agent can challenge
-an unsubstantiated claim rather than simply paying the escalated price.
-Ask your agent to request the competing contract — the price and terms
-pages, even if the buyer's name is redacted — before you accept that your
-clause fired.
+One Maryland-specific protection: the seller is expected to provide **proof of the bona fide competing offer** that triggered your escalation. If that proof never shows up, you and your agent can challenge an unsubstantiated claim rather than simply paying the escalated price. Ask your agent to request the competing contract - the price and terms pages, even with the buyer's name redacted - before you accept that your clause fired.
 
-## The Three Numbers You Set — And the One That Can Work Against You
+## The Three Numbers You Set - And the One That Can Work Against You
 
-The increment is tactical. The starting price is negotiable. The **cap**
-is the one that can quietly cost you.
+The increment is tactics. The starting price is negotiation. The **cap** is the one that can quietly cost you, because the moment the seller sees it, they've seen the top of what you'll pay for their house.
 
-Once a seller sees your cap, they've seen the ceiling of what you're
-willing to pay for their house. Some agents structure the addendum so the
-seller only sees the *current winning step*, not your maximum, until the
-cap is actually needed. Whether that's possible depends on how the offer
-is written and how the listing agent is collecting terms — it's a
-conversation to have with whoever is drafting your offer, before it goes
-in.
+Some agents structure the addendum so the seller only sees the *current step*, not your ceiling, until the ceiling actually matters. Whether that's possible depends on how the offer is written and how the listing agent is collecting terms - a conversation to have with whoever drafts your offer, before it goes in.
 
-There's also a myth worth killing: an escalation clause does not
-guarantee you the house. Maryland Realtors actively coaches listing
-agents to calculate which offer produces the best **net proceeds** for
-the seller — not just the highest headline price. A clean offer $5,000
-below your escalated number, with fewer contingencies, a stronger deposit,
-or a faster close, can and does beat an escalated bid. Escalating protects
-you from losing on price alone. It does nothing for you if you're losing
-on terms.
+And know this going in: an escalation clause does not win you the house. It wins you the *price* argument. Maryland Realtors actively coaches listing agents to calculate which offer produces the best **net proceeds** for the seller - not just the highest headline price. A clean offer $5,000 below your escalated number, with a bigger deposit or fewer contingencies or a faster close, can and does beat an escalated bid.
 
-## What an Appraisal Gap Is — And Why It's a Separate Problem
+## What an Appraisal Gap Is - And Why It's a Separate Problem
 
-An appraisal gap is the difference between your agreed purchase price and
-the value the lender's appraiser assigns to the home. It has nothing to do
-with your escalation clause — it's a financing issue that shows up two or
-three weeks *after* you're under contract.
+An appraisal gap is the difference between your agreed purchase price and the value the lender's appraiser assigns to the home. It has nothing to do with your escalation clause - it's a financing issue that surfaces two or three weeks *after* you're under contract.
 
-Most lenders will only finance up to the appraised value. So if you're
-under contract at $525,000 and the appraisal comes back at $505,000, the
-lender bases your loan on $505,000. That $20,000 difference is now cash you
-bring to closing — on top of your down payment — if you still want the
-deal to close at your price.
+Most lenders will only finance up to the appraised value. So if you're under contract at $525,000 and the appraisal comes back at $505,000, the lender builds your loan on $505,000. That $20,000 difference is now cash you bring to closing - on top of your down payment - if you still want the deal to close at your price.
 
-In a fast-moving market, this happens because appraisals are built on
-recent comparable sales, and comps lag what buyers are actually paying
-right now. That's the mechanism behind a home selling well over asking and
-still leaving the buyer writing a five-figure check to bridge the gap.
+In a fast-moving market this happens because appraisals lean on recent comparable sales, and comps trail what buyers are actually paying right now. That's the mechanism behind a home selling well over asking and still handing the buyer a five-figure bill to close.
 
-## Appraisal Gap Coverage vs. Waiving the Appraisal Contingency
+## Escalation Coverage vs. Capped Gap Coverage vs. Waiving the Contingency
 
-These get used interchangeably in conversation, and they are not the same
-move.
+These three get used interchangeably in conversation, and they are not the same move.
 
-**The appraisal contingency** is your right to renegotiate or walk if the
-home doesn't appraise. Maryland Realtors publishes appraisal contingency
-addenda for both financed purchases and cash purchases (the Cash Appraisal
-Contingency). Keep the contingency, and a low appraisal gives you options.
+<table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;color:#0D2226;">
+<thead>
+<tr style="background:#0F5C63;color:#fff;">
+<th style="text-align:left;padding:10px 12px;border:1px solid #C9A96A55;">Approach</th>
+<th style="text-align:left;padding:10px 12px;border:1px solid #C9A96A55;">What it is</th>
+<th style="text-align:left;padding:10px 12px;border:1px solid #C9A96A55;">Your cash exposure</th>
+<th style="text-align:left;padding:10px 12px;border:1px solid #C9A96A55;">When it fits</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background:#FAF8F5;">
+<td style="padding:10px 12px;border:1px solid #C9A96A55;font-weight:700;">Keep the appraisal contingency</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">Maryland Realtors appraisal contingency addendum (financed or cash). A low appraisal lets you renegotiate or walk.</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">None &mdash; you keep your options and your deposit.</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">A balanced market, or any time you can't absorb a shortfall.</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;font-weight:700;">Cap your gap coverage</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">You'll cover a shortfall up to a stated limit &mdash; e.g. "buyer pays up to $15,000 over a low appraisal," or "split the difference up to $Y each."</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">Known and capped at a number you chose on purpose.</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">Competitive offers where you have real reserves and want to stay in control.</td>
+</tr>
+<tr style="background:#FAF8F5;">
+<td style="padding:10px 12px;border:1px solid #C9A96A55;font-weight:700;">Waive the contingency entirely</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">No appraisal-based exit. Whatever the gap turns out to be is yours to cover.</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;color:#B5544A;font-weight:700;">Open-ended.</td>
+<td style="padding:10px 12px;border:1px solid #C9A96A55;">Rarely for financed buyers &mdash; mostly strong-cash offers only.</td>
+</tr>
+</tbody>
+</table>
 
-**Waiving the appraisal contingency entirely** removes that safety net.
-Your exposure is now open-ended — whatever the gap turns out to be, that's
-your problem.
-
-**An appraisal gap coverage clause** is the middle ground: you keep some
-structure but tell the seller you'll cover a shortfall *up to a stated
-limit*. Typical Maryland language reads like "buyer will pay up to $15,000
-above a low appraisal" or "buyer and seller will split the difference, up
-to $Y each." You're competitive, but your downside is capped at a number
-you chose on purpose.
-
-Whichever route you take, the planning number is the same: set aside
-roughly **2–5% of the purchase price** in cash you could put toward a gap,
-separate from your down payment, before you write the offer.
+Whichever route you take, the planning number is the same: set aside roughly **2-5% of the purchase price** in cash you could put toward a gap, separate from your down payment, before you write the offer.
 
 ## How the Two Clauses Combine in a Competitive Offer
 
-Here's where buyers get into real trouble. To win, they escalate. To keep
-the seller comfortable that the deal will actually close, they add gap
-coverage. Both promises are made the same afternoon — before the buyer
-knows the final price *or* the appraised value.
+Here's where buyers get into real trouble. To win, they escalate. To keep the seller confident the deal will close, they add gap coverage. Both promises get made the same afternoon - before the buyer knows the final price *or* the appraised value.
 
-Run it through: you escalate from $525,000 up to $548,000 to win. Three
-weeks later the appraisal lands at $525,000 — right where you started. If
-you pledged to cover up to $25,000 of any gap, you now owe the full
-$23,000 difference in cash, on top of your down payment, because your
-escalated price outran the appraisal. You didn't overpay by your own
-math. You just committed to two moving numbers at once and they moved
-against you.
+<div style="background:#FAF8F5;border:1px solid #C9A96A55;border-radius:6px;padding:18px 20px;margin:24px 0;">
+<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:#0D222699;margin-bottom:10px;">Worked Example &mdash; When Both Numbers Move Against You</div>
+<div style="color:#0D2226;font-size:15px;line-height:1.7;">
+Starting offer: <strong>$525,000</strong><br />
+Escalates to win: <strong>$548,000</strong><br />
+Appraisal comes back at: <strong>$525,000</strong><br />
+Gap coverage you pledged: <strong>up to $25,000</strong><br />
+<span style="color:#B5544A;font-weight:700;">Cash due at closing to bridge the gap: $23,000 &mdash; on top of your down payment.</span>
+</div>
+</div>
+
+By your own math you didn't overpay. You just committed to two moving numbers at once, and they moved against you.
 
 ## If the Appraisal Comes in Low and You're Short
 
-- **Request a reconsideration of value (ROV)** through your lender, with
-  better comparable sales your agent pulls. Appraisals get revised more
-  often than people think
-- **Shift your down payment percentage.** Moving from 20% down to 15% can
-  free up cash for the gap; it may add mortgage insurance, so weigh the
-  monthly cost
-- **Go back to the seller.** A seller staring at a re-list often meets you
-  partway rather than starting over
-- **Use the contingency** — if you kept it — to renegotiate or exit
-  without losing your deposit
+- **Request a reconsideration of value (ROV)** through your lender, with better comparable sales your agent pulls. Appraisals get revised more often than people expect
+- **Shift your down payment percentage.** Moving from 20% down to 15% can free cash for the gap; it may add mortgage insurance, so weigh the monthly cost
+- **Go back to the seller.** A seller staring at a re-list often meets you partway rather than starting over
+- **Use the contingency** - if you kept it - to renegotiate or exit without losing your deposit
 
-## What to Do Before You Write Your Offer
+## One Thing I'd Do Before You Offer
 
-- Decide your true price ceiling in advance, before you're reacting to
-  competing numbers in real time
-- Calculate the exact cash you could bring to cover an appraisal gap,
-  separate from your down payment — then set your gap coverage limit at or
-  below that number
-- Ask your agent whether your escalation addendum reveals your full cap or
-  just the current step
-- Know which appraisal contingency, if any, you're keeping — and what your
-  options actually are if the number comes in low
-- Work with an agent who has written escalation and appraisal-gap language
-  for buyers in your specific county this year, not from a national
-  template
-
-Want the full cash picture from earnest money through closing?
-[How Much Money Do You Actually Need to Buy a House in Maryland?](https://www.friedmanreteam.com/blog/how-much-money-do-you-need-to-buy-a-house-in-maryland)
-breaks down every line item. When you're ready to pressure-test a specific
-property, start with a real
-[home valuation](https://www.friedmanreteam.com/home-valuation) rather than
-a Zestimate.
+**If I were buying in a competitive Maryland market:** Set two numbers on paper before you tour anything you love. Your true price ceiling - the cap you'd write into an escalation addendum - and your true gap cash, the amount above your down payment you could actually bring if the appraisal came in low. Then set your gap coverage limit at or below that second number. Buyers who do this fine aren't the ones who offer the most. They're the ones who knew both numbers before there was a bidding war.
 
 ## The Bottom Line
 
-Escalation clauses and appraisal gap coverage are genuinely effective
-tools for winning a competitive Maryland offer. They only work in your
-favor when you know your real limits — your price ceiling and your
-available cash — before you use them. Set both numbers first. Then decide
-how hard to compete.
+Escalation clauses and appraisal gap coverage are genuinely effective tools for winning a competitive Maryland offer. They only work in your favor when you know your real limits - your price ceiling and your available cash - before you use them. Set both numbers first. Then decide how hard to compete.
 
-## Frequently Asked Questions
+## Frequently Asked Questions: Escalation Clauses & Appraisal Gaps in Maryland
 
-### Does Maryland have a standard escalation clause form?
+**Does Maryland have a standard escalation clause form?**
 
-Yes. Maryland Realtors publishes a Purchase Price Escalation Addendum that
-buyers submit with their original offer. It sets your starting price, the
-increment your offer rises by above competing bids, and your maximum
-price (the cap).
+Yes. Maryland Realtors publishes a Purchase Price Escalation Addendum that buyers submit with their original offer. It sets your starting price, the increment your offer rises by above competing bids, and your maximum price (the cap).
 
-### Does the seller have to prove there's a competing offer?
+**Does the seller have to prove there's a competing offer?**
 
-Yes. The escalation only triggers on a bona fide competing offer, and the
-seller is expected to provide proof of it. If no proof is produced, you
-and your agent can challenge the claim rather than paying the escalated
-price. Ask to see the competing contract's price and terms.
+Yes. The escalation only triggers on a bona fide competing offer, and the seller is expected to provide proof of it. If no proof is produced, you and your agent can challenge the claim rather than paying the escalated price. Ask to see the competing contract's price and terms pages.
 
-### What's the difference between an appraisal gap and waiving the appraisal contingency?
+**What's the difference between an appraisal gap and waiving the appraisal contingency?**
 
-An appraisal gap is the dollar difference between your price and the
-appraised value. Waiving the appraisal contingency removes your right to
-renegotiate or walk over a low appraisal — exposure with no cap. An
-appraisal gap coverage clause keeps you competitive but limits what you'll
-pay toward a shortfall to a number you set.
+An appraisal gap is the dollar difference between your price and the appraised value. Waiving the appraisal contingency removes your right to renegotiate or walk over a low appraisal - exposure with no cap. A capped gap coverage clause keeps you competitive but limits what you'll pay toward a shortfall to a number you set.
 
-### How much cash should I set aside for an appraisal gap in Maryland?
+**How much cash should I set aside for an appraisal gap in Maryland?**
 
-A common planning range is 2–5% of the purchase price, held separately
-from your down payment. Set your gap coverage limit at or below the amount
-you can actually bring.
+A common planning range is 2-5% of the purchase price, held separately from your down payment. Set your gap coverage limit at or below the amount you can actually bring.
 
-### Can an escalation clause make me overpay for a house?
+**Can an escalation clause make me overpay for a house?**
 
-Only up to the cap you set — it never goes higher. And it doesn't
-guarantee a win: Maryland listing agents weigh net proceeds and terms, so
-a lower, cleaner offer can still beat an escalated one.
+Only up to the cap you set - it never goes higher. And it doesn't guarantee a win: Maryland listing agents weigh net proceeds and terms, so a lower, cleaner offer can still beat an escalated one.
 
-If you're preparing an offer in
-[Carroll, Baltimore, Howard, or Frederick County](https://www.friedmanreteam.com/neighborhoods),
-I'll walk you through exactly how these should be structured for your
-situation — your real ceiling, your real gap cash, and which contingencies
-to keep — before you sign anything.
+## Your Next Move Starts Here
+
+Whether you're preparing your first competitive offer or your fifth, the right structure on these two clauses is the difference between winning a home and overpaying for one.
+
+**[Check Your Home's Value](https://www.friedmanreteam.com/home-valuation)** — A personalized estimate based on recent comparable sales and current buyer demand, not an automated guess.
+
+**[How Much Money Do You Actually Need to Buy a House in Maryland?](https://www.friedmanreteam.com/blog/how-much-money-do-you-need-to-buy-a-house-in-maryland)** — The full cash picture from earnest money through closing, so you know your real gap-coverage room before you offer.
+
+If you're writing an offer in [Carroll, Baltimore, Howard, or Frederick County](https://www.friedmanreteam.com/neighborhoods), I'll walk you through exactly how these should be structured for your situation - your real ceiling, your real gap cash, and which contingencies to keep - before you sign anything.
 
 — Kyle Friedman, The Friedman Team
