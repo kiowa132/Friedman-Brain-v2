@@ -4,16 +4,38 @@ Generalized from the original Friday-only version. Handles two separate
 request types — read which one applies before starting.
 
 ## What every finished article is — 4 deliverables
-1. **Substack version** (`substack.md`) — shorter, punchier, conversational.
-   Roughly 500-700 words. This is what actually gets read start-to-finish in
-   an email/feed — get to the point fast, less structural scaffolding.
+1. **Substack version** (`substack.md`) — conversational, first person,
+   contractions, light headers. **Roughly 1,000-1,300 words, and always
+   shorter than the website version.** Data woven into the narrative, not a
+   formal H2 outline. **Vary the lead** — sometimes a named-client story
+   (Dave & Michelle, Priya, Renee style), sometimes a scene, stat, or
+   scenario hook. Don't open every edition with a client anecdote; it gets
+   repetitive. Close with the contact block, then the signature:
+   ```
+   Have Questions? Let's Talk.
+   📞 443-789-3101 | Kyle@friedmanreteam.com
+   8115 Maple Lawn Blvd. #350 Fulton, MD 20759
+
+   — Kyle Friedman, The Friedman Team
+   ```
 2. **Website SEO version** (`website-seo.md`) — longer and structured for
-   search. Roughly 900-1300 words, clear H2s built around what someone
-   would actually search, natural keyword usage (don't force it). Include
-   at the top:
-   - **Meta title** (≤60 characters)
-   - **Meta description** (≤155 characters)
-   - **Target keyword/phrase** it's written around
+   search. **Roughly 1,300-1,800 words, longer than the Substack version.**
+   Structure, in order:
+   - Top matter: **Meta title** (≤60 chars), **Meta description**
+     (≤155 chars), **Target keyword/phrase**
+   - H1, then a bold **`Quick answer:`** paragraph (~60-100 words,
+     featured-snippet style — the whole topic answered in one block)
+   - A short reframe intro (what most content on this topic gets wrong)
+   - H2 sections built around what someone would actually search, each
+     grounded in concrete Maryland numbers/examples, not generalities
+   - A "What to do before…" checklist section
+   - A "The Bottom Line" section
+   - A "Frequently Asked Questions" section — 4-5 Q&As, each a real search
+     query with a tight answer (schema-friendly)
+   - Internal links to other friedmanreteam.com articles, neighborhood
+     pages, or tool pages (valuation, calculators) worked in naturally
+   - County CTA (Carroll, Baltimore, Howard, Frederick) + signature
+     "— Kyle Friedman, The Friedman Team"
    These two versions cover the same topic and points but are NOT the same
    text reformatted — write each for how it's actually consumed.
 3. **4 detailed image prompts** for use in ChatGPT/DALL-E/Midjourney
