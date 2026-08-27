@@ -19,32 +19,47 @@ request types — read which one applies before starting.
    — Kyle Friedman, The Friedman Team
    ```
 2. **Website version** (`website-seo.md`) — longer, structured for search,
-   and **coded in the live website's format** (Hugo content markdown with
-   YAML frontmatter + inline-styled HTML furniture). This file should be
-   drop-in ready for `The-friedman-team-website/content/blog/<slug>.md`.
+   and **coded in the live website's format** (content markdown with YAML
+   frontmatter + inline-styled HTML furniture; the site is Vite/React and
+   runs the body through `marked`, so raw inline HTML in the markdown
+   renders). Drop-in ready for
+   `The-friedman-team-website/content/blog/<slug>.md`.
    **Roughly 1,300-1,800 words of prose, longer than the Substack version.**
-   Reference file (match its conventions):
-   `The-friedman-team-website/content/blog/maryland-real-estate-market-report-week-of-august-17-23-2026.md`
+   Reference files (match their conventions):
+   - Market-report format:
+     `.../content/blog/maryland-real-estate-market-report-week-of-august-17-23-2026.md`
+   - Evergreen buyer/seller format:
+     `.../content/blog/what-buying-above-500k-actually-looks-like-in-carroll-county-maryland.md`
 
-   **YAML frontmatter** (top of file, between `---` fences):
-   - `title` — full H1 headline in quotes
-   - `metaDescription` — ≤155 chars, in quotes
-   - `category` — must match a value the site already uses: `Buy a Home`,
-     `Sell Your Home`, or `Market Reports` (check a recent post in
-     `The-friedman-team-website/content/blog/` to be sure)
+   **YAML frontmatter** (top-level keys must start at column 0):
+   - `title` — full H1 headline in quotes (house style: hook, colon,
+     keyword clarifier — e.g. "What Zillow Doesn't Tell You: ...")
+   - `metaDescription` — ≤155 chars, in quotes (also renders as the on-page
+     dek under the H1)
+   - `category` — exactly one of `Buy a Home`, `Sell Your Home`,
+     `Market Reports` (drives the related-posts logic and the category link)
    - `publishDate` — `"YYYY-MM-DD"`
-   - `heroImage` — `/images/uploads/...` (leave a clearly-marked TODO path
-     if the asset doesn't exist yet)
-   - `carouselImages` — optional YAML list
-   - `youtubeVideoId` / `youtubeIsShort` — from deliverable 4; leave
-     `youtubeVideoId: ""` with a TODO if not filmed yet
-   Also keep a plain-text **Target keyword/phrase** line as an HTML comment
-   just under the frontmatter so it's not lost.
+   - `heroImage` — `/images/uploads/<slug>-hero.png`. Actual file goes in
+     `The-friedman-team-website/public/images/uploads/`. Recommend export
+     at 1600×900, under 500KB; it's center-cropped to 16:9
+   - `youtubeVideoId: ""` — set the real ID from deliverable 4 later. Only
+     add `youtubeIsShort: true` when there's an actual short
+   - `relatedAreaSlug` — optional, a real neighborhood id (e.g.
+     `carroll-county`)
+   - `carouselImages` — optional YAML list. **The page auto-interleaves
+     these evenly through the body.** So use it ONLY for standalone
+     lifestyle photos that can sit anywhere. Any graphic that must sit next
+     to a specific section is a manual `<img>` in the body instead — and
+     must NOT also appear in `carouselImages` (it would render twice).
+   Track the target keyword in the brain draft only — no stray HTML comment
+   in the shipped file. `blogManifest.json` and the sitemap regenerate
+   automatically at build; never hand-edit them.
 
    **Body structure**, in order:
    - Open with a short illustrative buyer/seller scenario (first name only,
      e.g. "Marcus has been playing it patient all summer"), then a
-     turn/stakes line
+     turn/stakes line. The first paragraph auto-gets larger "lead" styling
+     — make it a strong standalone hook.
    - A bold **`Quick answer:`** paragraph (~60-100 words) OR a `>` pull
      quote near the top — the whole topic answered in one block
    - H2 sections built around real search queries, each grounded in
@@ -54,24 +69,31 @@ request types — read which one applies before starting.
      exact color/style tokens — don't reinvent them):
      - Stat-tile grid (inline-styled `<div>` grid) for any set of key
        figures — with ▲/▼ deltas where a comparison exists
-     - Inline-styled HTML `<table>` for options / trade-off comparisons
-     - Styled callout `<div>` for worked examples and any data-transparency
-       note
-     - SVG chart/diagram embeds where a visual explains it better:
-       `<img src="/images/uploads/charts/<slug>/<name>.svg" alt="[takeaway]"
-       style="width:100%;height:auto;margin:20px 0;" />` — list the SVGs
-       that need to be produced in the delivery message; never hard-link a
-       missing asset without flagging it
-     - Centered uppercase section-label caption where it adds a beat
+     - Styled callout `<div>` for worked examples and any data note
+     - For an options / trade-off comparison, use **stacked inline-styled
+       cards** (one `<div>` per option), NOT a wide `<table>` — the site
+       forces tables to `white-space:nowrap` + horizontal scroll, which
+       mangles long cell text. Reserve markdown tables for short tabular
+       data, the way the market reports use them.
+     - Chart/diagram embeds where a visual explains it better:
+       `<img src="/images/uploads/<slug>-<name>.png" alt="[takeaway]"
+       style="width:100%;height:auto;margin:24px 0;" />` placed right after
+       the paragraph it illustrates. List any asset that still needs to be
+       produced in the delivery message; never hard-link a missing file
+       without flagging it.
    - A "What to do before…" / "One thing I'd do" checklist section
    - A "The Bottom Line" section
    - A "Frequently Asked Questions" section — 4-5 Q&As, each a real search
      query as `**Question?**` followed by a tight answer paragraph
      (schema-friendly), matching the reference file's FAQ formatting
-   - Close with a "Your Next Move Starts Here" CTA section: internal links
-     to friedmanreteam.com articles / neighborhood / tool pages (valuation,
-     calculators) worked in naturally, county mention (Carroll, Baltimore,
-     Howard, Frederick), signature "— Kyle Friedman, The Friedman Team"
+   - **Evergreen Buy/Sell posts END at the FAQ.** The page component
+     auto-appends the valuation banner, subscribe cards, Meet-the-Author
+     block, the "Have Questions? Let's Talk" contact block (phone / email /
+     Maple Lawn address) and Kyle's signature image — so do NOT put a
+     "Your Next Move" CTA section or a "— Kyle Friedman" text sign-off in
+     the body. Weave 1-2 internal links (other posts, tool pages) into the
+     body prose instead. (Only the market-report format ends with a short
+     "Your Next Move Starts Here" + two links.)
    These two versions cover the same topic and points but are NOT the same
    text reformatted — write each for how it's actually consumed.
 3. **4 detailed image prompts** for a modern reference-image tool
