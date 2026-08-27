@@ -29,7 +29,9 @@ request types — read which one applies before starting.
    **YAML frontmatter** (top of file, between `---` fences):
    - `title` — full H1 headline in quotes
    - `metaDescription` — ≤155 chars, in quotes
-   - `category` — e.g. `Buyer Strategy`, `Seller Strategy`, `Market Reports`
+   - `category` — must match a value the site already uses: `Buy a Home`,
+     `Sell Your Home`, or `Market Reports` (check a recent post in
+     `The-friedman-team-website/content/blog/` to be sure)
    - `publishDate` — `"YYYY-MM-DD"`
    - `heroImage` — `/images/uploads/...` (leave a clearly-marked TODO path
      if the asset doesn't exist yet)

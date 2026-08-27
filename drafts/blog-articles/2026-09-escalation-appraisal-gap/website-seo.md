@@ -1,7 +1,7 @@
 ---
-title: "Escalation Clauses and Appraisal Gaps: What Maryland Homebuyers Need to Know Before Making an Offer"
+title: "The Clause That Wins Bidding Wars: Escalation Clauses and Appraisal Gaps in Maryland"
 metaDescription: "How escalation clauses and appraisal gap coverage actually work in Maryland contracts, how the two combine in a competitive offer, and what to line up first."
-category: Buyer Strategy
+category: Buy a Home
 publishDate: "2026-08-28"
 heroImage: /images/uploads/escalation-appraisal-gap-hero.png
 carouselImages:
@@ -12,7 +12,6 @@ youtubeVideoId: ""
 youtubeIsShort: true
 ---
 <!-- Target keyword: escalation clause appraisal gap Maryland -->
-<!-- IMAGES: 4 generated. Save to The-friedman-team-website/public/images/uploads/ with the exact frontmatter filenames. BRAND FIX NEEDED before publish: hero + stepup images show a "FRIEDMAN REAL ESTATE TEAM" logo — must read "The Friedman Team" (no "real estate"). youtubeVideoId still blank. -->
 
 
 Dana found the house in early August. So did four other buyers.
