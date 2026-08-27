@@ -10,8 +10,21 @@ drops below that.
   tax, MALPF easements, well/septic, USDA financing
   → `drafts/blog-articles/2026-08-28-farm-equestrian-buying-guide/`
 
+- **The clause that wins bidding wars (and the one that can blow up your
+  deal)** — escalation clauses and appraisal gaps explained
+  → `drafts/blog-articles/2026-09-escalation-appraisal-gap/`
+
+- **You just inherited a house in Maryland — here's what happens next** —
+  stepped-up basis, Maryland's inheritance tax, probate, sibling buyouts
+  → `drafts/blog-articles/2026-09-inherited-property-maryland/`
+
+- **New construction or resale?** — real cost/timeline trade-offs, whose
+  side the builder's agent is really on
+  → `drafts/blog-articles/2026-09-new-construction-vs-resale/`
+
+- **The gas you can't see, smell, or taste** — radon testing and what
+  Maryland actually requires (and doesn't) around disclosure
+  → `drafts/blog-articles/2026-09-radon-testing-disclosure/`
+
 ## Needs topic approval
-(empty — next refill batch pending; candidates already discussed with
-Kyle: escalation clauses/appraisal gaps, selling an inherited property,
-new construction vs. resale, radon testing/disclosure — none yet
-confirmed or written)
+(empty — 5 ready, well above the 3-item refill threshold)
