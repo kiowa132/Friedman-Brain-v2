@@ -21,6 +21,12 @@ use it.
 ## Standing procedures — start here for recurring work
 - [[projects/listing-presentation.md]] — seller listing presentation package
 - [[projects/friedman-report.md]] — weekly Friedman Report
+- [[projects/friedman-report-log.md]] — weekly MLS data log (feeds the
+  comparison table — check this before asking Kyle for data)
+- [[projects/friday-blog-article.md]] — Friday blog article (deep-dive
+  post + image prompts + video script)
+- [[projects/friday-blog-article-log.md]] — topics already covered — check
+  before picking a new one
 - [[projects/friedmanreteam-website.md]] — friedmanreteam.com build status
 - [[projects/prospecting-ledger-app.md]] — Ledger prospecting tracker app
 
