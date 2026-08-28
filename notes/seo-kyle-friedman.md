@@ -40,13 +40,28 @@ link `https://share.google/q91ZdJrdKqZ3o5NUd` added to both `sameAs`
 blocks. Kyle is updating Zillow / Realtor.com / Homes.com / Bright MLS /
 Facebook Page to the same name + address.
 
+MD real estate license **673223** (exp 2028-02-05) is now in the Person
+schema as `hasCredential`. Bright MLS agent ID: 3264576.
+
 ## Still needed from Kyle to finish the code
-- **REALTOR license number** → add as a `hasCredential` block on the
-  Person schema.
 - **Realtor.com / Homes.com agent-profile URLs** (if they exist) → add to
   `sameAs`.
 - Ideally swap the `share.google/q91Zd…` short link for the full
   `google.com/maps/place/…` URL once Kyle grabs it.
+
+## Zillow profile cleanup (Kyle, 2026-08)
+- Professional title: "Real Estate **Proffesional**" → "Professional"
+- "In business since 2016" contradicts the bio's "since 2020" — pick the
+  true year, make both match
+- Service areas were full of DC-metro / PG / Anne Arundel towns (Silver
+  Spring, College Park, Bowie, Annapolis, Capitol Heights…) — trim to the
+  real footprint: Carroll, Baltimore, Howard, Frederick county towns only
+- Specialties list is broad (Property Management, Foreclosure specialist) —
+  prune to what's true and on-brand ($400K+ direction)
+- Bio: add Frederick County to the "throughout … communities" line; fix
+  "transaction it is about" → "transaction — it's about"
+- Name field (General info) stays "Kyle Friedman"; the /about link + full
+  business name are in the bio ✓
 
 ## Known bigger issue (not yet fixed)
 `src/components/Footer.tsx` (and likely `Navbar.tsx`) build navigation with
@@ -77,9 +92,14 @@ to real `<Link>`/`<a href>` is a worthwhile, larger change.
   "Kyle Friedman" and their county
 - Seed 3-4 real Q&A entries
 
-**NAP consistency** — identical name / address / phone on Zillow,
+**NAP consistency** — identical address / phone everywhere. For the
+*business name* field: use "The Friedman Team by Kyle Friedman" on
 Realtor.com, Homes.com, Yelp, the Facebook business Page, BBB, local
-chamber, Bright MLS agent profile. "The Friedman Team" everywhere.
+chamber, Bright MLS. **Zillow is a personal agent profile** — keep the
+name field as "Kyle Friedman" (person), brokerage "eXp Realty", team field
+(if any) "The Friedman Team by Kyle Friedman", website field →
+`friedmanreteam.com/about`. Google links the Zillow person node to the GBP
+business node via `sameAs`; they don't need matching names.
 
 **Entity links** — every social bio (LinkedIn contact info, FB page About,
 IG link, YouTube channel links, Zillow profile website field) should link
