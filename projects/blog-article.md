@@ -3,7 +3,7 @@
 Generalized from the original Friday-only version. Handles two separate
 request types — read which one applies before starting.
 
-## What every finished article is — 4 deliverables
+## What every finished article is — 5 deliverables
 1. **Substack version** (`substack.md`) — conversational, first person,
    contractions, light headers. **Roughly 1,000-1,300 words, and always
    shorter than the website version.** Data woven into the narrative, not a
@@ -96,7 +96,22 @@ request types — read which one applies before starting.
      "Your Next Move Starts Here" + two links.)
    These two versions cover the same topic and points but are NOT the same
    text reformatted — write each for how it's actually consumed.
-3. **4 detailed image prompts** for a modern reference-image tool
+3. **Google Business Profile post** (`gbp-post.md`) — plain text, GBP
+   renders no markdown. Reference: this folder's `gbp-post.md` for
+   `2026-09-escalation-appraisal-gap`.
+   - A **long version** ~1,200-1,450 chars (GBP hard limit is 1,500) and a
+     **short version** ~140 words — Kyle picks which to post
+   - First line is a standalone hook (GBP truncates to ~75 chars before
+     "Read more")
+   - Work in the county names (Carroll, Baltimore, Howard, Frederick) for
+     local search; no hashtags
+   - End with `📞 443-789-3101 — The Friedman Team | Numbers Over Guesswork`
+   - CTA button: **Learn more** → the published post URL
+     `https://www.friedmanreteam.com/blog/<slug>`
+   - Note which image to attach (usually the hero or a body graphic)
+   - Match the article's primary angle; a short seller-angle alt is a nice
+     extra when the topic cuts both ways
+4. **4 detailed image prompts** for a modern reference-image tool
    (ChatGPT / Midjourney / Nano Banana etc.). These are **not** one-line
    prompts. Each prompt block has four parts:
    - **Filename** — exact `slug-name.png` matching the article frontmatter
@@ -132,10 +147,11 @@ request types — read which one applies before starting.
    1920×1080 canvas as a reference frame). Consistent brand grading — see
    `../notes/brand-guidelines.md`. At least one of the four should use
    Kyle's uploaded headshot to put him in the frame.
-4. **A 15–20 second social video script** — story/hook-driven, NOT Kyle
-   reciting data to camera. Hook in first 2-3s, a turn/twist, short payoff.
-   Time-coded table (time / visual+edit direction / audio or on-screen
-   text).
+5. **A 15–20 second social video script** (`video-script.md`) — an actual
+   spoken script (the words Kyle says, ~45-55 words), plus a beat-by-beat
+   "say this / show this" table and delivery notes. Story/hook-driven, NOT
+   reciting data. Don't default every script to "a buyer I know…" — vary
+   the opening device, and consider the seller's-agent POV.
 
 ## Mode 1 — On-demand ("I need an article about X")
 Kyle names a topic directly, any day, any time.
@@ -144,8 +160,8 @@ Kyle names a topic directly, any day, any time.
    fresh angle on it, but ask first.
 2. Research it (web search — don't state Maryland-specific legal/tax/
    financing facts from memory alone).
-3. Write the Substack version + website SEO version + 4 image prompts +
-   video script.
+3. Write all 5 deliverables: Substack version + website version + Google
+   Business Profile post + 4 image prompts + video script.
 4. Deliver directly to Kyle — no queue detour needed for an on-demand
    request.
 5. Log it in `blog-article-log.md`.
@@ -161,8 +177,8 @@ whatever's next.
 2. Propose new topic candidates to Kyle first — don't write on spec.
    Favor topics reinforcing brand positioning (see
    `../notes/brand-guidelines.md`), especially the farm/equestrian niche.
-3. Once approved, research and fully write each one (Substack version +
-   website SEO version + 4 image prompts + video script), save to
+3. Once approved, research and fully write each one (all 5 deliverables:
+   Substack + website + GBP post + image prompts + video script), save to
    `../drafts/blog-articles/<date-slug>/`, add to `blog-article-queue.md`
    as "ready" with a one-line summary — no fixed Friday date attached.
 
