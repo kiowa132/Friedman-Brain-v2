@@ -4,6 +4,37 @@ Goal: when someone searches **Kyle Friedman**, the friedmanreteam.com site
 ranks #1 and the Google Business Profile shows in the map pack / knowledge
 panel. Plus general SEO via internal linking.
 
+## The bigger picture (what actually moves rankings)
+Technical SEO here is done — it's hygiene, not a growth lever. After ~1
+month of flat rankings, the gaps are **backlinks** and **review velocity**,
+in priority order:
+1. **Google Business Profile / reviews** — fastest local win. A review
+   *system* (every closing → same-day request, 2-4/mo, reply to all,
+   reviewers name the town + buy/sell). Also collect on Zillow /
+   Realtor.com / Facebook. Weekly GBP posts, monthly photos, all fields
+   filled, service areas trimmed to the 4 counties.
+2. **Links** — new site + ~zero backlinks = no rank. Over 60 days:
+   citations (Yelp, BBB, Chamber, Realtor.com, Homes.com, Nextdoor, Bright
+   MLS, eXp team page); the Maryland Professional Network (mutual links —
+   currently unused); local partners (lender/title/inspector/stager
+   preferred-partner links); local sponsorships ($200-500, listed with a
+   link); HARO/Qwoted/Featured for press mentions; pitch the weekly
+   Friedman Report to Carroll County Times / Baltimore Sun / Patch / local
+   FB groups as a data source.
+3. **Striking-distance keywords** — Search Console → queries at position
+   8-20 → add internal links w/ that anchor, expand that section, get one
+   link. 12 → 6 roughly doubles clicks.
+4. **Deep neighborhood pages + topical clusters** — thin town pages don't
+   rank; "Living in <Town>, MD" with local data/schools/commute/photos
+   does. Pillar page + 8-10 interlinked supporting posts.
+5. **YouTube** — @SimplyFriedman is underused. Town tour + market-update
+   videos titled "<Town> MD Real Estate", embedded on the matching
+   neighborhood/blog page (`youtubeVideoId` field already wired).
+
+Timeline: name/branded = days once indexed; map pack for "<town> realtor" =
+1-3 mo with the review push; blog long-tail = 2-4 mo/post; head terms
+("carroll county homes for sale") = 6-18 mo and needs link authority.
+
 ## The internal-linking tactic (from the video Kyle shared)
 1. Google `site:friedmanreteam.com "keyword"` — shows which of your pages
    already rank for that keyword.
@@ -69,6 +100,23 @@ schema as `hasCredential`. Bright MLS agent ID: 3264576.
 `<Link>`. Crawlers don't follow buttons as links, so the site's internal
 link graph is much thinner than it looks. Converting primary nav + footer
 to real `<Link>`/`<a href>` is a worthwhile, larger change.
+
+## Search Console index issues (reviewed 2026-08)
+- **Fixed in code** (`vercel.json` redirects): `/sell-your-home` → `/sell`,
+  `/market-reports` → `/blog` (genuinely old URLs; cleared 2 of 4
+  "duplicate, no canonical" flags).
+- **5xx on `/transactions/803-c-st-ne-washington-dc`** — it IS a real page
+  (slug is in `mentorTransactions.ts`). Site is a static SPA (always 200),
+  so the 5xx came from the Vercel Edge Middleware — most likely a transient
+  cold-start on one crawl. Click "Validate Fix" in GSC and monitor; if it
+  recurs, the middleware bundles ALL transaction/town/network data and is
+  probably too heavy — trim it then.
+- **2 `/transactions/*` pages flagged "duplicate, no canonical"** — real
+  pages, near-identical template. Google routinely skips near-dup template
+  pages; not worth chasing (not money pages). Add unique per-transaction
+  copy later if it matters.
+- "Page with redirect" (http / non-www) and "?price=" calculator variant —
+  working as intended, ignore.
 
 ## Off-site checklist (Kyle — can't be done in code)
 **Google Search Console**
