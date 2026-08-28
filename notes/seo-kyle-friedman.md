@@ -29,14 +29,24 @@ new post (already in `../projects/blog-article.md` deliverable 2).
   anchor text (was plain text). ~20+ internal links with exact-match
   anchor pointing at the page we want ranking for the name.
 
+## Canonical name decision (2026-08)
+Business name = **"The Friedman Team by Kyle Friedman"** (matches the live
+Google Business Profile; the name containing "Kyle Friedman" also helps
+that branded search). Done in code: `index.html` schema `name` +
+`founder.worksFor.name`, `AboutPage.tsx` `personSchema.worksFor.name`, and
+the `/about` title in `usePageMeta` + `middleware.ts` all updated to this;
+`streetAddress` changed `#350` → `Suite 350` to match GBP; the GBP share
+link `https://share.google/q91ZdJrdKqZ3o5NUd` added to both `sameAs`
+blocks. Kyle is updating Zillow / Realtor.com / Homes.com / Bright MLS /
+Facebook Page to the same name + address.
+
 ## Still needed from Kyle to finish the code
-- **Google Business Profile public URL** (maps place link or g.page short
-  link) → add to `sameAs` in `index.html` and the `personSchema` in
-  `AboutPage.tsx`, so Google binds site ↔ GBP.
 - **REALTOR license number** → add as a `hasCredential` block on the
   Person schema.
 - **Realtor.com / Homes.com agent-profile URLs** (if they exist) → add to
   `sameAs`.
+- Ideally swap the `share.google/q91Zd…` short link for the full
+  `google.com/maps/place/…` URL once Kyle grabs it.
 
 ## Known bigger issue (not yet fixed)
 `src/components/Footer.tsx` (and likely `Navbar.tsx`) build navigation with

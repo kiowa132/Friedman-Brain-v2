@@ -1,8 +1,16 @@
 # Brand Guidelines
 
 ## Naming
-- Team name: **The Friedman Team** — always. Never "Friedman Real Estate
-  Team" or any variant containing "real estate."
+- Everyday brand / short form: **The Friedman Team** — always. Never
+  "Friedman Real Estate Team" or any variant containing "real estate."
+- **Canonical business name for citations / NAP / schema:**
+  **"The Friedman Team by Kyle Friedman"** — this is the Google Business
+  Profile name (decided 2026-08). Use this exact string wherever a business
+  name is a structured field: JSON-LD `name`, Zillow / Realtor.com /
+  Homes.com / Bright MLS profiles, directory listings. Prose/headings still
+  use the short "The Friedman Team".
+- Canonical address (match GBP exactly): 8115 Maple Lawn Blvd Suite 350,
+  Fulton, MD 20759. Phone: (443) 789-3101.
 - Professional email: kyle@friedmanreteam.com (not PenFedRealty or
   CornerHouseRealty — both retired addresses).
 
