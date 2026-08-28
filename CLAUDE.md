@@ -34,6 +34,8 @@ use it.
 - [[notes/brand-guidelines.md]] — visual identity, naming rules, brand voice
 - [[notes/ai-video-tools.md]] — AI avatar / digital-twin video options
   (paid SaaS + free open-source stack) for realistic video of Kyle
+- [[notes/seo-kyle-friedman.md]] — plan to rank the site + GBP for
+  "Kyle Friedman"; what's done in code, what Kyle owes off-site
 - [[decisions.md]] — open questions and resolved decisions
 
 ## Rules for any agent working in this folder
