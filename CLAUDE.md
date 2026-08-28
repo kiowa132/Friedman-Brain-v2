@@ -27,6 +27,8 @@ use it.
   standing Friday queue with multiple ready options)
 - [[projects/blog-article-queue.md]] — ready articles Kyle can pick from
 - [[projects/blog-article-log.md]] — topics already published
+- [[projects/sell-vs-rent-analysis.md]] — client sell vs. rent vs. HELOC
+  comparison (framework, expense model, Section 121 rule)
 - [[projects/friedmanreteam-website.md]] — friedmanreteam.com build status
 - [[projects/prospecting-ledger-app.md]] — Ledger prospecting tracker app
 
