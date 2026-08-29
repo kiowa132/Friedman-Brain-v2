@@ -99,9 +99,14 @@ schema as `hasCredential`. Bright MLS agent ID: 3264576.
 `<a href>`) for every navigation item instead of `<button onClick>`.
 Crawlers can follow the internal link graph. Modal/toggle triggers
 (Home Valuation, dropdown open/close, menu open) correctly stay `<button>`.
-Deployed with the schema/redirect batch. Footer "Key Markets" links all
-point at `/neighborhoods` — a later improvement is deep-linking those to
-specific town pages.
+Deployed with the schema/redirect batch.
+
+**Follow-up done (2026-08):** footer "Key Markets" now deep-links to real
+town pages (Westminster, Hunt Valley, Clarksville, Downtown Frederick,
+Fulton, Eldersburg, Mount Airy). Footer "Navigation" now also links the 6
+pages that had zero crawlable inbound links (`/guides`, `/videos`,
+`/financing-options`, `/calculators`, `/past-transactions`, `/network`).
+`/network*` routes added to `generate-sitemap.mjs`.
 
 ## Search Console index issues (reviewed 2026-08)
 - **Fixed in code** (`vercel.json` redirects): `/sell-your-home` → `/sell`,
