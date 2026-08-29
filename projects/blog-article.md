@@ -3,6 +3,17 @@
 Generalized from the original Friday-only version. Handles two separate
 request types — read which one applies before starting.
 
+## Quick checklist (weekly Thursday run)
+1. Surface `blog-article-queue.md` ready items → Kyle picks one
+2. Web-research the Maryland specifics (never from memory)
+3. Build all 5 deliverables: `substack.md` · `website-seo.md` (coded Hugo
+   format) · `gbp-post.md` · 4 image prompts · video script
+4. Generate + place images (see `report-images.md`); blog images go to
+   `The-friedman-team-website/public/images/uploads/`
+5. Move the topic from `blog-article-queue.md` → `blog-article-log.md`
+6. If <3 ready items remain, trigger a refill batch
+7. Kyle commits both repos (brain + website)
+
 ## What every finished article is — 5 deliverables
 1. **Substack version** (`substack.md`) — conversational, first person,
    contractions, light headers. **Roughly 1,000-1,300 words, and always

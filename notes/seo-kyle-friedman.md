@@ -94,12 +94,14 @@ schema as `hasCredential`. Bright MLS agent ID: 3264576.
 - Name field (General info) stays "Kyle Friedman"; the /about link + full
   business name are in the bio ✓
 
-## Known bigger issue (not yet fixed)
-`src/components/Footer.tsx` (and likely `Navbar.tsx`) build navigation with
-`<button onClick={goTo(...)}>` instead of `<a href>` / react-router
-`<Link>`. Crawlers don't follow buttons as links, so the site's internal
-link graph is much thinner than it looks. Converting primary nav + footer
-to real `<Link>`/`<a href>` is a worthwhile, larger change.
+## Nav crawlability — DONE (2026-08)
+`Footer.tsx` and `Navbar.tsx` now render real react-router `<Link>` (=
+`<a href>`) for every navigation item instead of `<button onClick>`.
+Crawlers can follow the internal link graph. Modal/toggle triggers
+(Home Valuation, dropdown open/close, menu open) correctly stay `<button>`.
+Deployed with the schema/redirect batch. Footer "Key Markets" links all
+point at `/neighborhoods` — a later improvement is deep-linking those to
+specific town pages.
 
 ## Search Console index issues (reviewed 2026-08)
 - **Fixed in code** (`vercel.json` redirects): `/sell-your-home` → `/sell`,

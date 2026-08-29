@@ -50,11 +50,19 @@ prompt to `properties/<addr>/image-log.md`. `generated/` stays disposable.
 - For a thin banner, also tell it the **top third is empty sky, bottom
   third is empty road** (blank trim margin) so the crop only removes
   emptiness.
-- Always pass `brand-assets/logo.png` + `brand-assets/swatch.png` as refs
-  so the wordmark and palette stay consistent.
+- **Refs are "content to blend," not "settings."** Tested 2026-08:
+  passing `swatch.png` as a `-Ref` muddies the grade instead of matching
+  it. So: put the **hex values in the prompt text** (`deep teal #0F5C63`
+  …), and reserve `-Ref` for things that should literally appear —
+  `logo.png` (wordmark repro), a property photo (match its look), a
+  headshot (face). Often the cleanest banner has **no refs at all**, just
+  a detailed prompt.
 - Real faces from the headshot are still inconsistent on any engine.
   "With Kyle" hero = real photo + Canva unless a test proves otherwise.
 - Set an OpenAI **budget cap** so a loop can't run away.
+
+## Spend tally (rough)
+- 2026-08: pipeline build + 8303 Bellona test images (~8 medium generations) ≈ **$0.35**
 
 ## Brand constants for every prompt
 Deep teal `#0F5C63`, warm gold `#C9A96A`, cream `#FAF8F5`, ink `#0D2226`,

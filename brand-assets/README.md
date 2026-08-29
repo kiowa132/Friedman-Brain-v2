@@ -10,7 +10,8 @@ generation.
 | `logo.png` | "FRIEDMAN" wordmark, teal + gold swoosh, transparent | every branded graphic (wordmark repro) |
 | `logo-exp.png` | eXp Realty logo, black | when the eXp mark is needed |
 | `lockup.png` | headshot + FRIEDMAN + eXp stacked lockup | reference for a full brand lockup |
-| `headshot.jpg` | Kyle, cream suit, textured wall — cleanest face | "with Kyle" face reference |
+| `headshot.jpg` | head-and-shoulders crop, cream suit | "with Kyle" face reference |
+| `kyle-standing.jpg` | full standing shot vs. textured wall (source of the crop) | fuller "with Kyle" reference |
 | `kyle-portrait.png` | Kyle full-body **cutout**, transparent bg | compositing Kyle into a scene |
 | `kyle-in-home.jpg` | Kyle standing in a staged room | "Kyle at a property" reference |
 
