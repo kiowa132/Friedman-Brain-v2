@@ -4,3 +4,9 @@
 
 # OS clutter
 .DS_Store
+
+# Secrets — the Gemini API key for scripts/gen-image.ps1
+scripts/.env
+
+# Generated report images (regenerate from prompts; don't bloat the repo)
+properties/*/generated/
