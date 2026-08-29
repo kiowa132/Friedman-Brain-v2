@@ -156,4 +156,6 @@ to `friedmanreteam.com/about` specifically, not just the homepage.
 **A few real inbound links** to `/about` with "Kyle Friedman" anchor —
 chamber, partner vendors, Maryland Professional Network members.
 
-See [[friedman-website-repo]] for the repo/deploy setup.
+The website lives in a separate repo:
+`C:\Users\kylej\Documents\GitHub\The-friedman-team-website` (Vite/React,
+auto-deploys on push). See [[friedmanreteam-website]] for build status.
