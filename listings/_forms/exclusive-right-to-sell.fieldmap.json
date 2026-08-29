@@ -1,0 +1,19 @@
+{
+  "_note": "MD Realtors Exclusive Authorization and Right to Sell or Lease (Version R 03.04.2026). Coords = PDF points, origin bottom-left.",
+  "_todo": "for_sale_check disabled until Kyle gives the exact x of the FOR SALE checkbox (risk of checking FOR LEASE by mistake). He can also just click it in SkySlope.",
+  "font": "Helvetica",
+  "size": 10,
+  "fields": {
+    "property_street":    {"page": 1, "x": 175, "y": 625, "max_width": 390},
+    "property_citystate": {"page": 1, "x": 235, "y": 613, "max_width": 325},
+    "property_id":        {"page": 1, "x": 481, "y": 603, "max_width": 88, "size": 9},
+    "property_id_cont":   {"page": 1, "x": 78,  "y": 577, "max_width": 485, "size": 9},
+    "term_begin":         {"page": 1, "x": 425, "y": 530, "max_width": 145},
+    "term_end":           {"page": 1, "x": 214, "y": 526, "max_width": 150},
+    "list_price":         {"page": 1, "x": 100, "y": 413, "max_width": 430, "size": 11},
+    "seller1_name":       {"page": 5, "x": 415, "y": 583, "max_width": 190, "align": "center"},
+    "seller1_contact":    {"page": 5, "x": 490, "y": 545, "max_width": 175, "align": "center", "size": 9},
+    "seller2_name":       {"page": 5, "x": 415, "y": 497, "max_width": 190, "align": "center"},
+    "seller2_contact":    {"page": 5, "x": 490, "y": 459, "max_width": 175, "align": "center", "size": 9}
+  }
+}

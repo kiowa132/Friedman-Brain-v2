@@ -1,0 +1,14 @@
+﻿{
+  "property_street": "8303 Bellona Ave",
+  "property_citystate": "Towson, Baltimore County, MD 21204",
+  "property_id": "09-0904203710",
+  "property_id_cont": "Map Ref 69, 0.90 AC SS Bellona Ave 800 S Joppa Rd",
+  "term_begin": "September 5, 2026",
+  "term_end": "March 5, 2027",
+  "for_sale_check": "X",
+  "list_price": "535,000.00",
+  "seller1_name": "Jane Q. Seller",
+  "seller1_contact": "jane@example.com / 410-555-0143",
+  "seller2_name": "John R. Seller",
+  "seller2_contact": "john@example.com / 410-555-0199"
+}
