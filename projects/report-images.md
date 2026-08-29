@@ -6,42 +6,48 @@ ceiling (verified 2026-08).
 
 ## Engines
 
-| | `pollinations` (DEFAULT) | `gemini` |
-|---|---|---|
-| Cost | **100% free**, no key, no billing | ~$0.03-0.04/image — **needs a billing-enabled Google key** (free tier is `limit: 0` for the image model) |
-| Quality | Flux-schnell — good for atmospheric backgrounds / concept art; **weak on baked-in text + logos; ~1000px output** | Top tier — clean text, logos, precise composition |
-| Reference photos (`-Ref`) | No (text-to-image only) | Yes — up to 4 local photos sent inline |
-| Use for | section/background art in Gamma reports | hero banners, infographics, "my real listing look" |
+| | `openai` (USE THIS) | `pollinations` (default) | `gemini` |
+|---|---|---|---|
+| Cost | **~$0.04/image** (medium) — needs `OPENAI_API_KEY` + billing | **free**, no key | ~$0.03/image, needs billing (free tier = `limit:0` for images) |
+| Text / logos / infographics | best-in-class | can't | good |
+| Reference photos (`-Ref`) | yes (up to 4) | no | yes |
+| Use for | **everything** — heroes, infographics, section art | throwaway background art only | reference-heavy shots / faces |
 
-Kyle's call (2026-08): **stay free.** So: use `pollinations` for
-decorative/section art, and keep making the polished headline banners in
-the **ChatGPT / Gemini web app** (free there, ~2 min each) using the
-prompt templates below. `gemini` engine is wired and ready if billing is
-ever switched on.
+Kyle's call (2026-08): pay ~$0.04/image on **`openai`** and drop the
+"do it in the web app" step. `pollinations` stays as the zero-cost
+fallback; `gemini` stays wired for reference-heavy work if wanted.
 
 ## Run it
 ```
-# free
-powershell -File "Friedman Brain/scripts/gen-image.ps1" `
-  -Prompt "Wide editorial concept image, ..." `
-  -Out "properties/8303-bellona/generated/section-tax.png"
-
-# gemini (only if billing enabled)
-powershell -File "Friedman Brain/scripts/gen-image.ps1" -Engine gemini `
-  -Prompt "..." -Ref "brand-assets/logo.png","properties/8303-bellona/photos/front.jpg" `
+# openai — the normal path
+powershell -File "Friedman Brain/scripts/gen-image.ps1" -Engine openai `
+  -Prompt "Wide 16:9 editorial banner ..." `
+  -Ref "brand-assets/logo.png","brand-assets/swatch.png" `
   -Out "properties/8303-bellona/generated/hero.png"
-```
-Output → `../properties/<addr>/generated/` (gitignored) or straight to the
-website repo's `public/images/uploads/` for blog posts.
 
-## Known limits
-- Pollinations caps resolution (~1000px) and is loose on specific
-  composition — don't expect it to nail "a house model AND a cash stack on
-  a scale"; expect a vibe, not a diagram.
-- No free option does baked-in headline text or a clean logo. Those slots
-  = ChatGPT/Gemini web, or the `gemini` engine with billing.
-- Real faces from the headshot are inconsistent everywhere. "With Kyle"
-  slot = real photo + Canva.
+# add -Quality high for a hero that must be crisp (~$0.17); -Quality low for scratch (~$0.01)
+# free fallback:
+powershell -File "Friedman Brain/scripts/gen-image.ps1" -Prompt "..." -Out "...png"
+```
+Output → `../properties/<addr>/generated/` (gitignored) or straight to
+`The-friedman-team-website/public/images/uploads/` for blog posts.
+
+## Notes
+- `openai` size is `1536x1024` landscape by default (`-Size`). For a thin
+  banner add **`-CropAspect "3:1"`** (also `21:9`, `16:9`) — center-crops
+  after generation. Downscale to 1600x900 for blog heroes.
+- **Left-edge text clip fix:** gpt-image-1 ignores "leave a margin" but
+  respects a concrete visual anchor. Put in the prompt: *"a thin warm-gold
+  vertical hairline runs top-to-bottom ~12% in from the left edge; every
+  letter sits to the right of it, nothing touches the left edge."*
+- For a thin banner, also tell it the **top third is empty sky, bottom
+  third is empty road** (blank trim margin) so the crop only removes
+  emptiness.
+- Always pass `brand-assets/logo.png` + `brand-assets/swatch.png` as refs
+  so the wordmark and palette stay consistent.
+- Real faces from the headshot are still inconsistent on any engine.
+  "With Kyle" hero = real photo + Canva unless a test proves otherwise.
+- Set an OpenAI **budget cap** so a loop can't run away.
 
 ## Brand constants for every prompt
 Deep teal `#0F5C63`, warm gold `#C9A96A`, cream `#FAF8F5`, ink `#0D2226`,
@@ -112,8 +118,9 @@ Refs: `brand-assets/headshot.jpg`, logo, swatch.
 
 ## Slot maps by report type
 
-**Legend:** 🆓 = fine on the free `pollinations` engine · ✋ = do in
-ChatGPT/Gemini web (needs headline text / logo / precision).
+All slots below run on `-Engine openai`. The 🆓 ones are also acceptable on
+the free `pollinations` engine if avoiding spend; ✋ ones need `openai`
+(headline text / logo / precision).
 
 ### Blog article (see `blog-article.md`)
 Blog markdown already has the `<img src>` slots wired. Files go in
