@@ -29,8 +29,15 @@ powershell -File "Friedman Brain/scripts/gen-image.ps1" -Engine openai `
 # free fallback:
 powershell -File "Friedman Brain/scripts/gen-image.ps1" -Prompt "..." -Out "...png"
 ```
-Output → `../properties/<addr>/generated/` (gitignored) or straight to
-`The-friedman-team-website/public/images/uploads/` for blog posts.
+Output → `../properties/<addr>/generated/` (gitignored scratch) or
+straight to `The-friedman-team-website/public/images/uploads/` for blog
+posts.
+
+**Keeping a final:** when an image actually ships in a deliverable, run
+`scripts/keep-image.ps1 -From <generated png> -Property <addr> -Name <slug>
+-Prompt "<prompt used>" -Note "<what it's for>"`. It writes a compressed
+~300 KB jpg into `properties/<addr>/final/` (committed) and appends the
+prompt to `properties/<addr>/image-log.md`. `generated/` stays disposable.
 
 ## Notes
 - `openai` size is `1536x1024` landscape by default (`-Size`). For a thin
