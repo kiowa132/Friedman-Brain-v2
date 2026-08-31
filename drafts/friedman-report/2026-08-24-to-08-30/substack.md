@@ -120,6 +120,35 @@ Been sitting on a decision to list or to write an offer, and wondering if
 this was the week you missed your shot? Just reply to this email, I read
 every one.
 
+## Bonus From My Kitchen: Smoked Cream Cheese, Two Ways
+
+Labor Day weekend means one more cookout, and this is the easiest thing
+I've put on the smoker all summer. We did two flavors — one savory, one
+sweet and spicy — and both blocks were gone before the second round of
+guests showed up.
+
+**The method** (works for either flavor, serves 6-8 as an appetizer)
+1. Preheat your smoker to 225°F. Any wood works — applewood for the ranch
+   & garlic, cherry for the brown sugar & paprika.
+2. Score the top of a cold 8 oz block of cream cheese in a crosshatch
+   pattern, then coat it all over with a little olive oil so the seasoning
+   sticks.
+3. Coat generously with your topping of choice (below), pressing gently
+   so it adheres.
+4. Smoke for about 2 hours, until it's warmed through, slightly golden on
+   top, and soft enough to spread.
+5. Rest 5-10 minutes, then serve warm with crackers or toasted baguette.
+
+**Ranch & Garlic** — 1 packet (or 2 tbsp) dry ranch seasoning + 1 tsp
+garlic powder, topped with chopped chives after smoking.
+
+**Brown Sugar & Paprika** — 3 tbsp brown sugar + 1 tsp smoked paprika +
+a pinch of cayenne if you want heat, drizzled with honey right off the
+smoker.
+
+Zero skill required, disappears in minutes — possibly the only easy thing
+about this market right now.
+
 Have Questions? Let's Talk.
 📞 443-789-3101 | kyle@friedmanreteam.com
 8115 Maple Lawn Blvd. #350 Fulton, MD 20759
