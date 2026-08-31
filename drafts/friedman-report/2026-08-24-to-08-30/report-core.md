@@ -8,36 +8,38 @@ A hyperlocal, data driven weekly market report.
 
 ## The Story of the Week
 
-Marcus finally got a rate lock in early August and figured the hard part
-was over.
+Danielle had been told to wait until after Labor Day.
 
-He's the same first-time buyer in Harford County from a couple editions
-back — the one who spent the summer waiting for more price cuts and more
-room to negotiate. Two weeks ago, this report told him that window was
-narrowing: new listings had dropped 14%, and price cuts had dropped right
-alongside them. He believed it, and he started writing offers again.
+She's a seller near Rockville, in Montgomery County, sitting on a
+townhome she'd been debating listing since June. Her agent's advice all
+summer was patience — hold off, let the late-summer lull pass, don't
+compete with back-to-school chaos. So she waited. Then last week's report
+crossed her feed, the one flagging that new listings had dropped 14% and
+price cuts had eased right alongside them, and she decided that was her
+signal. She listed Tuesday morning.
 
-This week, the market did something neither of us expected: it flooded
-back open, all at once. Statewide, new listings nearly doubled — up 89.8%
-to 2,019, the sharpest weekly jump this report has tracked. Closings
-nearly doubled right along with them, up 89.2% to 1,137. Price reductions
-surged too, up 80.5% to 2,090. For a buyer like Marcus, this isn't the slow
-grind back toward leverage he was braced for — it's a sudden flood of
-choice landing all at once, right at the seasonal turn into fall.
+She wasn't alone. By Sunday, roughly 2,019 other Maryland sellers had made
+almost the exact same call in the same seven days — new listings
+statewide nearly doubled, up 89.8% from the week before, the sharpest
+single-week jump this report has tracked. Closings nearly doubled right
+along with them, up 89.2%. Danielle watched her showing requests come in
+and worried she'd get lost in the flood.
 
-Median sold price kept climbing, up 2.3% to $450,000, and homes that
-closed this week sold at a median 99.3% of their *original* asking price —
-proof that even with this much new supply hitting at once, well-priced
-listings are still closing near full ask. Mortgage rates, meanwhile,
-barely moved: Freddie Mac's 30-year fixed ticked up one basis point to
-6.66%, ending a two-week streak of declines.
+She didn't. Priced to the comps, her home drew three offers within the
+week and went under contract fast — right in line with this week's
+statewide pace, where homes are moving to contract in a median of just
+four days. Price reductions surged too, up 80.5%, but that wasn't her
+story: homes that closed this week still realized a median 99.3% of their
+*original* asking price, proof that well-priced listings aren't getting
+swallowed by the crowd, even a crowd this large.
 
-I told Marcus the same thing I'd tell any buyer or seller reading this
-week's numbers: a market that gains this much volume in one week isn't
-necessarily loosening or tightening — it's recalibrating. Sellers who'd
-been waiting for the "right moment" this fall just moved, en masse. That's
-good news for buyers who need options, but it also means competition for
-the *good* listings just went up, not down.
+Here's what I'd tell Danielle, and anyone else reading this week's
+numbers: a market that gains this much volume in a single week isn't
+necessarily loosening or tightening toward one side — it's recalibrating.
+Sellers who'd been waiting for the "right moment" this fall just moved, en
+masse. That's real news for buyers who've been starved for options. But it
+also means competition for the *good* listings just went up, not down —
+priced-right homes like Danielle's are still winning fast.
 
 ## Maryland in 60 Seconds
 
@@ -108,20 +110,28 @@ flooded with new inventory.
 
 ## This Week's Price Extremes
 
-Like the 8/17-8/23 edition, this week's Bright MLS pull is aggregate
-statistics rather than individual listing sheets, so here are the
-statewide extremes from the aggregate numbers rather than specific
-property profiles.
+**🏆 Priciest Listing of the Week**
+**6210 Dahlonega Rd, Bethesda, MD 20816** — $3,995,000
+8 beds | 7 full, 1 half baths | 4,539 sq ft above grade (6,893 total) |
+Built 2026 (new construction) | Montgomery County, Glen Echo Heights
 
-**Priciest closing of the week:** $2,950,000 (statewide high for Closed
-sales this week)
+A newly built modern estate by Edgewood Builders on an 11,375 sq ft lot
+minutes from downtown Bethesda, the C&O Canal, and the Capital Crescent
+Trail. Eight bedrooms, a hidden second kitchen, three fireplaces, and a
+full daylight walkout lower level — the kind of listing that shows up when
+a market this active starts pulling out its best inventory, not just its
+most plentiful.
 
-**Lowest closing of the week:** $13,000 (statewide low for Closed sales
-this week)
+**📉 Most Affordable Listing of the Week**
+**2545 W Lafayette Ave, Baltimore, MD 21216** — $10,000 opening bid
+3 beds | 2 baths | 1,260 sq ft above grade | Built 1927 | Baltimore City,
+Bridgeview-Greenlawn
 
-**Statewide new-listing range:** highest new listing $6,500,000, lowest
-new listing $5,000 — a $6,495,000 spread across the state's new inventory
-in a single week.
+An absolute online auction listing in shell condition, needing a complete
+renovation — opening bid only, bidding runs September 21–22. A reminder
+that this week's median statewide price of $450,000 sits on top of an
+enormous range, from move-in-ready new construction to raw rehab projects
+at a fraction of the cost.
 
 **Fastest Moving County:** Carroll County — 19-day average days on
 market, 38 closings
@@ -274,31 +284,42 @@ out of the pipeline entirely without a sale. Compare that to two weeks
 ago, when a comparable share of listings vanished from the market — the
 math shifted only slightly even as raw transaction volume nearly doubled.
 
-## Recipe: Chesapeake Corn & Tomato Salad with Old Bay Vinaigrette
+## Bonus From My Kitchen: Smoked Cream Cheese, Two Ways
 
-A last-of-summer dish for the Labor Day weekend, built around what's still
-peaking at Maryland farm stands right now.
+A ridiculously easy smoker appetizer for the last cookouts of summer —
+we did two flavors this week, one savory and one sweet-and-spicy.
 
-**Ingredients** (serves 6)
-- 6 ears Maryland sweet corn, husked
-- 3 cups heirloom tomatoes, cut into wedges
-- ½ cup thinly sliced red onion
-- ⅓ cup chopped fresh basil
-- ¼ cup olive oil
-- 2 tbsp apple cider vinegar
-- 1 tsp Dijon mustard
-- 1 tsp Old Bay seasoning
-- Salt and black pepper to taste
-- Optional: ½ cup crumbled feta or lump crab
+**The base method** (works for either flavor, serves 6–8 as an appetizer)
+- 1 (8 oz) block cream cheese, cold, straight from the fridge
+- Olive oil, for coating
+- Your choice of topping (below)
+- Crackers, pretzels, or toasted baguette, for serving
 
-**Instructions**
-1. Grill or char the corn 8–10 minutes, turning occasionally. Let cool,
-   then cut kernels from the cob.
-2. Whisk olive oil, vinegar, Dijon, and Old Bay into a vinaigrette.
-3. Toss corn, tomatoes, red onion, and basil with the vinaigrette. Season
-   to taste.
-4. Top with feta or crab if using. Best served within a few hours at room
-   temperature — ideal for an open house spread.
+1. Preheat your smoker to 225°F (any wood works — we liked applewood for
+   the ranch & garlic, cherry for the brown sugar & paprika).
+2. Score the top of the cold cream cheese block in a crosshatch pattern,
+   then lightly coat all sides with olive oil so the seasoning sticks.
+3. Coat generously with your chosen topping (below), pressing gently so it
+   adheres.
+4. Place the block on a piece of foil or a small cast-iron pan and smoke
+   for 2 hours, until it's warmed through, slightly golden, and just soft
+   enough to spread.
+5. Let rest 5–10 minutes, then serve warm with crackers or toasted bread.
+
+**Flavor 1 — Ranch & Garlic**
+- 1 packet (or 2 tbsp) dry ranch seasoning
+- 1 tsp garlic powder
+- Top with chopped chives or green onion after smoking
+
+**Flavor 2 — Brown Sugar & Paprika**
+- 3 tbsp brown sugar
+- 1 tsp smoked paprika
+- Pinch of cayenne (optional, for a little heat)
+- Drizzle with a little honey after smoking
+
+Both versions disappear fast at a listing open house or a Labor Day
+cookout — smoked cream cheese has basically zero effort-to-payoff ratio,
+which might be the only easy thing about this market right now.
 
 ## Your Next Move Starts Here
 

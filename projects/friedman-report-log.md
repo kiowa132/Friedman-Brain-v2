@@ -97,4 +97,9 @@ spotlighted counties + heat map extremes.*
   directly continuous with prior editions' differently-sourced "Avg.
   Days on Market" snapshot metric — see `friedman-report.md` methodology
   note.
-- Gamma deck: https://gamma.app/docs/ezd83yvwgnmca50
+- Gamma deck: https://gamma.app/docs/pnw7ubu9ie96m54 (rebuilt per Kyle's
+  correction — original story/character each week rather than continuing
+  "Marcus," real highest/lowest listing this week instead of aggregate
+  min/max, smoked cream cheese recipe, every section from the real
+  8/17-8/23 template present). Superseded the earlier
+  https://gamma.app/docs/ezd83yvwgnmca50 draft.
