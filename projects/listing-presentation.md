@@ -11,7 +11,13 @@ A complete seller presentation package = **4 deliverables**:
    pending, sold) as an interactive deck, not a static PDF-style export.
 2. **Listing strategy Gamma presentation** — the seller-facing listing
    strategy/pitch deck.
-3. **Net proceeds Excel workbook** (formula-driven, scenario modeling)
+3. **Net proceeds** — two forms:
+   - **Branded client PDF** (the deliverable Kyle attaches to the seller email):
+     one page, FRIEDMAN wordmark + teal/gold, scenario columns, tax note,
+     assumptions, contact footer. Generator: `../scripts/pdf/net-proceeds-pdf.py`
+     (copy + edit the model block per listing). Requires the real Python.
+   - **Formula-driven Excel workbook** as the working model for changing
+     assumptions (openpyxl, scenario columns, editable yellow cells).
 4. **Pre-appointment confirmation email** to the seller (template below)
 
 ## Pre-appointment confirmation email — standing template
