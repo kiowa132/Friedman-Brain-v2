@@ -57,10 +57,11 @@ editions in `friedman-report-log.md` for tone and format.
 ## documented here — add to the edition checklist above)
 - **Market Spotlight** — two counties profiled with active/closed/avg-DOM
   stats and a short editorial note.
-- **Market Movers** — most/least expensive listing this week. If individual
-  listing sheets aren't available (as with the 8/17-8/23 edition), fall
-  back to statewide aggregate min/max new-listing prices and the priciest
-  closing, with an explicit caveat — don't invent a specific address.
+- **Market Movers / Price Extremes** — most/least expensive listing this
+  week, ideally a real specific address+price+beds/baths from Kyle (ask
+  him for it, don't wait for him to volunteer it). Only fall back to
+  statewide aggregate min/max new-listing prices, with an explicit
+  caveat, when no specific listing sheet is available.
 - **Winners & Losers** — a short bulleted "winners this week" /
   "losing momentum" pair.
 - **"One Thing I'd Do This Week"** — three short takes: If I Were Buying /
@@ -86,6 +87,50 @@ editions in `friedman-report-log.md` for tone and format.
 - Once Kyle provides this week's numbers, append a new dated entry to
   `friedman-report-log.md` (format specified in that file) — don't overwrite
   prior entries.
+
+## Real Substack format (confirmed from the 8/17-8/23 published post, 2026-08-31)
+This is a DIFFERENT, shorter structure than the Gamma deck or website —
+don't just paste the Gamma content into Substack, and don't embed images
+via markdown `![]()` syntax pointing at raw CDN URLs (renders as broken
+link clutter, not an image, when pasted into Substack's editor — Kyle
+flagged this). If images are wanted, hand Kyle the image URLs/files
+separately so he drops them into Substack's editor directly, or note
+where they'd go without embedding a raw link inline.
+
+Structure, top to bottom:
+1. **Title** in the pattern `[Punchy hook] | The Friedman Report | Week of
+   [date range]`.
+2. **Subtitle** — one line, teases the story's turn.
+3. Opens directly with the narrative (2-3 short paragraphs), no header
+   before it.
+4. Early callout, own line: `👉 [View the full interactive market report
+   here](<gamma link>) — county by county data, the Friedman Signal, and
+   this week's heat map.`
+5. A second link, own line: `[See This Week's Full Breakdown &
+   More](<website article URL>)`.
+6. Continue the narrative with the week's headline numbers woven in.
+7. `## This Week's Price Extremes` — the real high/low listing (or
+   aggregate fallback).
+8. `## The Numbers, Fast` — bulleted, one emoji per line: 🏡 Homes Sold ·
+   🆕 New Listings · ✍️ Pending Contracts · 💰 Median Sold Price · ⏱️
+   Days on Market · 🏷️ Price Reductions · 📈 Mortgage Rate.
+9. Fastest/slowest county as plain sentences (not a table).
+10. FMMI as a short paragraph, not a full breakdown table (that level of
+    detail lives in Gamma/website).
+11. `## Deep Dive: <title>` — the one surprising number.
+12. `## One Thing I'd Do This Week` — **Buying?** / **Selling?** /
+    **Investing?** as inline bold questions, not H3 headers.
+13. A personal engagement line inviting replies (e.g. "Just reply to this
+    email, I read every one").
+14. Sign-off: `Have Questions? Let's Talk.` + phone + **kyle@friedmanreteam.com**
+    (canonical email — do not use any retired PenFed/CornerHouse domain)
+    + Maple Lawn address.
+15. Three separate link buttons, own lines: `Schedule a call` (Calendly),
+    `Search Homes`, `Check Your Home's Value`. No "Why Choose Kyle"
+    bullets on Substack — that block is Gamma/closing-slide only.
+Everything after that (like count, "Discussion about this post", related
+posts, the publication's own subscribe footer) is Substack's own
+auto-generated UI — never hand-write it into the draft.
 
 ## Distribution — every edition goes to all of these
 - Gamma (custom theme ID `m6zymtbkauah9qd`)
