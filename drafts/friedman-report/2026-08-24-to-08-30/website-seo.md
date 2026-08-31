@@ -5,7 +5,7 @@ category: Market Reports
 publishDate: "2026-08-31"
 heroImage: /images/uploads/maryland-real-estate-market-report-week-of-august-24-30-2026-hero.png
 carouselImages:
-  - /images/uploads/maryland-real-estate-market-report-week-of-august-24-30-2026-recipe.jpg
+  - /images/uploads/maryland-real-estate-market-report-week-of-august-24-30-2026-snapshot.jpg
 youtubeVideoId: ""
 ---
 Danielle had been told to wait until after Labor Day.
@@ -22,8 +22,6 @@ eased right alongside them. She read it, decided that was her signal, and
 listed Tuesday morning.
 
 She was not alone. Not even close.
-
-<img src="/images/uploads/maryland-real-estate-market-report-week-of-august-24-30-2026-hero.png" alt="Maryland suburban street lined with multiple new For Sale signs at golden hour, illustrating this week's surge in new listings" style="width:100%;height:auto;margin:20px 0;" />
 
 > New listings and closings both nearly doubled statewide in the same
 > seven-day window — the sharpest simultaneous supply-and-demand jump
@@ -84,8 +82,6 @@ median of just four days this week.
 <div style="font-size:12px;font-weight:700;color:#B5544A;margin-top:4px;">&#9650; +1 bp</div>
 </div>
 </div>
-
-<img src="/images/uploads/maryland-real-estate-market-report-week-of-august-24-30-2026-snapshot.jpg" alt="Whiteboard showing this week's Maryland housing market snapshot: FMMI 58, homes sold 1,137, new listings 2,019, pending contracts 490, median price $450,000, price cuts 2,090, and the 30-year mortgage rate at 6.66%" style="width:100%;height:auto;margin:20px 0;" />
 
 **A methodology note:** "Median Days to Contract" above uses this
 report's own weekly Bright MLS pull (median CDOM for Closed sales).
@@ -178,7 +174,7 @@ market, 5 closings
 
 ## Friedman Heat Map: Fastest and Slowest Maryland Counties This Week
 
-<img src="/images/uploads/maryland-real-estate-market-report-week-of-august-24-30-2026-heatmap.png" alt="Friedman Heat Map showing Carroll County as the fastest-moving Maryland county at 19 days average days on market and Dorchester County as the slowest at 85 days" style="width:100%;height:auto;margin:20px 0;" />
+<img src="/images/uploads/charts/aug24-30/county-heatmap.svg" alt="Friedman Heat Map showing Carroll County as the fastest-moving Maryland county at 19 days average days on market and Dorchester County as the slowest at 85 days" style="width:100%;height:auto;margin:20px 0;" />
 
 **Hottest — Fastest Average Days on Market:** Carroll County (19 days, 38
 closings), Cecil County (20 days, 18), Caroline County (21 days, 7),
@@ -197,6 +193,8 @@ closings each week, worth continuing to watch rather than treating as a
 firm trend yet.
 
 ## Week Over Week: How Maryland's Housing Market Compares
+
+<img src="/images/uploads/charts/aug24-30/week-over-week.svg" alt="Bar chart comparing Maryland closings, new listings, pending contracts, and price reductions week over week, all four rising sharply" style="width:100%;height:auto;margin:20px 0;" />
 
 | Metric | Last Week (8/17–8/23) | This Week (8/24–8/30) | Change |
 |---|---|---|---|
@@ -220,7 +218,9 @@ side.
 
 ## The Friedman Market Momentum Index (FMMI)
 
-<p style="text-align:center;font-weight:700;color:#0F5C63;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;">58 / 100 — Balanced Market, Surging Activity (up from 55 last week)</p>
+<img src="/images/uploads/charts/aug24-30/fmmi-gauge.svg" alt="Gauge chart showing the Friedman Market Momentum Index at 58 out of 100, up from 55 last week" style="width:100%;max-width:400px;height:auto;margin:20px auto;display:block;" />
+
+<p style="text-align:center;font-weight:700;color:#0F5C63;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;">Balanced Market, Surging Activity</p>
 
 **What this means:** Maryland's housing market didn't tip toward buyers
 or sellers this week — it just got a lot busier, all at once. Nearly
@@ -229,6 +229,8 @@ numbers but is genuinely ambiguous underneath: more competition for
 buyers *and* more choice, more leverage for sellers *and* more of them
 cutting price. That's why the FMMI moved only modestly (+3) despite
 historically large swings in the underlying data.
+
+<img src="/images/uploads/charts/aug24-30/fmmi-subscores.svg" alt="Horizontal bar chart showing FMMI sub-scores: Demand 78%, Seller Strength 50%, Market Speed 66%, Rate Environment 39%" style="width:100%;height:auto;margin:20px 0;" />
 
 - **Demand Score: 78%** (up from 62) — Closings surged 89.2% and pending
   contracts rose 31.0% in the same week — by far the strongest demand
