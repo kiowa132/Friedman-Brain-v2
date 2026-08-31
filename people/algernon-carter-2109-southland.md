@@ -12,7 +12,9 @@
 - Condition of the home not yet known — Kyle has not been inside. Walkthrough needed
   before pricing is finalized.
 - Pricing scenarios Kyle wants presented: **$275K / $300K / $325K**.
-- Appointment day/date/time: not set yet.
+- **Appointment: Tuesday, September 1, 2026 at 11:00 AM at the property.**
+- Pre-appointment email drafted with CMA + strategy links and net-proceeds PDF attached
+  (`listings/2109-southland-rd/pre-appointment-email.md`).
 
 ## Package status (see listings/2109-southland-rd/)
 - [x] CMA / comps Gamma deck — https://gamma.app/docs/nzgy46kqtkgzvto
