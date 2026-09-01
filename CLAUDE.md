@@ -15,6 +15,11 @@ use it.
   configuration. One topic per file.
 - `people/` — cards for key contacts (clients, mentor, vendors). Not
   pre-populated — add as needed.
+- `clients/` — deeper per-client working analyses that outgrow a `people/`
+  card (e.g. move-up feasibility studies). The `people/` card stays the
+  index; the detail lives here.
+- `listings/` — per-listing packages (CMA data, pricing, net-proceeds,
+  paperwork field-maps). `listings/_forms/` holds the blank form templates.
 - `decisions.md` — running log of open decisions and resolved calls, so
   nothing gets re-litigated or forgotten.
 

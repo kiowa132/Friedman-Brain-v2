@@ -7,6 +7,11 @@
 - **Relationships in CRM:** none listed
 
 ## Situation
+- **Also a buyer** — VA loan, pre-approved ~$340K, offer in play around $329K on a
+  next home. Top priority: minimize cash to close so he keeps money for renovations.
+  Buyer-education email (price cut vs. seller credit, 203k/HomeStyle/VA reno loan,
+  why a pre-approval ceiling isn't cash) drafted at
+  `drafts/algernon-carter-financing-education-email.md`.
 - Selling his primary residence. **No mortgage, no HELOC — owned free and clear.**
 - Purchased 12/23/2013 for $152,000.
 - Condition of the home not yet known — Kyle has not been inside. Walkthrough needed

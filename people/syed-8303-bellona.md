@@ -17,6 +17,18 @@ Estimated value **$535,000** (RPR CMA $508K, AVM $555K; comps $520-540K).
   renting runs a cash loss most months; holding a rental 3+ years forfeits
   the tax-free gain (~$25-45K+ tax).
 
+## Move-up / buy side (added Aug 2026)
+Syed wants a **feasibility analysis** for buying in Phoenix / Sparks (northern
+Baltimore County) up to ~$750K, needing an ADU or rentable basement to offset a
+payment that nearly doubles ($2,200 to ~$4,500). 8+ schools required. Full work:
+`clients/syed-imam-move-up-feasibility.md`; client Gamma report
+https://gamma.app/docs/79gwm5p1a9z7urt; email/text `clients/syed-imam-feasibility-email.md`.
+Headline: math works best at ~$625–675K
+with a home that already has a separate-entrance lower level; Hereford Zone
+(Sparks ES 10 / Hereford MS 8 / Hereford HS 10) is the clean 8+ answer; a detached
+ADU build is $150K+ and Baltimore County's rent-to-anyone ADU rules are mid-adoption
+(state deadline Oct 1 2026 — verify with County PAI).
+
 ## Status / open items
 - Sent client the summary email + short text (Aug 2026). Awaiting review.
 - Could still tighten: actual mortgage **P&I** from his statement (swings
