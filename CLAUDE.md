@@ -40,6 +40,8 @@ use it.
 - [[projects/prospecting-ledger-app.md]] — Ledger prospecting tracker app
 - [[projects/sign-listing-page.md]] — For Sale sign QR → /listings/active
   (one permanent QR, editable current-listing page via Decap CMS)
+- [[projects/mailing-list.md]] — /mailing-list signup + sports-schedule /
+  monthly-card freebie funnel; how to pull the mail-merge list from FUB
 
 ## Reference
 - [[notes/brand-guidelines.md]] — visual identity, naming rules, brand voice
