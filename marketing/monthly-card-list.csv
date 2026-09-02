@@ -1,51 +1,97 @@
-Tier,Num,Name,Phone,Email,Address,City/State/Zip,Notes
-1,1,Tom Callahan,(410) 588-7605,,,,Named acquaintance / former colleague
-1,2,Jesse Chaney,(443) 713-8304,,,,Named acquaintance / former colleague
-1,3,Cynthia Grimes,(443) 506-0359,,,,Named acquaintance / former colleague
-1,4,Michale Heck,(443) 324-0315,,,,Named acquaintance / former colleague
-1,5,Jordan Luzier,(443) 547-4141,,,,Named acquaintance / former colleague
-1,6,Andrew March,(443) 340-1962,,,,Named acquaintance / former colleague
-1,7,Tim McVerry,(443) 821-5936,,,,Named acquaintance / former colleague
-1,8,Matt Michael,(443) 340-9405,,,,Named acquaintance / former colleague
-1,9,Chip & Susan Mitchell,(410) 292-6383,,,,Named acquaintance / former colleague
-1,10,Sameka Ricks,(410) 599-5581,,,,Named acquaintance / former colleague
-1,11,Lisa Russo,(443) 570-9719,,,,Named acquaintance / former colleague
-1,12,Andrew Ruth,(443) 547-4991,,,,Named acquaintance / former colleague
-1,13,Kyle Sanders,(443) 449-8906,,,,Named acquaintance / former colleague
-1,14,Kyle Albornoz,(443) 449-0696,,,,Named acquaintance / former colleague
-1,15,Scott Schmelz,(443) 465-4992,,,,Named acquaintance / former colleague
-1,16,Kevin Syes,(443) 974-2022,,,,Named acquaintance / former colleague
-1,17,Jimmy Hancock,(443) 289-0827,,,,Named acquaintance / former colleague
-1,18,Joey Keenan,(443) 802-6257,,,,Named acquaintance / former colleague
-1,19,Dudley Godfrey,(202) 641-3039,,,,Named acquaintance / former colleague
-1,20,Rakiid James,(443) 386-5759,,,,Named acquaintance / former colleague
-1,21,Jessica Poulin,(843) 855-7285,,,,Named acquaintance / former colleague
-1,22,Megan Dodds,(443) 226-8009,,,,Named acquaintance / former colleague
-1,23,Haysean,(443) 630-1691,hayseancc@hotmail.com,,,Email on file
-1,24,Zack A,(240) 298-3809,,,,Named acquaintance / former colleague
-2,25,Amber Prosper,(410) 301-4875,,,,Former D2D teammate / referral network
-2,26,Darrius Prosper,(443) 621-3208,,,,Former D2D teammate / referral network
-2,27,Carley Prosper,(443) 898-2051,,,,Former D2D teammate / referral network
-2,28,Dequan Prosper,(410) 624-6779,,,,Former D2D teammate / referral network
-2,29,Jamie Prosper,(240) 433-2387,,,,Former D2D teammate / referral network
-2,30,Manny Prosper,(443) 579-7180,,,,Former D2D teammate / referral network
-2,31,Megan Prosper,(301) 641-8242,,,,Former D2D teammate / referral network
-2,32,Rob Prosper,(443) 844-5073,,,,Former D2D teammate / referral network
-2,33,Steven Prosper,(240) 645-2566,,,,Former D2D teammate / referral network
-2,34,Thomas Prosper,(410) 615-5422,,,,Former D2D teammate / referral network
-2,35,Zachary Prosper,(443) 949-5495,,,,Former D2D teammate / referral network
-2,36,Keith Prosper,(443) 691-3421,,,,Former D2D teammate / referral network
-2,37,Glen (Pr),(410) 302-2039,,,,Former D2D teammate / referral network
-2,38,Austin Brown (Vrz),(443) 520-8514,,,,Former D2D teammate / referral network
-2,39,Brianna (Vrz),(410) 375-7207,,,,Former D2D teammate / referral network
-2,40,Alex (Vrz),(443) 425-5367,,,,Former D2D teammate / referral network
-2,41,Jon (Vrz),(301) 310-7538,,,,Former D2D teammate / referral network
-2,42,Kevin (Vrz),(443) 653-6507,,,,Former D2D teammate / referral network
-2,43,Lauren (Vrz),(443) 845-2893,,,,Former D2D teammate / referral network
-2,44,Taylor (Vrz),(443) 862-7794,,,,Former D2D teammate / referral network
-2,45,Kelly Power,(408) 427-4326,,,,Power Home Remodeling rep
-2,46,Sal Power,(717) 824-7935,,,,Power Home Remodeling rep
-2,47,Vijay Power,(847) 345-6510,,,,Power Home Remodeling rep
-3,48,Susan Wyatt / "Joni",(410) 215-7755,susanwyatt@kw.com,,"Westminster, MD 21157",KW agent - referral partner
-3,49,Aaron Prosper,(301) 304-9327,,11339 Liberty Rd,"Frederick, MD 21701","Work address on file; Prosper manager"
-3,50,CJ (Power House),(410) 499-9076,,,,Power Home Remodeling - referral partner
+Group,Name,Phone,Email,Address,City/State/Zip,Notes
+KEEP,Tom Callahan,(410) 588-7605,tcalla3@gmail.com,3910 Saint Johns Ln,"Ellicott City, MD 21042",
+KEEP,Tim McVerry,(443) 821-5936,,639 Wilmot Ridge Rd,"Westminster, MD 21157",
+KEEP,Matt Michael,(443) 340-9405,,55 Ridge Rd,"Westminster, MD 21157",
+KEEP,Sameka Ricks,(410) 599-5581,,6221 Greenleigh Ave #438,"Middle River, MD 21220",
+KEEP,Andrew Ruth,(443) 547-4991,,986 Nicholas Dr,"Westminster, MD 21157",
+KEEP,Kyle Albornoz,(443) 449-0696,,227 Brandon Rd,"Baltimore, MD 21212",
+KEEP,Scott Schmelz,(443) 465-4992,,1804 Clermont Ct,"Lutherville Timonium, MD 21093",
+KEEP,Kevin Syes,(443) 974-2022,,1790 Lower Forty Dr,"Hampstead, MD 21074",
+KEEP,Jimmy Hancock,(443) 289-0827,,66 Sable Ct,"Westminster, MD 21157",
+KEEP,Dudley Godfrey,(202) 641-3039,,3516 13th St NE,"Washington, DC 20017",
+KEEP,Megan Dodds,(443) 226-8009,,3005 Willoughby Rd,"Parkville, MD 21234",
+KEEP,Amber Prosper,(410) 301-4875,,5758 Maplehill Rd,"Baltimore, MD 21239",
+KEEP,Darrius Prosper,(443) 621-3208,,4391 Parkton St,"Baltimore, MD 21229",
+KEEP,Carley Prosper,(443) 898-2051,,2516 Cheshaire Dr #A,"Windsor Mill, MD 21244",
+KEEP,Dequan Prosper,(410) 624-6779,,8711 Windsor Mill Rd,"Windsor Mill, MD 21244",
+KEEP,Jamie Prosper,(240) 433-2387,,2455 Perring Manor Rd,"Parkville, MD 21234",
+KEEP,Megan Prosper,(301) 641-8242,,125 Perrys Retreat Blvd,"Grasonville, MD 21638",
+KEEP,Rob Prosper,(443) 844-5073,,40 Bussing Ct,"Lutherville Timonium, MD 21093",
+KEEP,Thomas Prosper,(410) 615-5422,,6 Oxyoke Ct,"Randallstown, MD 21133",
+KEEP,Zachary Prosper,(443) 949-5495,,9033 Contee Rd #101,"Laurel, MD 20708",
+KEEP,Keith Prosper,(443) 691-3421,,9530 Oak Trace Way,"Randallstown, MD 21133",
+KEEP,Glen (Pr),(410) 302-2039,,7804 Charlesmont Rd,"Dundalk, MD 21222",
+KEEP,Alex (Vrz),(443) 425-5367,,3413 Upton Rd,"Parkville, MD 21234",
+KEEP,Jon (Vrz),(301) 310-7538,,6725 Edgemere Dr,"Temple Hills, MD 20748",
+KEEP,Kevin (Vrz),(443) 653-6507,,535 Terrapin Ter,"Joppa, MD 21085",
+KEEP,Lauren (Vrz),(443) 845-2893,,1727 Wilmington Ave,"Baltimore, MD 21230",
+KEEP,Taylor (Vrz),(443) 862-7794,,3436 Carriage Hill Cir #T4,"Randallstown, MD 21133",
+KEEP,Kelly Power,(408) 427-4326,,5764 Stevens Forest Rd #315,"Columbia, MD 21045",
+KEEP,Aaron Prosper,(301) 304-9327,,11339 Liberty Rd,"Frederick, MD 21701",work address
+KEEP,CJ (Power House),(410) 499-9076,,4615 Riddle Dr,"Nottingham, MD 21236",
+ADD-A,Adam Prosper,(443) 478-0841,,,,former teammate - need address
+ADD-A,Davon Prosper,(443) 204-9052,,,,former teammate - need address
+ADD-A,Dennis Prosper,(240) 938-6194,,,,former teammate - need address
+ADD-A,Kimberly Prosper,(443) 805-5648,,,,former teammate - need address
+ADD-A,Kyle Prosper,(410) 900-7140,,,,former teammate - need address
+ADD-A,Sunny Prosper,(443) 708-1733,,,,former teammate - need address
+ADD-A,Bruk (Vrz),(443) 621-0907,,,,former teammate - need address
+ADD-A,Dru (Vrz),(443) 255-7292,,,,former teammate - need address
+ADD-A,Hope (Vrz),(301) 832-6021,,,,former teammate (manager) - need address
+ADD-A,Hunter (Vrz),(443) 866-2844,,,,former teammate - need address
+ADD-A,Hunter (Vrz #2),(443) 812-6660,,,,former teammate - need address
+ADD-A,Jordan (Vrz),(410) 988-6561,,,,former teammate - need address
+ADD-A,Keith (Vrz),(301) 412-7515,,,,former teammate - need address
+ADD-A,Kiyon (Vrz),(443) 813-9314,,,,former teammate - need address
+ADD-A,Reona (Vrz),(443) 485-7023,,,,former teammate - need address
+ADD-A,Rob (Vrz),(410) 236-8788,,,,former teammate - need address
+ADD-A,Siamon (Vrz),(240) 246-3942,,,,former teammate - need address
+ADD-A,Caleb (Dd),(240) 772-7462,,,,former teammate - need address
+ADD-A,Evan (Dd),(443) 202-9020,,,,former teammate - need address
+ADD-A,Jacob (Dd),(443) 501-6098,,,,former teammate - need address
+ADD-A,Zach (Dd),(443) 605-3078,,,,former teammate - need address
+ADD-A,Troy (Dd),(410) 718-1221,,,,former teammate - need address
+ADD-A,Nick Carzz (Dd),(410) 733-2585,,,,former teammate - need address
+ADD-A,Christian (Cream Team),(443) 910-0132,,,,former teammate - need address
+ADD-A,Ed (Kwlw),(410) 299-7687,,,,former teammate - need address
+ADD-A,Will (Inspire),(443) 743-7374,,,,former teammate - need address
+ADD-A,Keith (Uber),(443) 789-9810,,,,acquaintance - need address
+ADD-B,Adrian,(443) 903-5297,,,,first name only - verify + address
+ADD-B,Adelmo,(443) 766-8828,,,,first name only - verify + address
+ADD-B,Armando,(410) 627-4723,,,,first name only - verify + address
+ADD-B,Ashley,(443) 962-5627,,,,first name only - verify + address
+ADD-B,Carlo,(410) 733-5501,,,,first name only - verify + address
+ADD-B,Cass,(443) 356-2088,,,,first name only - verify + address
+ADD-B,Chase,(410) 877-5708,,,,first name only - verify + address
+ADD-B,David D,(443) 280-3660,,,,first name only - verify + address
+ADD-B,Dennis,(443) 862-6777,,,,first name only - verify + address
+ADD-B,Derek,(443) 629-0996,,,,first name only - verify + address
+ADD-B,Desmond,(443) 922-8768,,,,first name only - verify + address
+ADD-B,Dre,(443) 835-7215,,,,first name only - verify + address
+ADD-B,Duncan,(443) 525-4932,,,,first name only - verify + address
+ADD-B,Dylan,(443) 547-5361,,,,first name only - verify + address
+ADD-B,Forest,(443) 651-0462,,,,first name only - verify + address
+ADD-B,Frankie,(443) 547-4678,,,,first name only - verify + address
+ADD-B,Isaiah,(443) 615-9672,,,,first name only - verify + address
+ADD-B,Jahmal,(443) 641-7198,,,,first name only - verify + address
+ADD-B,Kofi,(301) 267-8201,,,,first name only - verify + address
+ADD-B,Laura,(443) 789-9057,,,,first name only - verify + address
+ADD-B,Manny,(443) 653-7622,,,,first name only - verify + address
+ADD-B,Matt G,(410) 501-4293,,,,first name only - verify + address
+ADD-B,Miles,(443) 261-6280,,,,first name only - verify + address
+ADD-B,Paris,(410) 262-2028,,,,first name only - verify + address
+ADD-B,Penny,(410) 245-1445,,,,first name only - verify + address
+ADD-B,Quincy,(443) 974-4172,,,,first name only - verify + address
+ADD-B,Quinn,(443) 902-1044,,,,first name only - verify + address
+ADD-B,Ralph,(410) 218-6381,,,,first name only - verify + address
+ADD-B,Ron,(443) 370-3692,,,,first name only - verify + address
+ADD-B,Shane,(443) 821-4340,,,,first name only - verify + address
+ADD-B,Steph,(443) 340-7028,,,,first name only - verify + address
+ADD-B,Tajay,(443) 787-9193,,,,first name only - verify + address
+ADD-B,Tony,(410) 499-5577,,,,first name only - verify + address
+ADD-B,Vlad,(443) 742-1595,,,,first name only - verify + address
+ADD-B,Will M,(443) 974-3468,,,,first name only - verify + address
+ADD-B,Brandon (Mafia),(301) 974-9504,,,,nickname - verify + address
+ADD-B,Jim Po,(301) 674-3921,,,,first name only - verify + address
+ADD-B,Jessica (Rental),(443) 253-4688,,,,tagged renter - future buyer - prioritize
+ADD-B,Kitty (Renter),(410) 848-5780,,,,tagged renter - future buyer - prioritize

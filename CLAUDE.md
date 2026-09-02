@@ -38,6 +38,8 @@ use it.
   (`scripts/gen-image.ps1` + Gemini free tier); prompt templates + slot maps
 - [[projects/friedmanreteam-website.md]] — friedmanreteam.com build status
 - [[projects/prospecting-ledger-app.md]] — Ledger prospecting tracker app
+- [[projects/sign-listing-page.md]] — For Sale sign QR → /listings/active
+  (one permanent QR, editable current-listing page via Decap CMS)
 
 ## Reference
 - [[notes/brand-guidelines.md]] — visual identity, naming rules, brand voice
