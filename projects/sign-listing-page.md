@@ -77,7 +77,40 @@ still points at the single flagged one.
   - Re-added the `photos` list field to the CMS (manual fallback).
   - Config hints: compress photos < 400KB before upload.
 
-## PAUSED 2026-09-01 — 3 things to fix when resumed
+## Batch 4 (2026-09-02) — resumed, items 1 & 2 done, 3 staged
+
+- **1. Build-time Lofty pull — DONE.** New `scripts/fetch-sign-listing-data.mjs`
+  runs first in `prebuild`; for each `content/listings/*.md` with an `mlsId` it
+  calls Lofty once and bakes address/price/beds/baths/sqft/status/gallery/
+  remarks into `src/data/signListingsData.json`. `content.ts` + the manifest
+  generator merge it UNDER any CMS override. `SignListingPage.tsx` no longer
+  does any runtime fetch — removed the `useEffect`, the `mls*` state, the
+  `fetchMls*` imports, and the "Pulling the latest details…" line. Page is now
+  static + instant. New helper `fetchListingByMls()` in `server/mlsClient.js`.
+- **2. MDWC2023688 lookup — improved + made graceful.** `fetchListingByMls`
+  first tries a direct server-side MLS-number filter (a few field-name guesses),
+  then falls back to the keyword scan widened to 40 pages (`__maxPages`) since
+  build time can afford it. If it still finds nothing (Wicomico/Eastern Shore
+  is very likely outside Kyle's Lofty feed), the build **logs a clear warning
+  and does not fail** — the CMS override fields carry the page. `listing-1.md`
+  now has the 315 Park Ave values filled back in as overrides so it works today.
+- **3. Batch photo upload — STAGED, needs Kyle's action.** `public/admin/
+  config.yml` has a commented `media_library: { name: cloudinary }` block with
+  a 4-step setup (free Cloudinary account → cloud name + API key → uncomment →
+  commit). That switches the media picker to multi-select + auto-compress. The
+  GitHub folder-upload route (`public/images/listings/<slug>/`) still works as
+  the zero-dependency option.
+- Stray `public/images/uploads/img_0172.jpg` (13.8 MB) — **deleted** (`git rm`).
+
+**PAUSED AGAIN 2026-09-02.** Batch 4 code is written and `git add`-ed in the
+website repo but NOT committed or pushed — working tree has all 11 files staged.
+To resume: `cd ~/Documents/GitHub/The-friedman-team-website`, review `git diff
+--cached`, then commit + push. First real test is the Vercel build log
+(`[sign-listings]` line) since there's no local Node to build with.
+Still open: item 3 (Cloudinary account — Kyle's action, config block staged
+commented in `public/admin/config.yml`).
+
+## (historical) PAUSED 2026-09-01 — 3 things to fix when resumed
 
 Kyle tested batch 3 and stopped here. Admin is working (Decap, Sveltia
 reverted). Three open problems, in priority order:

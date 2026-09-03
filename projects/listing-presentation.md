@@ -10,7 +10,16 @@ A complete seller presentation package = **4 deliverables**:
    Kyle provides. Cover all comp categories present in the data (active,
    pending, sold) as an interactive deck, not a static PDF-style export.
 2. **Listing strategy Gamma presentation** — the seller-facing listing
-   strategy/pitch deck.
+   strategy/pitch deck. **Always include a "market-evidence pricing" section**
+   (added after the Wendy Fossen / 8302 Woodmont run, Sept 2026): a Bright MLS
+   one-line pull grouped into **active / pending / closed (last ~6 mo) /
+   withdrawn+expired+canceled (last ~12 mo)**, plus the subject's own listing
+   history and DOM/CDOM. Read the failed listings for the price ceiling; read
+   the price-cut history for what NOT to repeat. Land on one recommended list
+   price with "one price, no cut-ladder" framing. This is the part that makes
+   the number defensible instead of an opinion. Works especially for expired /
+   withdrawn re-lists — frame those as a **relaunch** (go dark, new photos,
+   coming-soon, new MLS #), not a price change on the dead listing.
 3. **Net proceeds** — two forms:
    - **Branded client PDF** (the deliverable Kyle attaches to the seller email):
      one page, FRIEDMAN wordmark + teal/gold, scenario columns, tax note,
@@ -57,8 +66,26 @@ standing next-steps logic, not appointment-specific.
 - Property address, county, and basic details (beds/baths/sqft/lot, list price target)
 - Seller name(s) and contact context
 - Any comps already pulled, or note to source via RPR/NarrPR
+- **Bright MLS one-line export** for the subject's competitive set (active /
+  pending / closed 6mo / withdrawn+expired+canceled 12mo) + Statistical Summary
+  if the tool gives it — feeds the market-evidence pricing section
 - Target list price and any known seller motivations/timeline
 - Estimated payoff/liens if known (for net proceeds accuracy)
+- Condo/HOA fee + what it covers (drives buyer affordability; put it in the analysis)
+- If it's an expired/withdrawn re-list: the prior listing's full price-cut
+  history and DOM, and whether Kyle knows of any building issue (reserves,
+  special assessment, rental cap, FHA/VA) behind slow sales
+
+## When there's no appointment booked (prospecting package)
+Cold or warm-lead package to earn the meeting. Same deliverables, but:
+- Cover email pitches a 30-min meeting instead of confirming one; references how
+  Kyle connected (e.g. cold call off the expired list)
+- Lead with the market-evidence pricing section + net proceeds; the "why me"
+  marketing content comes after
+- First run: Wendy Fossen / 8302 Woodmont Ave #203, Bethesda (Sept 2026) —
+  `listings/8302-woodmont-ave-203/`. Reusable PDF generators:
+  `scripts/pdf/listing-presentation-8302-woodmont.py` and
+  `scripts/pdf/net-proceeds-8302-woodmont.py` (copy + edit per listing).
 
 ## Standing build rules — do not deviate without asking
 - **Comp data**: source via RPR/NarrPR unless Kyle supplies comps directly.
