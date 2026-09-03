@@ -25,6 +25,8 @@ use it.
 
 ## Standing procedures — start here for recurring work
 - [[projects/listing-presentation.md]] — seller listing presentation package
+- [[projects/listing-scripts.md]] — vetting-call script (qualify before booking)
+  + listing-presentation close + objection handlers
 - [[projects/friedman-report.md]] — weekly Friedman Report
 - [[projects/friedman-report-log.md]] — weekly MLS data log (feeds the
   comparison table — check this before asking Kyle for data)
