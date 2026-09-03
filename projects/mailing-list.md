@@ -6,13 +6,24 @@ freebies are the hook to grow the list.
 
 ## Signup page (live on the website)
 `friedmanreteam.com/mailing-list` — `src/pages/MailingListPage.tsx`.
-- Fields: name, email, phone (optional), **full mailing address** (needed to
-  send the magnets/cards), and checkboxes for which freebies they want.
+- Premium layout matching LuxuryPage style: full-bleed dark hero, `Reveal`
+  scroll animations, product-image cards for the two schedule magnets, a
+  featured AM-card section with an auto-cycling "peek inside" panel (real
+  card blurbs), a 3-step "how it works", the monthly-email section, then the
+  form, then `ReviewsSection`.
+- Form rule: **first name + any one of {email, phone, full mailing address}**.
+  Last name / individual address fields optional. If a magnet is checked but
+  no address, a red nudge shows (doesn't block) and the FUB message flags
+  "NO MAILING ADDRESS PROVIDED".
 - Submits through the existing lead pipeline (`src/lib/leads.ts` →
   `api/leads.js` → Follow Up Boss `/v1/events`).
-- Extended the pipeline: it now also forwards a structured `addresses` entry
-  and `tags` to the FUB person. Event `type` "Mailing List" is sent to FUB as
-  "Registration" (FUB only allows fixed event types); segmentation is by tag.
+- Pipeline extended: forwards a structured `addresses` entry + `tags` to the
+  FUB person. Event `type` "Mailing List" → sent to FUB as "Registration"
+  (FUB only allows fixed event types); segmentation is by tag.
+- **Images:** `public/images/mailing-list/{football-schedule,baseball-schedule,
+  am-card,hero}.jpg` — Kyle uploads via GitHub. Missing = clean placeholder
+  ("image coming soon"); missing hero = just the dark background. README in
+  that folder has the exact names/sizes. Compress first (no raw phone photos).
 
 ## Pulling the mail-merge list out of Follow Up Boss
 Filter FUB people by tag:

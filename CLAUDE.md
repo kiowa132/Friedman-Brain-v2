@@ -34,6 +34,9 @@ use it.
 - [[projects/blog-article-log.md]] — topics already published
 - [[projects/sell-vs-rent-analysis.md]] — client sell vs. rent vs. HELOC
   comparison (framework, expense model, Section 121 rule)
+- [[projects/feasibility-analysis.md]] — buyer feasibility analysis (can a
+  move/purchase in a target area pencil): scope, inputs, section skeleton,
+  standing assumptions, Syed-run lessons
 - [[projects/report-images.md]] — free auto image generation for reports
   (`scripts/gen-image.ps1` + Gemini free tier); prompt templates + slot maps
 - [[projects/friedmanreteam-website.md]] — friedmanreteam.com build status
