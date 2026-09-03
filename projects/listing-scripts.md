@@ -22,6 +22,9 @@ Draft 3, Sept 2026. Iterate here.
   Bookmark on phone.)
 - PDF (2pp): `Appointment-Setting-Script.pdf` — generator
   `scripts/pdf/appt-setting-script.py`
+- **Part 3 (the question-led listing presentation) as its own printable PDF:**
+  `Listing-Presentation-Script.pdf` — generator
+  `scripts/pdf/listing-presentation-script.py`
 
 ---
 
@@ -245,21 +248,130 @@ asking for the meeting.
 
 ---
 
-# PART 3 — LISTING PRESENTATION CLOSE  *(build out later, per Kyle)*
+# PART 3 — THE LISTING PRESENTATION (question-led, mapped to the deck)
 
-**Trial close:** "So that's the whole process — highest price, shortest time.
-Does that make sense? Any questions on how any piece works?"
+**Principle:** never present a section cold. Every section is the answer to a
+question you just asked. Ask, they answer, you show that section and tie it to
+what they said, then you ask the next question, which opens the next section. It
+feels like a conversation because it is one. The deck (`Listing Presentation
+NEW.pdf`) is your visual aid, not your script.
 
-**The confirm:** "Okay, cool. So that's how we sell your home for the highest
-price in the shortest amount of time. And you're looking to sell your property,
-right?"
+Open light. No question battery up front.
 
-**Assumptive move:** "Great. Next step is the listing agreement so I can lock
-in the photographer and start the Coming Soon. Let's run through it." Start
-filling it in, narrate, go quiet.
+## 0. Set the frame (30 sec, no deck)
+> "Before I show you anything, this isn't a canned pitch. I'm going to ask you
+> some things, and every time you answer, I'll show you exactly how we handle
+> it. By the end you'll know your number, the plan, and whether I'm the right
+> person. Sound good? ... Cool. First one."
 
-**If they hesitate — isolate:** "Sounds like something's not quite there. Is it
-the price, the commission, the timing, or something about me and my team?"
+## 1. Why selling  →  deck: "Your Home"
+- **Ask:** "Walk me through why you're selling, and what the win looks like.
+  Where are you going, and by when?"
+- **Listen for:** real motivation, destination, timeline, what matters most
+  (price / speed / a clean move).
+- **Show — "Your Home" slide:** "Here's your home on paper. This is what a
+  buyer's agent, and Zillow, price off of, and none of them have seen inside.
+  That gap between the data and the real house is the first place we make you
+  money."
+- **Bridge:** "So the question is what it's actually worth. Want to see what's
+  really happening in your market?"
+
+## 2. → deck: "The Market Within 2 Miles" + "The Market"
+- **Ask:** "What have you seen selling around here, anything catch your eye,
+  good or bad?"
+- **Show — market slides:** "Every sale within two miles the last few months,
+  and the trend. The ones priced right were gone in [X] days. The ones that
+  chased the market down sat for [Y] and sold for less."
+- **Bridge:** "So how do we make sure yours is the one that's gone in days, not
+  the one that sits? That's pricing."
+
+## 3. → deck: "Pricing Your Property" (the decay chart)
+- **Ask:** "If you had to guess, when does a listing get the most attention:
+  week one, week four, or week eight?"  *(Most say later. They're wrong. Good.)*
+- **Show — pricing decay slide:** "Week one. 7 days is peak attention. After
+  that buyer activity drops, and perceived value drops with it. Homes that sit
+  24-plus weeks sell about 9% under market. So we don't price to test the
+  ceiling and walk it down. We price to hit that first week hard and create
+  competition."
+- **Bridge:** "That only works if enough buyers see it in week one. How do you
+  think most buyers are going to find your house?"
+
+## 4. → deck: "Your Marketing Strategy" (steps 1–10)
+- *(They answer "Zillow?" / "the sign?")*
+- **Show — marketing slides, fast:** "Some of them. Here's the whole machine,
+  ten steps. The part most agents skip is Coming Soon, we build a buyer
+  pipeline before it's even live, so day one there's already demand. Then
+  photography, the property site, brokers open, and a paid digital campaign,
+  plus me personally on the phone to agents and neighbors."
+- **Bridge:** "And that reach isn't a guess. Want to see the actual numbers?"
+
+## 5. → deck: "Social Media Online Reach" + "We Never Miss Buyer Calls"
+- **Show:** "Last listing: 82,000 views, 37,000 people, 30 days. It takes about
+  12 touches for a buyer to decide, so we hit them across platforms,
+  repeatedly. And every inquiry, the QR code, the 800 number, a 2am text, gets
+  captured and followed up. Nothing leaks."
+- **Bridge:** "So that's the marketing. Who actually does all this while you're
+  living your life?"
+
+## 6. → deck: "Your Team" + "Home Prep Advisor" + "Transaction Coordinator" + "Your Path to Success"
+- **Ask:** "Have you sold a home before? ... What was the most stressful part?"
+- **Listen for:** coordination, communication, the paperwork (usually).
+- **Show — team slides:** "That's exactly why it's not just me. I run strategy
+  and negotiation. A Home Prep Advisor gets it show-ready, what to fix, what to
+  skip, staging. A Transaction Coordinator owns every deadline and document
+  from contract to keys, so nothing falls through. This slide is the whole
+  track, start to finish."
+- **Bridge:** "Plan's solid, team's solid. Does all this actually get a
+  different result?"
+
+## 7. → deck: "Faster Sale + More Money" + testimonials + "About Kyle"
+- **Show — stats slide:** "It does. My listings sell at 101.6% of list versus
+  100.1% for the average agent, on a home like yours that's real money in your
+  pocket. 7 days on market versus 16. And here's what that's like to go
+  through, from people who did it."
+- **Bridge:** "Last thing before we talk number. What's your biggest worry
+  about listing? Be honest."
+
+## 8. → deck: "Communication Guarantee" + "Easy Exit Listing Agreement"
+- **Listen for:** getting stuck with the wrong agent, being left in the dark
+  (usually).
+- **Show — guarantee slides:** "Both of those are covered in writing. Feedback
+  in 48 hours, a call every week, I'm reachable 1 to 5 every day. And if I'm
+  not doing what I said, you fire me. No lengthy contract, no fight. You're
+  never stuck."
+- **Bridge into the close.**
+
+## THE CLOSE  (Kyle's version — keep it)
+> "So, that's how we sell homes for the highest price in the shortest time.
+> You do want to sell your home, right?"
+> — *Yes.*
+> "And have I shown you that I'm the best person to sell it, with the track
+> record and the strategy?"
+> — *Yes.*
+> "Perfect. Next step is the listing paperwork. We get it into the MLS as
+> Coming Soon and start building a pipeline of buyers before it even hits the
+> market. Let's fill it out."
+> → into paperwork; start filling it in, narrate, go quiet.
+
+**If either answer isn't a clean yes:** "What's the piece that's not quite
+there — the price, the plan, the commission, or me?" Handle that one thing
+(Part 4), then re-ask the two questions.
+
+## The question chain alone (the spine to memorize)
+1. Why selling / where to / by when?  → Your Home
+2. What have you seen selling nearby?  → The Market
+3. When does a listing get the most attention?  → Pricing decay
+4. How will buyers find it?  → Marketing (10 steps)
+5. *(show reach numbers)*  → Social reach + buyer capture
+6. Sold before? Most stressful part?  → Team + Path + roles
+7. *(show it gets a different result)*  → Stats + testimonials + About Kyle
+8. Biggest worry about listing?  → Guarantees + Easy Exit
+9. Close.
+
+## Deck fixes to make (noted Sept 2026)
+- "Friedman Real Estate Team" → **"The Friedman Team"** throughout.
+- "17 years in real estate" (Faster Sale slide) contradicts the About-Kyle copy
+  ("since 2020 / nearly a decade"). Pick one.
 
 ---
 

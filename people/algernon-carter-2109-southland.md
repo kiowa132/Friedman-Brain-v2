@@ -28,4 +28,19 @@
 - [ ] Pre-appointment email — drafted, needs appointment date/time
 - [ ] Listing agreement — draft after the appointment / good-fit confirmation
 
+## Buyer side — active property search (Sept 2026)
+Kyle sent him listings; Algernon texted back asking about 4. All renovated flips,
+Baltimore County + City, all at or over his ~$340K VA ceiling. Research +
+recommendation emailed. Comparison: `people/Algernon-4-Property-Comparison.pdf`
+(generator `scripts/pdf/algernon-4-property-compare.py`).
+
+| Address | Price | Bd/Ba | DOM | Negotiation read |
+|---|---|---|---|---|
+| 6301 Liberty Rd, Gwynn Oak (County) | $350,000 | 4/2, 2,200sf | 56 | **HIGH** — 5 listings since 3/25, $420K→$350K, also unrentable. Target low $330s + closing help. Con: on busy Liberty Rd. |
+| 4315 W Forest Park Ave (City) | $339,900 | 5/2.5, 1,566sf | 6 | Low now — near ask + VA credit. **Only one that fits the approval.** City taxes high. |
+| 1018 Wilmington Ave (City, SW) | $345,000 | 3/2.5, 1,475sf | 24 | Some — $335–340K + credit. Weakest area/schools, window AC. |
+| 6909 Digby Rd, Gwynn Oak (County) | $375,000 | 4/2, 2,040sf | 1 | None yet (fresh flip, sold $255K 7/26). Best schools (Pikesville). Revisit in a month. |
+
+Recommendation: tour **6301 Liberty** + **4315 W Forest Park** first.
+
 See [[listing-presentation]] for the standing process.

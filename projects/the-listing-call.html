@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A tap-through script runner for a listing appointment-setting call.">
+<meta name="color-scheme" content="light dark">
+<title>The Listing Call</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root{color-scheme:light dark}
+  html{-webkit-text-size-adjust:100%}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+  :root{
+    --ground:#F4F2ED;
+    --surface:#FFFFFF;
+    --surface-2:#EFEBE2;
+    --ink:#122324;
+    --muted:#5C6A6B;
+    --hair:#DED8CB;
+    --teal:#0F5C63;
+    --teal-ink:#FBFAF7;
+    --gold:#B4915A;
+    --say-bg:#FBF4E6;
+    --say-bar:#C9A96A;
+    --go:#2E7A57;
+    --go-bg:#E7F1EA;
+    --hold:#A5641B;
+    --hold-bg:#F6ECDD;
+    --focus:#0F5C63;
+    --shadow:0 1px 2px rgba(18,35,36,.06), 0 8px 24px -12px rgba(18,35,36,.18);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0D1718;
+      --surface:#152526;
+      --surface-2:#1D3132;
+      --ink:#E9EFEE;
+      --muted:#94A6A5;
+      --hair:#264041;
+      --teal:#63B3B0;
+      --teal-ink:#0C2A2B;
+      --gold:#D8BE8A;
+      --say-bg:#20302A;
+      --say-bar:#C9A96A;
+      --go:#5FBF92;
+      --go-bg:#182E26;
+      --hold:#E0A45C;
+      --hold-bg:#33271A;
+      --focus:#8FD3D0;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.55);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0D1718;
+    --surface:#152526;
+    --surface-2:#1D3132;
+    --ink:#E9EFEE;
+    --muted:#94A6A5;
+    --hair:#264041;
+    --teal:#63B3B0;
+    --teal-ink:#0C2A2B;
+    --gold:#D8BE8A;
+    --say-bg:#20302A;
+    --say-bar:#C9A96A;
+    --go:#5FBF92;
+    --go-bg:#182E26;
+    --hold:#E0A45C;
+    --hold-bg:#33271A;
+    --focus:#8FD3D0;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.55);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--ground);color:var(--ink);
+    font-family:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    -webkit-text-size-adjust:100%;
+    line-height:1.5;
+  }
+  .wrap{max-width:600px;margin:0 auto;padding:22px 18px 132px;}
+
+  header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}
+  .brand{font-family:"Instrument Serif",Georgia,serif;font-size:27px;line-height:1;letter-spacing:.01em}
+  .brand em{font-style:italic;color:var(--teal)}
+  .theme-btn{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.08em;
+    color:var(--muted);background:none;border:1px solid var(--hair);border-radius:999px;
+    padding:6px 11px;cursor:pointer;
+  }
+  .theme-btn:hover{color:var(--ink);border-color:var(--muted)}
+
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+  .eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+  /* details panel */
+  .details{border:1px solid var(--hair);border-radius:10px;background:var(--surface);margin-bottom:16px;overflow:hidden}
+  .details>summary{
+    list-style:none;cursor:pointer;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;
+    font-size:13px;font-weight:600;color:var(--ink);
+  }
+  .details>summary::-webkit-details-marker{display:none}
+  .details>summary .hint{font-weight:400;color:var(--muted);font-size:12px}
+  .details[open]>summary{border-bottom:1px solid var(--hair)}
+  .fields{padding:12px 14px 14px;display:grid;grid-template-columns:1fr 1fr;gap:10px 12px}
+  .fields .full{grid-column:1/-1}
+  .fields label{display:flex;flex-direction:column;gap:4px}
+  .fields span{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .fields input{
+    font-family:inherit;font-size:14px;color:var(--ink);background:var(--ground);
+    border:1px solid var(--hair);border-radius:7px;padding:8px 9px;width:100%;
+  }
+  .fields input:focus-visible{outline:2px solid var(--focus);outline-offset:1px;border-color:var(--focus)}
+
+  /* scenario tabs */
+  .tabs{display:flex;gap:6px;background:var(--surface-2);border-radius:10px;padding:4px;margin-bottom:16px}
+  .tabs button{
+    flex:1;font-family:inherit;font-size:12.5px;font-weight:600;color:var(--muted);
+    background:none;border:0;border-radius:7px;padding:9px 4px;cursor:pointer;letter-spacing:.01em;
+  }
+  .tabs button[aria-selected="true"]{background:var(--surface);color:var(--teal);box-shadow:var(--shadow)}
+
+  /* progress */
+  .prog{height:4px;border-radius:999px;background:var(--surface-2);overflow:hidden;margin-bottom:6px}
+  .prog i{display:block;height:100%;background:var(--teal);border-radius:999px;transition:width .3s ease}
+  .stepline{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
+
+  /* card */
+  .card{
+    background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:20px 18px;
+    box-shadow:var(--shadow);
+  }
+  .card h2{
+    font-family:"Instrument Sans",sans-serif;font-weight:700;font-size:19px;letter-spacing:-.01em;
+    margin:6px 0 14px;text-wrap:balance;
+  }
+  .say{
+    background:var(--say-bg);border-left:4px solid var(--say-bar);border-radius:0 8px 8px 0;
+    padding:14px 15px;margin:0 0 14px;
+    font-family:"Instrument Serif",Georgia,serif;font-size:20.5px;line-height:1.46;color:var(--ink);
+  }
+  .say + .say{margin-top:-4px}
+  .say mark{
+    background:transparent;color:var(--gold);font-family:"IBM Plex Mono",monospace;font-size:.72em;
+    letter-spacing:.02em;border-bottom:1.5px dotted var(--gold);padding-bottom:1px;
+  }
+  .listen{display:flex;gap:8px;font-size:13.5px;color:var(--muted);line-height:1.5}
+  .listen b{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);flex:none;padding-top:2px}
+
+  .branch{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:4px}
+  .branch button{font-family:inherit;font-weight:600;font-size:14px;border-radius:9px;padding:13px 10px;cursor:pointer;border:1px solid transparent;line-height:1.3}
+  .branch small{font-weight:400;opacity:.8;font-size:11.5px}
+  .b-go{background:var(--go-bg);color:var(--go);border-color:var(--go)}
+  .b-hold{background:var(--hold-bg);color:var(--hold);border-color:var(--hold)}
+  .b-go:hover,.b-hold:hover{filter:brightness(.97)}
+  .shortcut{
+    display:block;width:100%;margin-top:12px;font-family:inherit;font-weight:600;font-size:13.5px;
+    background:var(--go-bg);color:var(--go);border:1px solid var(--go);border-radius:9px;padding:11px 12px;cursor:pointer;
+  }
+  .shortcut:hover{filter:brightness(.97)}
+
+  /* nav */
+  .nav{
+    position:fixed;left:0;right:0;bottom:0;background:var(--ground);
+    border-top:1px solid var(--hair);padding:12px 18px calc(12px + env(safe-area-inset-bottom));
+  }
+  .nav-inner{max-width:600px;margin:0 auto;display:flex;gap:10px;align-items:center}
+  .btn{font-family:inherit;font-weight:600;font-size:15px;border-radius:10px;padding:14px 16px;cursor:pointer;border:1px solid var(--hair);background:var(--surface);color:var(--ink);min-height:50px}
+  .btn:hover{border-color:var(--muted)}
+  .btn-primary{background:var(--teal);color:var(--teal-ink);border-color:var(--teal);flex:1}
+  .btn-primary:hover{filter:brightness(1.06)}
+  .btn-ghost{color:var(--muted)}
+  .btn-obj{background:none;border:1px solid var(--hair);color:var(--muted);font-weight:600}
+  .btn-obj:hover{color:var(--gold);border-color:var(--gold)}
+  button:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+  /* objections dialog */
+  dialog{
+    border:0;padding:0;max-width:600px;width:calc(100% - 20px);margin:auto auto 0;
+    background:var(--surface);color:var(--ink);border-radius:16px 16px 0 0;
+    box-shadow:0 -10px 40px -12px rgba(0,0,0,.4);
+  }
+  dialog::backdrop{background:rgba(10,20,20,.5)}
+  .sheet{padding:18px 18px calc(20px + env(safe-area-inset-bottom))}
+  .sheet-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .sheet-head h3{margin:0;font-size:16px;font-weight:700}
+  .x{background:none;border:0;font-size:22px;line-height:1;color:var(--muted);cursor:pointer;padding:4px}
+  .obj{border-top:1px solid var(--hair);padding:12px 0}
+  .obj p{margin:0}
+  .obj .q{font-weight:600;font-size:14px;margin-bottom:4px}
+  .obj .a{font-family:"Instrument Serif",Georgia,serif;font-size:17px;line-height:1.42;color:var(--ink)}
+  .obj.pass .q{color:var(--hold)}
+
+  .foot{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+  .foot button{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit}
+
+  @media (max-width:420px){
+    .fields{grid-template-columns:1fr}
+    .brand{font-size:24px}
+    .say{font-size:19px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .prog i{transition:none}
+    .fade{animation:none !important}
+  }
+  .fade{animation:fade .22s ease both}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">The <em>Listing</em> Call</div>
+    <button class="theme-btn" id="theme" type="button">THEME</button>
+  </header>
+
+  <details class="details" id="details" open>
+    <summary>Your call details <span class="hint">tap to fill / hide</span></summary>
+    <div class="fields">
+      <label class="full"><span>Seller name</span><input id="f-name" placeholder="Jefferson" autocomplete="off"></label>
+      <label class="full"><span>Property (street)</span><input id="f-addr" placeholder="Havre De Grace Dr" autocomplete="off"></label>
+      <label><span>Comp sold #1</span><input id="f-compA" placeholder="$480,000" autocomplete="off"></label>
+      <label><span>Comp sold #2</span><input id="f-compB" placeholder="$470,000" autocomplete="off"></label>
+      <label><span>Their goal</span><input id="f-goal" placeholder="into your next place" autocomplete="off"></label>
+      <label><span>Their timeline</span><input id="f-date" placeholder="spring" autocomplete="off"></label>
+    </div>
+  </details>
+
+  <div class="tabs" role="tablist" aria-label="Call type">
+    <button role="tab" data-sc="expired" aria-selected="true">Expired</button>
+    <button role="tab" data-sc="followup" aria-selected="false">Follow-up</button>
+    <button role="tab" data-sc="warm" aria-selected="false">Warm</button>
+  </div>
+
+  <div class="prog"><i id="bar"></i></div>
+  <div class="stepline">
+    <span class="eyebrow" id="stepno">Step 1 / 9</span>
+    <span class="eyebrow" id="stepname">Intro</span>
+  </div>
+
+  <div class="card" id="card"><!-- rendered --></div>
+
+  <p class="foot"><button id="restart" type="button">Start the call over</button></p>
+</div>
+
+<div class="nav">
+  <div class="nav-inner">
+    <button class="btn btn-obj" id="objBtn" type="button">Objections</button>
+    <button class="btn btn-ghost" id="back" type="button">Back</button>
+    <button class="btn btn-primary" id="next" type="button">Next</button>
+  </div>
+</div>
+
+<dialog id="objDlg">
+  <div class="sheet">
+    <div class="sheet-head">
+      <h3>Objection handlers</h3>
+      <button class="x" id="objX" type="button" aria-label="Close">&times;</button>
+    </div>
+    <div id="objList"></div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  "use strict";
+  var LS = {
+    get:function(k){try{return JSON.parse(localStorage.getItem(k));}catch(e){return null;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  var fieldIds = ["name","addr","compA","compB","goal","date"];
+  var fields = LS.get("flc.fields") || {};
+  fieldIds.forEach(function(id){
+    var el = document.getElementById("f-"+id);
+    if(fields[id]) el.value = fields[id];
+    el.addEventListener("input", function(){
+      fields[id] = el.value.trim();
+      LS.set("flc.fields", fields);
+      render();
+    });
+  });
+  function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+  function P(key, fallback){
+    var v = (fields[key]||"").trim();
+    return v ? esc(v) : '<mark>['+fallback+']</mark>';
+  }
+
+  // ---- FLOWS ------------------------------------------------------------
+  // each step: {name, eyebrow?, say:[], listen?,
+  //   branch?:{q, a:{label,to}, b:{label,to}},   // two-way fork by index
+  //   shortcut?:{label, to},                     // green jump (e.g. "they said yes")
+  //   end?:true }                                // terminal step, no Next
+  function FLOWS(){
+   var LOCK = { name:"Lock the appointment", eyebrow:"Confirm", end:true, say:[
+     '"Great. Will your spouse / co-owner be there too? I want everyone who’s part of the decision in the room."',
+     '"So that’s [day] at [time], '+P("addr","the address")+', about 20 to 30 minutes. I’ll text you a confirmation now."'
+   ], listen:"Every decision-maker present, or you’re doing this twice." };
+
+   return {
+    // ================= EXPIRED — book fast, qualify after, back out if needed
+    expired: [
+      { name:"Open", say:[
+        '"Hi '+P("name","name")+', Kyle Friedman. Quick question about your house on '+P("addr","street")+' — got 30 seconds? ... Thanks."',
+        '"Is that one sold and closed, or is it still available at the right price?"'
+      ]},
+      { name:"Plant the confidence", say:[
+        '"We just listed one a few blocks from you — had a ton of showings the first weekend. Honestly, I was surprised yours didn’t sell."',
+        '"I’ve looked at your area. I’m certain that home should have sold, and I think I know why it didn’t."'
+      ]},
+      { name:"Ask for the appointment — right now", say:[
+        '"I’m going to be over there tomorrow anyway. Let me swing by for 15 or 20 minutes and show you exactly what we’d do to relaunch it and get it sold this time. Does 5 work, or is the morning better?"'
+      ], listen:"Don’t qualify yet. Just get a yes on a time." },
+      { name:"They agreed — now qualify", eyebrow:"Ask this",
+        say:[
+          '"Perfect. Before I make the trip, let me ask you a couple quick things so neither of us wastes an afternoon."',
+          '"What was the plan when you decided to sell — where were you headed, and by when? ... Are you still 100% on selling? ... What did the last agent actually do, and not do? ... What number are you attached to, and where’d it come from?"'
+        ],
+        listen:"Real timeline? For-sure seller? Coachable on price?",
+        branch:{ a:{label:"Checks out", sub:"Lock it in", to:4}, b:{label:"Not a real seller", sub:"Back out gracefully", to:5} }
+      },
+      LOCK,
+      { name:"Back out (soft exit)", eyebrow:"If they don’t qualify", end:true, say:[
+        '"You know what — before I make the trip, let me just send you the breakdown of what actually sold on your street, and why I think yours stalled."',
+        '"Look it over. If it makes you want to take another swing, call me and I’ll come out. Fair?"'
+      ], listen:"Downgraded, not dropped. Back into follow-up." }
+    ],
+
+    // ================= FOLLOW-UP — you keep calling, they won’t book. Lower the ask.
+    followup: [
+      { name:"Reconnect", say:[
+        '"Hey '+P("name","name")+', it’s Kyle — following up on '+P("addr","the place")+'. Got a minute?"'
+      ]},
+      { name:"Give them a reason for the call", say:[
+        'Have a fresh one every time — never "just checking in":',
+        '"A house near you just went pending around '+P("compA","$X")+'." &nbsp;·&nbsp; "Prices in your zip moved this month." &nbsp;·&nbsp; "I had a buyer asking about your street." → "Made me think of you."'
+      ], listen:"If you don’t have a real reason, don’t call yet." },
+      { name:"Status check", say:[
+        '"Where’s your head at on selling these days — anything changed on your end?"',
+        '"What’s still holding you up from just getting a plan together?"'
+      ], listen:"Name the real blocker: timing, price, a repair, the spouse.",
+        shortcut:{ label:"✓ They’re ready to meet — lock it", to:6 } },
+      { name:"Ask for the appointment — direct", say:[
+        '"Let’s just put 20 minutes on the calendar. I’ll bring your real number and your net sheet — no pitch. Does tomorrow or Thursday work better?"'
+      ], shortcut:{ label:"✓ They said yes — lock it", to:6 } },
+      { name:"Lower the ask — the free evaluation", say:[
+        '"Okay, how about this. No meeting. I’ll do a free evaluation and drop it by: what it’d sell for, what to fix and what not to bother with, and your closing costs so you know your walkaway number. 15 minutes, no pitch. Fair?"'
+      ], listen:"Smaller ask, foot in the door.",
+        shortcut:{ label:"✓ They said yes — lock it", to:6 } },
+      { name:"Set the next touch", eyebrow:"If it’s still a no", end:true, say:[
+        '"No problem at all. I’ll keep you posted when something sells nearby. When you’re ready to look at real numbers, I’m one call away."',
+        'Log the next follow-up: 2 to 3 weeks out, with a new reason ready.'
+      ], listen:"Not a rejection. Just not yet." },
+      LOCK
+    ],
+
+    // ================= WARM — they’re already interested. Full discovery, then book.
+    warm: [
+      { name:"Reconnect", say:[
+        '"Hey '+P("name","name")+', it’s Kyle. We talked about the place on '+P("addr","street")+'. I pulled the numbers after we hung up. Got a few minutes?"'
+      ]},
+      { name:"Rapport", say:[
+        'Looks like / sounds like / feels like. Talk about your day, listen to the background.',
+        '"How long have you owned the place? ... How long in the area?"'
+      ], listen:"What’s the real reason this is coming up?" },
+      { name:"Motivation", say:[
+        '"So walk me through it — what’s got you thinking about selling? ... Why now, and not six months from now? ... Where are you headed, and when do you want to be there? ... Besides top dollar, what matters most — speed, certainty, an easy move?"'
+      ], listen:"Real deadline? For-sure seller? Both spouses on board?" },
+      { name:"Condition", say:[
+        '"What kind of shape is it in — honestly, not the Zillow version? ... Roof, kitchen, baths, HVAC — anything major done, or mostly original? ... Open to a little prep before it goes live if it gets you more?"'
+      ]},
+      { name:"Their number + ballpark", say:[
+        '"What number do you have in your head — and where’d it come from?"',
+        '"Listen, if I told you a million you’d be thrilled and a hundred grand you’d hang up. I just want to know if we’re in the same ballpark so I’m not wasting your time or mine."'
+      ], listen:"Coachable, or married to a fantasy number?" },
+      { name:"Anchor + book", say:[
+        '"Here’s where I’m at. We just sold one down the street for '+P("compA","$X")+' and another for '+P("compB","$Y")+'. From what you’ve told me you’re probably in that range, maybe a bit more with the updates."',
+        '"The only way I give you a real number instead of a guess is to see it — 30 minutes. I’ll show you exactly how I’d price and market it to get you '+P("goal","their goal")+' by '+P("date","their date")+'. Tomorrow at 5 or Thursday at 3?"'
+      ]},
+      LOCK
+    ]
+   };
+  }
+
+  var objections = [
+    { q:'"Zillow / the tax assessment says X"',
+      a:'"We used to lean on those, but they over- and under-value all the time. The only accurate way is similar homes that actually sold near you. That’s what I’ll bring."' },
+    { q:'"My friend’s a realtor / another agent said higher"',
+      a:'"That happens a lot. Some agents give you a high number to win the listing, then spend three months walking you back down while the house sits. I’ll give you what the market will actually pay. If I’m low, we adjust up — that’s the good problem."' },
+    { q:'"I want to think about it"',
+      a:'"What specifically — me, the timing, or the price?"' },
+    { q:'"I want to talk to my spouse"',
+      a:'"No problem, you know them better than I do. What do you think they’ll say? ... Let’s just get all of us in the room when we meet so I’m not answering through you."' },
+    { q:'"Just send me something"',
+      a:'"I can send a range, but it’ll be off by 20 or 30 grand without seeing inside. 20 minutes in person and you get a real number and your net sheet."' }
+  ];
+
+  // ---- state ----------------------------------------------------------
+  var sc = LS.get("flc.sc") || "expired";
+  var i = 0;
+  var hist = [];   // index history for Back across jumps
+
+  var card = document.getElementById("card");
+  var bar = document.getElementById("bar");
+  var stepno = document.getElementById("stepno");
+  var stepname = document.getElementById("stepname");
+  var backBtn = document.getElementById("back");
+  var nextBtn = document.getElementById("next");
+
+  function flow(){ return FLOWS()[sc]; }
+
+  function goto(idx){ hist.push(i); i = idx; render(); }
+
+  function render(){
+    var arr = flow();
+    var s = arr[i];
+    var total = arr.length;
+    var html = "";
+
+    stepno.textContent = "Step " + (i+1);
+    stepname.textContent = s.name;
+    bar.style.width = Math.round(i/(total-1)*100) + "%";
+
+    html += '<span class="eyebrow">' + (s.eyebrow || "Say this") + '</span>';
+    html += '<h2>' + s.name + '</h2>';
+    s.say.forEach(function(line){ html += '<p class="say">' + line + '</p>'; });
+    if(s.listen) html += '<div class="listen"><b>Listen for</b><span>' + s.listen + '</span></div>';
+
+    if(s.branch){
+      html += '<div class="branch">'
+        + '<button class="b-go" data-to="'+s.branch.a.to+'" type="button">'+s.branch.a.label+' &rarr;<br><small>'+s.branch.a.sub+'</small></button>'
+        + '<button class="b-hold" data-to="'+s.branch.b.to+'" type="button">'+s.branch.b.label+' &rarr;<br><small>'+s.branch.b.sub+'</small></button>'
+        + '</div>';
+    }
+    if(s.shortcut){
+      html += '<button class="shortcut" data-to="'+s.shortcut.to+'" type="button">'+s.shortcut.label+'</button>';
+    }
+
+    card.className = "card fade";
+    card.innerHTML = html;
+    void card.offsetWidth;
+
+    Array.prototype.forEach.call(card.querySelectorAll('[data-to]'), function(b){
+      b.onclick = function(){ goto(parseInt(b.dataset.to,10)); window.scrollTo({top:0,behavior:"smooth"}); };
+    });
+
+    backBtn.style.visibility = (i===0 && hist.length===0) ? "hidden" : "visible";
+    if(s.end){
+      nextBtn.textContent = "Done";
+      nextBtn.disabled = true;
+    } else if(s.branch){
+      nextBtn.textContent = "Pick one ↑";
+      nextBtn.disabled = true;
+    } else {
+      nextBtn.textContent = "Next";
+      nextBtn.disabled = false;
+    }
+  }
+
+  nextBtn.onclick = function(){
+    var arr = flow(), s = arr[i];
+    if(s.end || s.branch) return;
+    if(i < arr.length-1){ hist.push(i); i++; render(); }
+  };
+  backBtn.onclick = function(){
+    if(hist.length){ i = hist.pop(); render(); }
+    else if(i>0){ i--; render(); }
+  };
+
+  document.addEventListener("keydown", function(e){
+    if(document.getElementById("objDlg").open) return;
+    if(e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+    if(e.key === "ArrowRight" || e.key === "Enter"){ nextBtn.click(); }
+    if(e.key === "ArrowLeft"){ backBtn.click(); }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(b){
+    b.onclick = function(){
+      Array.prototype.forEach.call(document.querySelectorAll('.tabs button'), function(x){ x.setAttribute("aria-selected","false"); });
+      b.setAttribute("aria-selected","true");
+      sc = b.dataset.sc; LS.set("flc.sc", sc);
+      i = 0; hist = []; render();
+    };
+    if(b.dataset.sc === sc) b.click();
+  });
+
+  document.getElementById("restart").onclick = function(){ i=0; hist=[]; render(); window.scrollTo({top:0,behavior:"smooth"}); };
+
+  var dlg = document.getElementById("objDlg");
+  document.getElementById("objList").innerHTML = objections.map(function(o){
+    return '<div class="obj"><p class="q">'+o.q+'</p><p class="a">'+o.a+'</p></div>';
+  }).join("") + '<div class="obj pass"><p class="q">The pass — for when the answers stay soft</p>'
+    + '<p class="a">"Honestly, I don’t think you’re quite ready to list, and I’d be doing you a disservice pretending you are. '
+    + 'I’ll send you the sold data for your street. When you’ve got a real timeline, call me."</p></div>';
+  document.getElementById("objBtn").onclick = function(){ if(dlg.showModal) dlg.showModal(); else dlg.setAttribute("open",""); };
+  document.getElementById("objX").onclick = function(){ dlg.close(); };
+  dlg.addEventListener("click", function(e){ if(e.target === dlg) dlg.close(); });
+
+  var themeBtn = document.getElementById("theme");
+  var mode = LS.get("flc.theme") || "system";
+  function applyTheme(){
+    if(mode === "system") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", mode);
+    themeBtn.textContent = mode.toUpperCase();
+  }
+  themeBtn.onclick = function(){
+    mode = mode === "system" ? "light" : mode === "light" ? "dark" : "system";
+    LS.set("flc.theme", mode); applyTheme();
+  };
+  applyTheme();
+
+  var det = document.getElementById("details");
+  if(LS.get("flc.det") === false) det.removeAttribute("open");
+  det.addEventListener("toggle", function(){ LS.set("flc.det", det.open); });
+
+  render();
+})();
+</script>
+</body>
+</html>
