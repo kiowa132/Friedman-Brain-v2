@@ -102,13 +102,26 @@ still points at the single flagged one.
   the zero-dependency option.
 - Stray `public/images/uploads/img_0172.jpg` (13.8 MB) — **deleted** (`git rm`).
 
-**PAUSED AGAIN 2026-09-02.** Batch 4 code is written and `git add`-ed in the
-website repo but NOT committed or pushed — working tree has all 11 files staged.
-To resume: `cd ~/Documents/GitHub/The-friedman-team-website`, review `git diff
---cached`, then commit + push. First real test is the Vercel build log
-(`[sign-listings]` line) since there's no local Node to build with.
-Still open: item 3 (Cloudinary account — Kyle's action, config block staged
-commented in `public/admin/config.yml`).
+**DEPLOYED + VERIFIED 2026-09-03.** Batch 4 committed as `c0d62c4` (Kyle,
+2026-09-02) and pushed. Live on friedmanreteam.com:
+- `/listings/listing-1` renders instantly with the 315 Park Ave overrides,
+  **no "pulling the latest details" spinner** — the runtime Lofty fetch is gone.
+- `/listings/active` redirects to `/listings/listing-1` correctly.
+Not checked: whether the build-time `[sign-listings]` script actually resolved
+MDWC2023688 from Lofty or fell back to the CMS overrides — look at the Vercel
+deployment build log for the `[sign-listings]` line if it matters. Page shows
+correct data either way (CMS overrides win).
+
+**Still open: item 3, batch photo upload (Cloudinary).** Kyle's action:
+1. Free account at cloudinary.com/users/register_free
+2. Dashboard → Product Environment → copy the **Cloud name** and **API Key**
+   (NOT the API Secret)
+3. In `public/admin/config.yml`, fill those into the commented `media_library:`
+   block near the top and remove the leading `# ` from its 6 lines
+4. Commit + push. The `/admin` media picker becomes Cloudinary: multi-select
+   upload + automatic compression (also fixes the huge-phone-photo problem).
+The GitHub folder route (`public/images/listings/<slug>/`) still works as the
+no-account fallback.
 
 ## (historical) PAUSED 2026-09-01 — 3 things to fix when resumed
 
