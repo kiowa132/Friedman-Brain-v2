@@ -123,6 +123,12 @@ Cloudinary with multi-select. Photos store on Cloudinary's CDN and are
 referenced by URL; `SignListingPage` already handles http image URLs.
 GitHub folder route (`public/images/listings/<slug>/`) still works as a fallback.
 
+**Cloudinary free tier caps single uploads at 10 MB** — raw iPhone photos
+(10-20 MB) get rejected. Compress first with
+`scripts/compress-photos.py "<folder of raw photos>"` → outputs a `web\` folder
+of ~1-3 MB `01.jpg, 02.jpg...` (2048px long edge, auto-rotated), then upload
+those. (Auto-compression on Cloudinary is delivery-time, not upload-time.)
+
 ## (historical) PAUSED 2026-09-01 — 3 things to fix when resumed
 
 Kyle tested batch 3 and stopped here. Admin is working (Decap, Sveltia
