@@ -112,16 +112,16 @@ MDWC2023688 from Lofty or fell back to the CMS overrides — look at the Vercel
 deployment build log for the `[sign-listings]` line if it matters. Page shows
 correct data either way (CMS overrides win).
 
-**Still open: item 3, batch photo upload (Cloudinary).** Kyle's action:
-1. Free account at cloudinary.com/users/register_free
-2. Dashboard → Product Environment → copy the **Cloud name** and **API Key**
-   (NOT the API Secret)
-3. In `public/admin/config.yml`, fill those into the commented `media_library:`
-   block near the top and remove the leading `# ` from its 6 lines
-4. Commit + push. The `/admin` media picker becomes Cloudinary: multi-select
-   upload + automatic compression (also fixes the huge-phone-photo problem).
-The GitHub folder route (`public/images/listings/<slug>/`) still works as the
-no-account fallback.
+**Item 3, batch photo upload (Cloudinary) — DONE 2026-09-03.** `public/admin/
+config.yml` now has a live `media_library: { name: cloudinary }` block
+(cloud_name `nz8ywyg0`, api_key `166132664384538`, `multiple: true`).
+Committed + pushed as `6f71df2`. cloud_name + api_key are publishable; the API
+*secret* is never used by this widget and is not in the repo.
+**Verify after deploy:** open `/admin`, confirm it still loads (a config.yml
+typo breaks it), then add photos to a Sign Listing — the picker should be
+Cloudinary with multi-select. Photos store on Cloudinary's CDN and are
+referenced by URL; `SignListingPage` already handles http image URLs.
+GitHub folder route (`public/images/listings/<slug>/`) still works as a fallback.
 
 ## (historical) PAUSED 2026-09-01 — 3 things to fix when resumed
 
