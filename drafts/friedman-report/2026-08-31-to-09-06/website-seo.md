@@ -140,17 +140,26 @@ concentrated north of Baltimore.
 
 ## This Week's Maryland Home Price Extremes
 
-No individual listing sheet was provided this week, so the figures below
-are statewide aggregate values from the Bright MLS pull rather than
-specific named properties.
+The priciest listing on the Maryland market this week is **5289 Ferry
+Neck Rd, Royal Oak, MD 21662**, listed at **$6,890,000**. It is a
+145.85-acre waterfront estate on Fox Hole Cove in Talbot County: roughly
+1,000 feet of shoreline, three ponds, white-fenced pasture and paddocks,
+a five-stall barn, a two-bedroom guest house, a resort-style pool with
+its own pool house, a private pier and boathouse, and a Colonial main
+residence (4 beds, 4 full and 1 half baths, 9,117 square feet above
+grade, built 1900) with heart-pine floors and water views from nearly
+every main-level room. It first listed in the spring at $7,445,000, went
+off-market over the summer, and returned to active this week at
+$6,890,000, a $555,000 reduction.
 
-The priciest closed sale in Maryland this week went for **$6,250,000**,
-down from an original list price of $6,950,000. The most affordable
-closed sale went for **$7,000**, the low end of the range this week,
-almost certainly a land parcel or a shell-condition rehab. New listings
-this week ranged from **$2,250 to $7,445,000** in original list price, a
-reminder that Maryland's statewide $440,000 median sits on top of an
-enormous spread.
+The most affordable listing this week is **2818 Presstman St, Baltimore,
+MD 21216**, an online auction listing in the Northwest Community Action
+neighborhood of west Baltimore. It is a two-story brick rowhouse, 3
+bedrooms, 1 full and 1 half baths, 1,400 square feet above grade, built
+1940. The **$10,000 list price is the opening bid only**; bidding runs
+September 29 to 30 and the final sale price will land higher. Same state,
+same seven-day window, a spread of nearly $6.9 million, a reminder that
+Maryland's statewide $440,000 median sits on top of an enormous range.
 
 **Fastest Moving County:** Harford County, 25-day average days on market,
 55 closings

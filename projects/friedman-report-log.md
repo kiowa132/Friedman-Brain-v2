@@ -187,9 +187,16 @@ reflects the wider data set, not the market.*
   being off. Per Kyle: nothing that implies counties were missed in
   earlier reports. Banner headline "Steady Into Fall". Deep Dive is the
   99% sold-to-original-list stat.
-  No individual listing sheet provided — Market Movers used statewide
-  aggregate: priciest closing $6,250,000 (orig list $6,950,000), lowest
-  closing $7,000; new-listing original-list range $2,250–$7,445,000.
+  Price Extremes / Market Movers (Kyle supplied real sheets 2026-09-07,
+  edition updated): PRICIEST LISTING 5289 Ferry Neck Rd, Royal Oak, MD
+  21662 (Talbot Co.) — $6,890,000 current / $7,445,000 orig list
+  (−$555K); 145.85ac waterfront estate, Fox Hole Cove, 4bd/4.1ba, 9,117
+  sf, built 1900, back to Active 9/3 after a summer TOM stint; MLS
+  MDTA2013076; Long & Foster. MOST AFFORDABLE LISTING 2818 Presstman St,
+  Baltimore City 21216 — $10,000 OPENING BID only (online auction,
+  bidding 9/29–9/30); 3bd/1.1ba rowhouse, 1,400 sf, built 1940; MLS
+  MDBA2230190. Tie-in used: priciest listing sits in Talbot, this week's
+  slowest-moving county.
   Distribution this week: PDF instead of Gamma (Kyle out of Gamma
   credits) — Substack, SEO article, LinkedIn, Instagram, GBP, YouTube
   all still produced.

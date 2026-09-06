@@ -14,7 +14,9 @@ I walked Renee and Theo through it: the market is holding steady with a mild sof
 
 ## This Week's Price Extremes
 
-The priciest closed sale in Maryland this week went for **$6,250,000**, down from an original list price of $6,950,000. The most affordable closed sale went for **$7,000**, almost certainly land or a shell rehab. New listings this week ranged from **$2,250 to $7,445,000** in original list price.
+**Priciest listing: 5289 Ferry Neck Rd, Royal Oak — $6,890,000.** A 145-acre waterfront estate on Fox Hole Cove in Talbot County: roughly 1,000 feet of shoreline, three ponds, white-fenced paddocks, a five-stall barn, a guest house, a resort-style pool with its own pool house, and a private pier and boathouse. It first listed in the spring at $7,445,000, went off-market over the summer, and came back this week $555,000 lower.
+
+**Most affordable listing: 2818 Presstman St, Baltimore — $10,000 opening bid.** An online auction rowhouse in west Baltimore, three bedrooms, 1,400 square feet. The $10,000 is the opening bid only; bidding runs September 29–30 and the sale price will land higher. Same state, same week, a spread of nearly $6.9 million.
 
 ## The Numbers, Fast
 

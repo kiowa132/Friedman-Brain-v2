@@ -112,22 +112,32 @@ concentrated north of Baltimore.
 
 ## This Week's Price Extremes
 
-No individual listing sheet was provided this week, so the figures below
-are statewide aggregate values from the Bright MLS pull rather than
-specific named properties.
+**🏆 Priciest Listing of the Week**
+**5289 Ferry Neck Rd, Royal Oak, MD 21662** — $6,890,000
+4 beds | 4 full, 1 half baths | 9,117 sq ft above grade (9,543 total) |
+Built 1900 | 145.85-acre waterfront estate | Talbot County
 
-**🏆 Priciest Sale of the Week**
-A closed sale at **$6,250,000**, originally listed at $6,950,000. The
-highest closed price recorded in the state this week, a reminder that
-high-end inventory is still transacting even as the broad market softens.
+A 145-acre waterfront estate on Fox Hole Cove with roughly 1,000 feet of
+shoreline, three ponds, white-fenced pasture and paddocks, a five-stall
+barn, a two-bedroom guest house, a resort-style pool with its own pool
+house, a private pier and boathouse, and a Colonial main residence with
+heart-pine floors and water views from nearly every main-level room. It
+first listed in the spring at $7,445,000, went off-market over the
+summer, and returned to active this week at $6,890,000, a $555,000
+reduction. It also sits in Talbot County, this week's slowest-moving
+market, a reminder that the top of the Eastern Shore luxury tier tends
+to take its time.
 
-**📉 Most Affordable Sale of the Week**
-A closed sale at **$7,000**. The low end of the range this week, almost
-certainly a land parcel or a shell-condition rehab, a reminder that the
-statewide $440,000 median sits on top of an enormous spread.
+**📉 Most Affordable Listing of the Week**
+**2818 Presstman St, Baltimore, MD 21216** — $10,000 opening bid
+3 beds | 1 full, 1 half baths | 1,400 sq ft above grade | Built 1940 |
+Baltimore City, Northwest Community Action
 
-**New listings this week** ranged from **$2,250 to $7,445,000** in
-original list price.
+An online auction listing in west Baltimore, a two-story brick
+rowhouse, with the $10,000 list price serving only as the opening bid.
+Bidding runs September 29–30. The final sale price will land higher, but
+the entry point is a reminder that this week's statewide $440,000 median
+sits on top of a range that starts in the low five figures.
 
 **Fastest Moving County:** Harford County, 25-day average days on market,
 55 closings
