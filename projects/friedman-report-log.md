@@ -200,3 +200,17 @@ reflects the wider data set, not the market.*
   Distribution this week: PDF instead of Gamma (Kyle out of Gamma
   credits) — Substack, SEO article, LinkedIn, Instagram, GBP, YouTube
   all still produced.
+  Images 2026-09-07: 4 website chart SVGs + PNG copies (drafts .../charts/);
+  whiteboard-stats.png + a photo header (drafts .../images/). Final header
+  is AI-generated via gen-image.ps1 (openai/gpt-image-1 high, ~$0.17) — a
+  no-text couple-touring-an-empty-home plate (header-ai-plate.png) with
+  the title composited on in PIL, since gpt-image-1 kept clipping baked-in
+  edge text. header-steady-into-fall.png/.jpg.
+  Website SEO article 2026-09-07: rewritten MUCH longer (~4,000 words vs
+  ~1,100 Substack) and SEO-heavy — full 23-county price/DOM table, 6
+  county spotlights, dedicated mortgage-rate section, buyer/seller/
+  investor advice, 10-question FAQ, About-this-report block. Uses the AI
+  header as heroImage (copied to website repo public/images/uploads/
+  maryland-real-estate-market-report-week-of-august-31-september-6-2026-
+  hero.jpg — staged there, uncommitted). No em/en dashes (Kyle rule).
+  Slug: maryland-real-estate-market-report-week-of-august-31-september-6-2026.
