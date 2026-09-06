@@ -103,3 +103,47 @@ spotlighted counties + heat map extremes.*
   min/max, smoked cream cheese recipe, every section from the real
   8/17-8/23 template present). Superseded the earlier
   https://gamma.app/docs/ezd83yvwgnmca50 draft.
+
+## Week of August 31 – September 6, 2026
+- Statewide: Closed 1,150 (median sold $440,000, avg $533,294, total
+  volume $613,288,585) · New Listings 2,016 (median $419,900) · Pending
+  518 (median $385,450) · Price Reductions 2,098 · Median Days to
+  Contract (Closed CDOM) 21 (median DOM 18) · Sold/Orig list 99.0%
+  median / 97.6% avg · Sold/List 100.0% median
+- County-by-county (Closed count / median sold price / avg DOM), 23 of
+  24 jurisdictions — HOWARD COUNTY NOT PROVIDED this week (backed out of
+  statewide total as ~63 closings, price/DOM unknown, pending Kyle):
+  Allegany 11/$250,000/52 · Anne Arundel 124/$487,000/28 · Baltimore
+  City 114/$265,000/45 · Baltimore County 136/$360,000/30 · Calvert
+  31/$525,000/37 · Caroline 1/$185,000/124 (tiny sample) · Carroll
+  44/$533,000/30 (sold above orig list — 101.0% avg) · Cecil
+  27/$410,000/39 · Charles 41/$430,000/50 · Dorchester 11/$310,000/74 ·
+  Frederick 74/$484,218/29 · Garrett 19/$385,000/114 · Harford
+  55/$395,000/25 · Howard [pending] · Kent 10/$409,000/76 · Montgomery
+  148/$647,500/30 · Prince George's 107/$445,000/33 · Queen Anne's
+  12/$625,000/49 · St. Mary's 23/$480,000/27 · Somerset 9/$210,000/43 ·
+  Talbot 16/$475,000/128 · Washington 20/$374,950/35 · Wicomico
+  22/$265,000/54 · Worcester 32/$461,250/56
+- Fastest county: Harford (25-day avg DOM, 55 closings). Slowest:
+  Talbot (128-day avg DOM, 16 closings) — 3rd straight week Dorchester
+  was near the bottom too (74-day avg DOM this week). Carroll (Kyle's
+  home county) 2 of last 3 weeks at/near the top.
+- Freddie Mac 30yr rate: 6.71% (week of 9/3/2026 release; +5 bps,
+  second straight weekly increase after the 2-week decline streak
+  ended)
+- FMMI: 52/100 — Balanced Market, Momentum Cooling (Demand 68, Seller
+  Strength 46, Market Speed 60, Rate Environment 34). Down from 58.
+- Friedman Signal: Leveling
+- Notes: Last week's near-doubling surge held its volume but stopped
+  climbing — closings +1.1% w/w, new listings −0.1%, pending +5.7%.
+  Median sold price fell $10K (−2.2%) and median new-listing price also
+  fell $10K to $419,900. Median days-to-contract slowed 18→21. Price
+  reductions (2,098) outnumbered new listings (2,016) for the second
+  straight week — framed as the Deep Dive (caveat: counts any
+  price-decrease event in the window, not unique listings). No
+  individual listing sheet provided — Market Movers used statewide
+  aggregate: priciest closing $6,250,000 (orig list $6,950,000), lowest
+  closing $7,000; new-listing original-list range $2,250–$7,445,000.
+  Distribution this week: PDF instead of Gamma (Kyle out of Gamma
+  credits) — Substack, SEO article, LinkedIn, Instagram, GBP, YouTube
+  all still produced.
