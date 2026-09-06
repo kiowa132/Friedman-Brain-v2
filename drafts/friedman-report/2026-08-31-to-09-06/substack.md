@@ -1,6 +1,6 @@
-TITLE: The Surge Found Its Ceiling | The Friedman Report | Week of August 31 – September 6, 2026
+TITLE: The First Clean Read in a Month | The Friedman Report | Week of August 31 – September 6, 2026
 
-SUBTITLE: Renee and Theo sat out the summer bidding wars. The week after Labor Day, there wasn't one to sit out.
+SUBTITLE: Last week's "surge" was a data glitch. Here's what the Maryland market actually looks like with all the counties in.
 
 BYLINE: Kyle Friedman — Sep 7, 2026
 
@@ -13,35 +13,39 @@ asking on a house they had walked through for eleven minutes. They
 decided to sit the rest of the summer out and come back when things
 calmed down.
 
-They came back the week after Labor Day, and the market did feel
-different. Not soft. Just different.
+They came back the week after Labor Day, and there was a little more
+room than there had been in the spring.
 
-*Note: this week's edition is a PDF instead of the usual interactive
-deck, and Howard County's county-level data wasn't in the Bright MLS
-pull, so it's marked pending in the heat map. Everything else is here.*
+*A note on last week: the "89% surge" in closings and new listings I
+reported was a data-coverage problem, not a real market move. Two weeks
+ago my Bright MLS pull was missing several county feeds, so those totals
+were undercounted. When the full county set came back, it looked like
+activity had doubled overnight. It hadn't. This week is the first
+genuine week-over-week comparison in a month, because it's the first
+time two straight weeks have covered the whole state. (Howard County
+slipped out of this week's pull — its heat-map line is marked pending.)*
 
 [See This Week's Full Breakdown & More](https://www.friedmanreteam.com/blog/maryland-real-estate-market-report-week-of-august-31-september-6-2026)
 
-There were 2,016 new listings across Maryland that week, almost exactly
-the same as the week before, so the late-August flood of new inventory
-held in place rather than receding. Homes were taking a little longer to
-go under contract, a median of 21 days statewide, up from 18. And 2,098
-listings had cut their asking price.
+So here is the real picture. There were 2,016 new listings across
+Maryland this week, essentially flat from 2,019 the week before.
+Closings were flat at 1,150. Pending contracts rose 5.7% to 518. Those
+are the small, ordinary wiggles of a market that is neither accelerating
+nor breaking down.
 
-Median sold price slipped to $440,000, down 2.2%, giving back the exact
-$10,000 it had gained the week before. The median new-listing price fell
-by the same $10,000, to $419,900. And Freddie Mac's 30-year fixed rose
-five basis points to 6.71%, its second straight weekly increase.
+What actually moved was price and pace. The median sold price slipped
+2.2% to $440,000, giving back last week's $10,000 gain, and the median
+new-listing price fell the same $10,000, to $419,900. The median
+time-to-contract slowed from 18 days to 21. And Freddie Mac's 30-year
+fixed rose five basis points to 6.71%, its second straight weekly
+increase.
 
-I called Renee and Theo to walk through what the numbers were saying:
-the surge that defined late August did not reverse this week, it just
-stopped accelerating. Same elevated volume, but prices gave a little
-back, homes are sitting a few days longer, and the rate is working
-against buyers again. For a buyer with a rate lock in hand, it is the
-friendliest week we have seen since spring. They found a Frederick
-County home that had already been reduced once, offered near the new
-list price, asked for help with closing costs, and locked their rate the
-same afternoon. Accepted in two days. No bidding war to win.
+I walked Renee and Theo through it: the market is holding steady with a
+mild softening as fall settles in. A little more room for buyers, a
+little less urgency behind sellers. They found a Frederick County home
+that had already been reduced once, offered near the new list price,
+asked for help with closing costs, and locked their rate the same
+afternoon. Accepted in two days. No bidding war to win.
 
 ## This Week's Price Extremes
 
@@ -55,7 +59,7 @@ certainly land or a shell rehab. New listings this week ranged from
 ## The Numbers, Fast
 
 * 🏡 Homes Sold: 1,150, up 1.1% from 1,137
-* 🆕 New Listings: 2,016, essentially flat from 2,019
+* 🆕 New Listings: 2,016, flat from 2,019
 * ✍️ Pending Contracts: 518, up 5.7% from 490
 * 💰 Median Sold Price: $440,000, down 2.2% from $450,000
 * ⏱️ Median Days to Contract: 21, up from 18
@@ -68,35 +72,40 @@ across 55 closings, homes selling at full list price.
 Slowest county: Talbot County, 128-day average days on market on 16
 closings, as high-end Eastern Shore inventory sits.
 
-## The Friedman Market Momentum Index: 52/100 — Balanced Market, Momentum Cooling
+## The Friedman Market Momentum Index: 50/100 — Balanced Market, Holding Steady
 
-Down six points from 58 last week, and it is a broad decline rather than
-a single-factor drop. Demand Score eased to 68 (from 78) as activity
-plateaued instead of climbing. Seller Strength Score fell to 46 (from
-50) on the price give-back. Market Speed slipped to 60 (from 66) as
-time-to-contract slowed 18 to 21 days. Rate Environment dropped to 34
-(from 39) on the second straight weekly rate increase. Every leg
-softened. This is the first FMMI decline in three weeks.
+Nominally down from 58, but that is mostly last week's number correcting
+itself. The 58 was propped up by a Demand reading of 78 that came from
+the apparent activity surge — the same surge that turned out to be a
+data artifact. On clean data, the market has been sitting near this
+level the whole time. Demand 58, Seller Strength 48, Market Speed 58,
+Rate Environment 36. A steady, balanced market with a mild autumn
+softening, not a market that fell apart in a week.
 
 ## Deep Dive: The Number That Explains This Week
 
-For the second week in a row, Maryland sellers cut prices on more homes
-than came onto the market. **2,098 price reductions** against **2,016
-new listings** and 1,150 closings. For every home that sold, nearly two
-others had their asking price lowered.
+**99.0%** — the median ratio of sold price to *original* list price
+across every Maryland home that closed this week. Not the most recent
+list price. The first one.
 
-That is the clearest sign yet that the inventory that piled on during
-August's surge was priced for a hotter market than the one buyers are
-shopping now. (The reduction count reflects any price-decrease event in
-the window, not unique properties, but two straight weeks of cuts
-outpacing new supply is not noise.)
+There were 2,098 price reductions this week. The median sold price fell
+$10,000. Homes are taking longer to sell. By every one of those
+measures, sellers look like they are losing ground. And yet the typical
+closed sale still landed within one percent of the seller's day-one ask.
+
+The reconciliation: the price weakness is concentrated in listings that
+mispriced at launch and had to chase the market down. Homes priced
+right from the start are still selling at, or very near, full ask. In a
+softening market the gap between those two outcomes widens — and this
+week it was wide. (The average ratio was 97.6%, pulled down by a smaller
+number of deeply discounted sales.)
 
 ## One Thing I'd Do This Week
 
 **Buying?** Get the rate lock first, then shop. The rate is trending up,
 but the extra inventory and the 2,098 price cuts mean you can push on
-price and terms in a way you could not in July. Spend the leverage on
-the contract, not on waiting.
+price and terms in a way you could not in the spring. Spend the leverage
+on the contract, not on waiting.
 
 **Selling?** Price to your first number, not your second. The homes that
 needed a cut this week are the ones still sitting. The ones priced right
@@ -109,8 +118,8 @@ pools and longer holds, but also where the motivated sellers and real
 negotiating room are right now.
 
 Been sitting on a decision to list or to write an offer, and wondering
-whether this leveling-off is your window or a warning? Just reply to
-this email, I read every one.
+what a "steady" market means for your timing? Just reply to this email,
+I read every one.
 
 ## Bonus From My Kitchen: Maryland Crab & Corn Chowder
 

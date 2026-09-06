@@ -19,7 +19,7 @@ aspect-ratio control, not the prompt text.
 ## 1. HERO — `maryland-real-estate-market-report-week-of-august-31-september-6-2026-hero.png`
 **In-image text:**
 - Kicker, gold uppercase letter-spaced: `THE FRIEDMAN REPORT`
-- Headline, large editorial serif, warm white: `The Surge Levels Off`
+- Headline, large editorial serif, warm white: `The First Clean Read`
 - Thin gold rule, then italic subhead: `Week of August 31 – September 6, 2026`
 - Lower-left: `The Friedman Team` wordmark from LOGO
 
@@ -28,14 +28,14 @@ aspect-ratio control, not the prompt text.
 > report. Golden-hour photograph of an established Maryland suburban
 > street in early September — mature trees with the very first leaves
 > turning, a couple of well-kept homes, one small black-and-white "For
-> Sale" sign in the right third with a smaller "PRICE IMPROVED" rider
-> under it, calm flat light rather than dramatic flare. Restrained
+> Sale" sign in the right third, calm even light rather than dramatic
+> flare. Restrained
 > premium grade: deep teal #0F5C63 shadows, warm gold #C9A96A
 > highlights, cream #FAF8F5 mid-tones, fine grain, gentle vignette. Left
 > two-thirds is open sky and soft foliage under a teal-to-transparent
 > scrim for legible text. Lay in exactly: gold letter-spaced kicker
 > "THE FRIEDMAN REPORT" upper-left, large elegant serif headline "The
-> Surge Levels Off" beneath in warm white, a thin gold rule, then italic
+> First Clean Read" beneath in warm white, a thin gold rule, then italic
 > subhead "Week of August 31 – September 6, 2026". "The Friedman Team"
 > wordmark lower-left from the uploaded LOGO. Match the uploaded SITE
 > typography; colors from the uploaded SWATCH. 35mm, f/2.8, photoreal.
@@ -45,10 +45,10 @@ aspect-ratio control, not the prompt text.
 
 ## 2. FMMI GAUGE — `maryland-real-estate-market-report-week-of-august-31-september-6-2026-fmmi.png`
 **In-image text:**
-- Center gauge reading `52` with small `/100`
-- Under it, uppercase teal: `BALANCED MARKET, MOMENTUM COOLING`
-- Small caption: `down from 58 last week`
-- Four bars: `DEMAND 68` / `SELLER STRENGTH 46` / `MARKET SPEED 60` / `RATE ENVIRONMENT 34`
+- Center gauge reading `50` with small `/100`
+- Under it, uppercase teal: `BALANCED MARKET, HOLDING STEADY`
+- Small caption: `nominal prior 58 - see note`
+- Four bars: `DEMAND 58` / `SELLER STRENGTH 48` / `MARKET SPEED 58` / `RATE ENVIRONMENT 36`
 - Kicker, gold uppercase: `THE FRIEDMAN MARKET MOMENTUM INDEX`
 - Footer lower-right, small teal: `The Friedman Team · Numbers Over Guesswork`
 
@@ -57,13 +57,13 @@ aspect-ratio control, not the prompt text.
 > infographic style matching the uploaded SITE stat-tile screenshot.
 > Center: a semicircular gauge in warm gold #C9A96A on a cream #FAF8F5
 > card with a thin gold border and soft shadow, needle pointing to a
-> large near-black #0D2226 Georgia-serif "52" with a smaller "/100"
+> large near-black #0D2226 Georgia-serif "50" with a smaller "/100"
 > beside it. Beneath the gauge, small uppercase letter-spaced teal
-> #0F5C63 text "BALANCED MARKET, MOMENTUM COOLING", with a smaller muted
-> caption "down from 58 last week" under it. Below, four short
+> #0F5C63 text "BALANCED MARKET, HOLDING STEADY", with a smaller muted
+> caption "nominal prior 58" under it. Below, four short
 > horizontal bars in teal with uppercase labels and bold near-black
-> figures, left to right: "DEMAND 68", "SELLER STRENGTH 46", "MARKET
-> SPEED 60", "RATE ENVIRONMENT 34". Subtle warm off-white paper texture,
+> figures, left to right: "DEMAND 58", "SELLER STRENGTH 48", "MARKET
+> SPEED 58", "RATE ENVIRONMENT 36". Subtle warm off-white paper texture,
 > faint teal grid, soft top-down light. Gold kicker "THE FRIEDMAN MARKET
 > MOMENTUM INDEX" upper-left; teal footer "The Friedman Team · Numbers
 > Over Guesswork" lower-right. Use uploaded LOGO and SWATCH. Crisp,

@@ -21,10 +21,34 @@ entries.
 
 ---
 
+## ⚠️ DATA COVERAGE CORRECTION — logged 2026-09-07
+
+Kyle confirmed the Bright MLS pulls for the weeks of **Aug 10–16** and
+**Aug 17–23** were missing several county feeds, so their **statewide
+totals were undercounted** (not just the county-by-county detail — the
+headline Closed / New Listings / Pending / Reductions counts too). The
+first pulls with the full 24-jurisdiction county set are **Aug 24–30**
+and **Aug 31–Sep 6**.
+
+Consequence: the "+89% surge" in closings and new listings reported in
+the Aug 24–30 edition (601 → 1,137 closed, 1,064 → 2,019 new listings)
+was **the data coverage catching up, not a real market move**. Treat any
+week-over-week comparison that straddles the Aug 17–23 / Aug 24–30
+boundary as invalid. The Aug 24–30 → Aug 31–Sep 6 comparison is the
+first clean, like-for-like read.
+
+Specific missing counties two weeks ago: not recorded (Kyle didn't have
+the list). Going forward, confirm the pull returns all 24 jurisdictions
+before building the edition.
+
+---
+
 ## Week of August 10–16, 2026
 *Historical — this report predates this vault; entry backfilled 2026-08-30
 from the published edition Kyle shared. County-by-county isn't available
-for this week, only the two spotlighted counties + heat map extremes.*
+for this week, only the two spotlighted counties + heat map extremes.
+DATA INCOMPLETE — see coverage correction above; statewide totals
+undercounted.*
 - Statewide: Closed 609 (median $420,000) · New Listings 1,240 · Pending
   357 · Price Reductions 1,220 · Avg. Days on Market 32
 - Calvert County (spotlight): Active 46, Closed 26, Avg. DOM 22 (fastest
@@ -42,7 +66,9 @@ for this week, only the two spotlighted counties + heat map extremes.*
 ## Week of August 17–23, 2026
 *Historical — backfilled 2026-08-30 from the published edition Kyle
 shared. County-by-county isn't available for this week, only the two
-spotlighted counties + heat map extremes.*
+spotlighted counties + heat map extremes. DATA INCOMPLETE — see coverage
+correction above; statewide totals undercounted, so the Aug 24–30
+edition's "surge" vs. this week was a data artifact, not a market move.*
 - Statewide: Closed 601 (median $440,000) · New Listings 1,064 · Pending
   374 · Price Reductions 1,158 · Avg. Days on Market 33
 - Cecil County (spotlight): Active 37, Closed 13, Avg. DOM 25
@@ -85,11 +111,19 @@ spotlighted counties + heat map extremes.*
   2-week decline streak, +1 bp)
 - FMMI: 58/100 — Balanced Market, Surging Activity (Demand 78, Seller
   Strength 50, Market Speed 66, Rate Environment 39)
-- Friedman Signal: Surging
+  ⚠️ RETROSPECTIVE NOTE (2026-09-07): the Demand score (78) and the
+  "Surging" read were built on the +89% closings/new-listings jump, which
+  Kyle later confirmed was a data-coverage artifact (Aug 17–23 pull was
+  missing counties), not a real market move. On clean data this week was
+  roughly flat vs. a true prior-week baseline; a corrected FMMI would sit
+  in the low-to-mid 50s. Edition already published — not restated.
+- Friedman Signal: Surging (see retrospective note — should have been
+  roughly "Steady")
 - Notes: New listings (+89.8%) and closings (+89.2%) both nearly doubled
-  week over week — the sharpest simultaneous supply/demand jump tracked
-  so far. Price reductions surged 80.5% alongside it. Total closed sales
-  volume $606,704,645; 432 listings withdrawn/canceled (220/212). No
+  week over week — LATER FOUND to be a data-coverage artifact, see the
+  correction block near the top of this file. Price reductions +80.5%
+  same cause. Total closed sales volume $606,704,645; 432 listings
+  withdrawn/canceled (220/212). No
   individual listing sheets this week — Market Movers used statewide
   aggregate min/max (priciest closing $2,950,000, lowest $13,000;
   new-listing range $5,000–$6,500,000). "Days to Contract" here is
@@ -131,17 +165,28 @@ spotlighted counties + heat map extremes.*
 - Freddie Mac 30yr rate: 6.71% (week of 9/3/2026 release; +5 bps,
   second straight weekly increase after the 2-week decline streak
   ended)
-- FMMI: 52/100 — Balanced Market, Momentum Cooling (Demand 68, Seller
-  Strength 46, Market Speed 60, Rate Environment 34). Down from 58.
-- Friedman Signal: Leveling
-- Notes: Last week's near-doubling surge held its volume but stopped
-  climbing — closings +1.1% w/w, new listings −0.1%, pending +5.7%.
-  Median sold price fell $10K (−2.2%) and median new-listing price also
-  fell $10K to $419,900. Median days-to-contract slowed 18→21. Price
-  reductions (2,098) outnumbered new listings (2,016) for the second
-  straight week — framed as the Deep Dive (caveat: counts any
-  price-decrease event in the window, not unique listings). No
-  individual listing sheet provided — Market Movers used statewide
+- FMMI: 50/100 — Balanced Market, Holding Steady (Demand 58, Seller
+  Strength 48, Market Speed 58, Rate Environment 36). Nominally down from
+  last week's 58, but most of that gap is the Aug 24–30 score
+  self-correcting (it was inflated by the data artifact) — this is not a
+  real 8-point market deterioration.
+- Friedman Signal: Steady
+- Notes: FIRST clean week-over-week comparison in a month — both Aug
+  24–30 and Aug 31–Sep 6 have the full county set (this week minus
+  Howard, ~63 closings, pending). On that clean basis the market is
+  essentially flat: closings +1.1%, new listings −0.1%, pending +5.7%,
+  reductions +0.4%. Real movement is a mild autumn softening on price
+  and pace: median sold price −$10K (−2.2%) to $440,000, median
+  new-listing price −$10K to $419,900, median days-to-contract 18→21,
+  rate +5 bp to 6.71% (2nd straight increase). Counterpoint: closed
+  homes still realized a median 99.0% of ORIGINAL list price (97.6%
+  avg) — the softening is real but shallow; used as the Deep Dive
+  number. Edition reworked 2026-09-07 after Kyle flagged that last
+  week's "surge" was a data-coverage artifact — dropped all
+  "surge that leveled off" / "first FMMI decline in 3 weeks" framing.
+  Deep Dive is now the 99% sold-to-original-list stat (was the
+  price-cuts-vs-new-listings angle, which leaned on the surge premise).
+  No individual listing sheet provided — Market Movers used statewide
   aggregate: priciest closing $6,250,000 (orig list $6,950,000), lowest
   closing $7,000; new-listing original-list range $2,250–$7,445,000.
   Distribution this week: PDF instead of Gamma (Kyle out of Gamma

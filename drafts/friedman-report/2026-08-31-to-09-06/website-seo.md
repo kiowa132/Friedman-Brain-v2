@@ -1,6 +1,6 @@
 ---
-title: "Maryland Real Estate Market Report: The Surge Levels Off, Week of August 31 – September 6, 2026"
-metaDescription: "Maryland's late-August surge held its volume but stopped climbing this week. Median sold price fell $10,000, days-to-contract slowed, and mortgage rates rose again. Full Bright MLS data and the Friedman Market Momentum Index."
+title: "Maryland Real Estate Market Report: The First Clean Read in a Month, Week of August 31 – September 6, 2026"
+metaDescription: "With all 24 counties finally in two weeks running, the real read on Maryland's market is a steady hold with a mild autumn softening. Median sold price fell $10,000, days-to-contract slowed, and mortgage rates rose again. Full Bright MLS data and the Friedman Market Momentum Index."
 category: Market Reports
 publishDate: "2026-09-07"
 heroImage: /images/uploads/maryland-real-estate-market-report-week-of-august-31-september-6-2026-hero.jpg
@@ -15,30 +15,35 @@ asking on a house they had walked through for eleven minutes. They
 decided to sit the rest of the summer out and come back when things
 calmed down.
 
-They came back the week after Labor Day, and the Maryland market did
-feel different. Not soft. Just different.
+They came back the week after Labor Day, and there was a little more
+room in the Maryland market than there had been in the spring.
 
-> Last week's surge did not reverse this week. It held its elevated
-> volume in place but stopped accelerating, while prices, pace, and
-> mortgage rates all ticked the other way.
+> This is the first week in a month the report can give an honest
+> week-over-week read, because it is the first time two consecutive
+> weeks of Bright MLS data have covered the full state.
 
-**Quick answer:** Maryland's housing market for the week of August 31 to
-September 6, 2026 leveled off. Statewide closings held at 1,150 (up
-1.1%) and new listings were essentially flat at 2,016, so the late-August
-flood of inventory stayed in place rather than receding. But the median
-sold price fell 2.2% to $440,000, median days-to-contract slowed from 18
-to 21, and the Freddie Mac 30-year fixed rose five basis points to
-6.71%, its second straight weekly increase. The Friedman Market Momentum
-Index reads 52 out of 100 (Balanced Market, Momentum Cooling), down from
-58 last week, its first decline in three weeks.
+**Quick answer:** With all 24 counties finally in the pull two weeks
+running, the real read on Maryland's housing market for the week of
+August 31 to September 6, 2026 is a steady hold with a mild softening for
+fall. Statewide closings were flat at 1,150 and new listings were flat at
+2,016, so volume is holding its level. What moved was price and pace: the
+median sold price fell 2.2% to $440,000, median days-to-contract slowed
+from 18 to 21, and the Freddie Mac 30-year fixed rose five basis points
+to 6.71%, its second straight weekly increase. The Friedman Market
+Momentum Index reads 50 out of 100 (Balanced Market, Holding Steady).
 
-By the week after Labor Day, the pent-up decisions that produced
-late-August's near-doubling of activity had mostly landed. What was left
-this week was the same high volume without the momentum behind it.
-Renee and Theo found a Frederick County home that had already been
-reduced once, offered near the new list price, asked the sellers to
-cover part of the closing costs, and locked their rate that same
-afternoon. It was accepted in two days. There was no bidding war to win.
+**Why last week's report said "surge" and this one says "steady":** for
+the weeks of August 10–16 and August 17–23, this report's Bright MLS pull
+was missing several county feeds, which meant the statewide totals for
+those weeks were undercounted. The first two pulls with the complete
+24-jurisdiction set are August 24–30 and this week. So last week's
+headline, that closings and new listings had "nearly doubled," was the
+data coverage catching up, not the market moving. This week's comparison,
+August 24–30 to August 31–September 6, is the first genuinely
+like-for-like week-over-week read since early August. (One caveat: Howard
+County was not in this week's pull. Its line in the heat map is marked
+pending; backed out of the statewide totals it accounts for roughly 63
+closings.)
 
 ## Maryland Housing Market Snapshot: Week of August 31 – September 6, 2026
 
@@ -74,32 +79,37 @@ afternoon. It was accepted in two days. There was no bidding war to win.
 </div>
 </div>
 
-**A data note:** this week's Bright MLS pull included county-by-county
-detail for 23 of Maryland's 24 jurisdictions. Howard County was not in
-the pull; its line in the heat map below is marked pending. Backed out
-of the statewide totals, Howard accounted for roughly 63 closings this
-week. "Median Days to Contract" uses this report's own weekly Bright MLS
-pull (median CDOM for Closed sales); the 18 to 21 comparison is
-consistent week to week on that basis.
+**A data note:** this week's Bright MLS pull covered 23 of Maryland's 24
+jurisdictions; Howard County was not included and is marked pending in
+the heat map below (roughly 63 closings, backed out of the statewide
+totals). "Median Days to Contract" uses this report's own weekly Bright
+MLS pull (median CDOM for Closed sales); the 18 to 21 comparison is
+consistent week to week on that basis, and both weeks in this edition's
+comparison have the full county set.
 
 ## What This Week's Numbers Really Mean for Maryland Buyers and Sellers
 
-**The surge held its level but lost its momentum.** Last week Maryland
-posted its sharpest one-week jump in activity all year, with closings
-and new listings both nearly doubling. This week that volume essentially
-held in place: closings edged up 1.1% to 1,150, new listings were flat
-at 2,016, and pending contracts rose another 5.7% to 518. Nothing
-collapsed. But nothing accelerated either. The Maryland market found a
-plateau.
+**With all the data in, the Maryland market is close to flat.** Closings
+edged up 1.1% to 1,150. New listings were dead flat at 2,016. Pending
+contracts rose 5.7% to 518, and price reductions barely moved at 2,098.
+Those are ordinary weekly wiggles, the kind you see in a market that is
+neither accelerating nor breaking down. The "surge" that framed last
+week's edition was an artifact of incomplete prior-week data, and it is
+gone from the picture now.
 
-**Pricing softened at the edges.** The median sold price slipped 2.2% to
-$440,000, giving back last week's $10,000 gain, and the median
-new-listing price fell by the same $10,000, to $419,900. Closed homes
-still realized a median 99.0% of their original list price, so this is a
-gentle give-back rather than a rollover. But paired with 2,098 price
-reductions statewide and a slower time-to-contract, the direction is
-clear: buyers picked up a little leverage this week, and sellers lost a
-little.
+**The real movement this week was a mild softening on price and pace.**
+The median sold price slipped 2.2% to $440,000, and the median
+new-listing price fell the same $10,000, to $419,900. The median
+time-to-contract slowed from 18 days to 21. And the mortgage rate rose
+for a second straight week. None of these is a large move on its own, but
+they all point the same way: a little more room for Maryland buyers, a
+little less urgency behind sellers, right on schedule for the turn into
+fall.
+
+**The softening is real but shallow.** Even with 2,098 price reductions
+statewide and a $10,000 dip in the median, the typical home that closed
+this week still sold for 99.0% of its original list price. Sellers are
+trimming, but they are not capitulating.
 
 ## County Spotlight: Carroll County and Harford County Real Estate
 
@@ -147,15 +157,12 @@ specific named properties.
 
 The priciest closed sale in Maryland this week went for **$6,250,000**,
 down from an original list price of $6,950,000. It was the highest
-closed price recorded in the state this week and a meaningful step up
-from last week's top closing of $2,950,000, a sign that high-end
-inventory is still transacting even as the broad market cools.
-
-The most affordable closed sale went for **$7,000**, the low end of the
-range this week, almost certainly a land parcel or a shell-condition
-rehab. New listings this week ranged from **$2,250 to $7,445,000** in
-original list price, a reminder that Maryland's statewide $440,000 median
-sits on top of an enormous spread.
+closed price recorded in the state this week. The most affordable closed
+sale went for **$7,000**, the low end of the range this week, almost
+certainly a land parcel or a shell-condition rehab. New listings this
+week ranged from **$2,250 to $7,445,000** in original list price, a
+reminder that Maryland's statewide $440,000 median sits on top of an
+enormous spread.
 
 **Fastest Moving County:** Harford County, 25-day average days on market,
 55 closings
@@ -179,15 +186,19 @@ Dorchester County (74 days, 11), Worcester County (56 days, 32).
 
 Talbot and Garrett, both higher-priced, second-home-heavy markets, sit
 well clear of the rest of the state on time-to-sell. Dorchester lands
-near the bottom for a third straight week, though it actually got a
-little faster (85 to 74 days). The pattern holds: pace right now is
-strongest in the counties ringing Baltimore and weakest on the rural
-Eastern Shore and in far Western Maryland. Howard County data is pending
-this week.
+near the bottom again, though it got a little faster than the week
+before. The pattern holds: pace right now is strongest in the counties
+ringing Baltimore and weakest on the rural Eastern Shore and in far
+Western Maryland. Howard County data is pending this week.
 
 ## Week Over Week: How Maryland's Housing Market Compares
 
-<img src="/images/uploads/charts/aug31-sep6/week-over-week.svg" alt="Bar chart comparing Maryland closings, new listings, pending contracts, and price reductions week over week, all four roughly flat after last week's surge" style="width:100%;height:auto;margin:20px 0;" />
+<img src="/images/uploads/charts/aug31-sep6/week-over-week.svg" alt="Bar chart comparing Maryland closings, new listings, pending contracts, and price reductions week over week, all roughly flat" style="width:100%;height:auto;margin:20px 0;" />
+
+This is the first clean comparison in a month. Both of these weeks have
+the full 24-county data set (this week minus Howard). The August 17–23 to
+August 24–30 comparison that produced last week's "surge" headline
+straddled the data-coverage gap and should be disregarded.
 
 | Metric | Last Week (8/24–8/30) | This Week (8/31–9/6) | Change |
 |---|---|---|---|
@@ -200,57 +211,58 @@ this week.
 | Days to Contract (Closed CDOM) | 18 | 21 | +3 days |
 | 30-Year Mortgage Rate | 6.66% | 6.71% | +5 basis points |
 
-The headline: the volume metrics essentially flatlined at last week's
-elevated level, while every price and pace metric ticked the wrong way
-for sellers. Closings, new listings, and reductions all moved less than
-1.5%. Median sold price and median new-listing price each fell $10,000.
-Time-to-contract slowed three days. And the mortgage rate rose for the
-second week running. A week of small moves, all pointed the same
-direction.
+The headline: the volume metrics were flat, and every price and pace
+metric ticked the wrong way for sellers. Closings, new listings, and
+reductions all moved less than 1.5%. Median sold price and median
+new-listing price each fell $10,000. Time-to-contract slowed three days.
+And the mortgage rate rose for the second week running. A quiet week,
+with a consistent lean toward buyers.
 
 ## The Friedman Market Momentum Index (FMMI)
 
-<img src="/images/uploads/charts/aug31-sep6/fmmi-gauge.svg" alt="Gauge chart showing the Friedman Market Momentum Index at 52 out of 100, down from 58 last week" style="width:100%;max-width:400px;height:auto;margin:20px auto;display:block;" />
+<img src="/images/uploads/charts/aug31-sep6/fmmi-gauge.svg" alt="Gauge chart showing the Friedman Market Momentum Index at 50 out of 100" style="width:100%;max-width:400px;height:auto;margin:20px auto;display:block;" />
 
-<p style="text-align:center;font-weight:700;color:#0F5C63;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;">Balanced Market, Momentum Cooling</p>
+<p style="text-align:center;font-weight:700;color:#0F5C63;text-transform:uppercase;letter-spacing:0.08em;font-size:13px;">Balanced Market, Holding Steady</p>
 
-**What this means:** Maryland's housing market did not tip toward buyers
-this week so much as it stopped tipping toward sellers. Transaction
-volume is still high, which keeps the index in balanced territory, but
-every one of the four components softened. This is the first FMMI
-decline in three weeks, and a broad one rather than a single-factor drop.
+**What this means:** Maryland's housing market is close to the middle of
+the scale and barely moved this week. The nominal eight-point drop from
+last week is mostly the August 24–30 score correcting itself. That 58 was
+built partly on a Demand reading of 78, which came from an apparent
+activity surge that turned out to be a data-coverage artifact. Strip that
+out and the market has been sitting near this level the whole time. This
+is a recalibration to the real picture, not a market that fell apart in
+seven days.
 
-<img src="/images/uploads/charts/aug31-sep6/fmmi-subscores.svg" alt="Horizontal bar chart showing FMMI sub-scores: Demand 68, Seller Strength 46, Market Speed 60, Rate Environment 34" style="width:100%;height:auto;margin:20px 0;" />
+<img src="/images/uploads/charts/aug31-sep6/fmmi-subscores.svg" alt="Horizontal bar chart showing FMMI sub-scores: Demand 58, Seller Strength 48, Market Speed 58, Rate Environment 36" style="width:100%;height:auto;margin:20px 0;" />
 
-- **Demand Score: 68** (down from 78). Closings held at 1,150 and pending
-  contracts rose 5.7% to 518, so demand is still strong in absolute
-  terms. But the near-doubling momentum of last week is gone; activity
-  plateaued rather than climbed.
-- **Seller Strength Score: 46** (down from 50). Median sold price fell
-  2.2% and the median new-listing price fell the same $10,000, while
-  price reductions held at an elevated 2,098. Sellers gave back ground on
-  price and gained none on scarcity.
-- **Market Speed Score: 60** (down from 66). Median days-to-contract on
-  the Closed-CDOM basis slowed from 18 to 21. Still fast historically,
-  but decelerating.
-- **Rate Environment Score: 34** (down from 39). The Freddie Mac 30-year
+- **Demand Score: 58** (nominal prior 78). On clean data, closings were
+  flat and pending contracts rose 5.7%. Transaction volume is healthy in
+  absolute terms, near 1,150 closings a week, but there is no upward
+  momentum behind it.
+- **Seller Strength Score: 48** (prior 50). Median sold price fell 2.2%
+  and the median new-listing price fell the same $10,000, while price
+  reductions held at an elevated 2,098. Offsetting that: closed homes
+  still realized a median 99.0% of original list price.
+- **Market Speed Score: 58** (prior 66). Median days-to-contract on the
+  Closed-CDOM basis slowed from 18 to 21. Still fast historically, but
+  easing.
+- **Rate Environment Score: 36** (prior 39). The Freddie Mac 30-year
   fixed rose five basis points to 6.71%, its second straight weekly
   increase.
 
-## The Friedman Signal™: Leveling
+## The Friedman Signal™: Steady
 
-The surge did not reverse this week. It leveled off. Last week Maryland
-saw its sharpest one-week jump in activity all year, closings and new
-listings both nearly doubling. This week that volume held almost exactly
-in place: 1,150 closings, 2,016 new listings, 518 pending. But the
-momentum behind it flattened. Median sold price gave back $10,000, homes
-took three days longer to reach contract, and the mortgage rate rose for
-a second straight week. A surge that keeps surging is a trend. A surge
-that holds its level and stops climbing is a plateau, and that is what
-this week looked like. Watch two things next week: whether volume stays
-near 1,150 closings and 2,000 new listings, which would confirm the
-Maryland fall market has settled in at this higher level, and whether
-the median price stabilizes or keeps sliding.
+For the first time in a month, this report can compare two weeks of
+complete, full-state data, and the comparison shows a market holding its
+level. The same number of homes are selling, the same number are coming
+on, and pending contracts are ticking up. What changed this week is
+small and consistent: the median sold price gave back $10,000, homes
+took three days longer to reach contract, and the mortgage rate rose
+again. That is a market in a steady state with a mild autumn softening,
+not one accelerating or breaking. Watch two things next week: whether
+closings and new listings stay near this week's levels, which would
+confirm this is the real baseline, and whether the median price
+stabilizes or keeps sliding.
 
 ## Winners and Losers This Week
 
@@ -265,7 +277,7 @@ the median price stabilizes or keeps sliding.
   state softened
 
 **📉 Losing Momentum**
-- **Seller Strength:** Down to 46 from 50, median price off 2.2% and
+- **Seller Strength:** Down to 48 from 50, median price off 2.2% and
   reductions still elevated at 2,098
 - **Rate-sensitive buyers:** 6.66% to 6.71%, the second straight weekly
   increase
@@ -277,8 +289,8 @@ the median price stabilizes or keeps sliding.
 **If I were buying a home in Maryland:** Get the rate lock first, then
 shop. The rate moved against buyers again this week and it is trending
 up, but the extra inventory and the 2,098 price cuts mean you can push
-on price and terms in a way you could not in July. Spend your leverage
-on the contract, not on waiting for a better week.
+on price and terms in a way you could not in the spring. Spend your
+leverage on the contract, not on waiting for a better week.
 
 **If I were selling a home in Maryland:** Price to your first number, not
 your second. The homes that needed a cut this week are the ones still
@@ -293,19 +305,24 @@ motivated sellers and the real negotiating room are right now.
 
 ## Deep Dive: The Surprising Fact About Maryland Housing This Week
 
-For the second week in a row, Maryland sellers cut prices on more homes
-than came onto the market. There were **2,098 price reductions**
-statewide this week against **2,016 new listings**, and 1,150 closings.
-That means for every home that actually sold, nearly two others had
-their asking price lowered.
+**99.0%.** That is the median ratio of sold price to *original* list
+price across every Maryland home that closed this week. Not the most
+recent list price, the very first one.
 
-It is the clearest sign yet that the inventory that piled on during
-August's surge was priced for a hotter market than the one buyers are
-shopping now. Sellers who listed into the late-August rush are
-recalibrating in real time. (The reduction count reflects any
-price-decrease event recorded in the seven-day window, not unique
-properties, so it can include a listing cut twice. But two straight
-weeks of cuts outnumbering new supply is not noise.)
+It matters because of everything happening around it. There were 2,098
+price reductions statewide this week. The median sold price fell $10,000.
+Homes are taking longer to go under contract. By every one of those
+measures, this looks like a market where sellers are losing ground. And
+yet the typical closed sale still landed within one percent of the number
+the seller asked on day one.
+
+The reconciliation: the price weakness this week is concentrated in the
+listings that mispriced at launch and had to chase the market down. The
+homes that were priced correctly from the start are still selling at, or
+very near, full ask. In a softening market, the gap between those two
+outcomes widens, and this week it was wide. (The average
+sold-to-original ratio was 97.6%, pulled below the median by a smaller
+number of deeply discounted sales.)
 
 ## Bonus From My Kitchen: Maryland Crab & Corn Chowder
 
@@ -354,30 +371,31 @@ Survey, up five basis points and rising for the second straight week.
 
 **Is Maryland a buyer's or seller's market right now?**
 
-This week's Friedman Market Momentum Index reads 52 out of 100, a
-balanced market with cooling momentum, down from 58 the week before.
-Transaction volume is still high, but the median sold price fell 2.2%,
-time-to-contract slowed, and mortgage rates rose, so buyers gained a
-little leverage this week while sellers lost a little.
+This week's Friedman Market Momentum Index reads 50 out of 100, a
+balanced market holding steady. Transaction volume is flat week over
+week, but the median sold price fell 2.2%, time-to-contract slowed, and
+mortgage rates rose, so buyers gained a little leverage this week while
+sellers lost a little.
 
 **What is the median home price in Maryland right now?**
 
 The median sold price in Maryland for the week of August 31 to September
 6, 2026 was $440,000, down 2.2% from $450,000 the previous week.
 
+**Did Maryland home sales really surge last week?**
+
+No. The prior week's report showed closings and new listings nearly
+doubling, but that was a data-coverage issue: the Bright MLS pull two
+weeks earlier was missing several county feeds, so its totals were
+undercounted. With the full 24-county set in place two weeks running,
+the true week-over-week picture is roughly flat volume with a mild
+softening on price and pace.
+
 **Which Maryland county has the fastest-moving housing market?**
 
 Harford County posted the fastest pace this week at a 25-day average
 days on market across 55 closings, with homes selling at a median 100%
 of list price.
-
-**Did Maryland home prices drop this week?**
-
-The statewide median sold price fell $10,000 (2.2%) week over week, to
-$440,000, and the median new-listing price fell the same $10,000, to
-$419,900. Closed homes still realized a median 99.0% of their original
-list price, so this reads as a gentle give-back after last week's gain
-rather than a broad decline.
 
 **Where can I find a weekly Maryland real estate market report?**
 
