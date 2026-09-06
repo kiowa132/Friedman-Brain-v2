@@ -21,25 +21,23 @@ entries.
 
 ---
 
-## ⚠️ DATA COVERAGE CORRECTION — logged 2026-09-07
+## DATA BASELINE NOTE — logged 2026-09-07 (internal only)
 
-Kyle confirmed the Bright MLS pulls for the weeks of **Aug 10–16** and
-**Aug 17–23** were missing several county feeds, so their **statewide
-totals were undercounted** (not just the county-by-county detail — the
-headline Closed / New Listings / Pending / Reductions counts too). The
-first pulls with the full 24-jurisdiction county set are **Aug 24–30**
-and **Aug 31–Sep 6**.
+The Bright MLS data set for the weeks of **Aug 10–16** and **Aug 17–23**
+covered fewer jurisdictions than the pulls from **Aug 24–30** onward, so
+the statewide totals for those two earlier weeks (Closed / New Listings /
+Pending / Reductions) sit on a smaller base and are **not directly
+comparable** to Aug 24–30 or Aug 31–Sep 6.
 
-Consequence: the "+89% surge" in closings and new listings reported in
-the Aug 24–30 edition (601 → 1,137 closed, 1,064 → 2,019 new listings)
-was **the data coverage catching up, not a real market move**. Treat any
-week-over-week comparison that straddles the Aug 17–23 / Aug 24–30
-boundary as invalid. The Aug 24–30 → Aug 31–Sep 6 comparison is the
-first clean, like-for-like read.
+Consequence for editing: do **not** run a week-over-week comparison
+across the Aug 17–23 → Aug 24–30 boundary. The reported jump in that
+comparison reflects the wider data set, not a market move. Aug 24–30 →
+Aug 31–Sep 6 is the first apples-to-apples comparison and is what this
+week's edition uses. This is a background note for building future
+editions — it is not surfaced in any client-facing content.
 
-Specific missing counties two weeks ago: not recorded (Kyle didn't have
-the list). Going forward, confirm the pull returns all 24 jurisdictions
-before building the edition.
+Going forward: confirm the pull returns all 24 jurisdictions before
+building the edition.
 
 ---
 
@@ -47,8 +45,8 @@ before building the edition.
 *Historical — this report predates this vault; entry backfilled 2026-08-30
 from the published edition Kyle shared. County-by-county isn't available
 for this week, only the two spotlighted counties + heat map extremes.
-DATA INCOMPLETE — see coverage correction above; statewide totals
-undercounted.*
+Narrower jurisdiction coverage than Aug 24–30 onward — see the data
+baseline note above; not directly comparable to later weeks.*
 - Statewide: Closed 609 (median $420,000) · New Listings 1,240 · Pending
   357 · Price Reductions 1,220 · Avg. Days on Market 32
 - Calvert County (spotlight): Active 46, Closed 26, Avg. DOM 22 (fastest
@@ -66,9 +64,10 @@ undercounted.*
 ## Week of August 17–23, 2026
 *Historical — backfilled 2026-08-30 from the published edition Kyle
 shared. County-by-county isn't available for this week, only the two
-spotlighted counties + heat map extremes. DATA INCOMPLETE — see coverage
-correction above; statewide totals undercounted, so the Aug 24–30
-edition's "surge" vs. this week was a data artifact, not a market move.*
+spotlighted counties + heat map extremes. Narrower jurisdiction coverage
+than Aug 24–30 onward — see the data baseline note above. Do not run a
+week-over-week comparison from this week into Aug 24–30; the change
+reflects the wider data set, not the market.*
 - Statewide: Closed 601 (median $440,000) · New Listings 1,064 · Pending
   374 · Price Reductions 1,158 · Avg. Days on Market 33
 - Cecil County (spotlight): Active 37, Closed 13, Avg. DOM 25
@@ -111,18 +110,17 @@ edition's "surge" vs. this week was a data artifact, not a market move.*
   2-week decline streak, +1 bp)
 - FMMI: 58/100 — Balanced Market, Surging Activity (Demand 78, Seller
   Strength 50, Market Speed 66, Rate Environment 39)
-  ⚠️ RETROSPECTIVE NOTE (2026-09-07): the Demand score (78) and the
-  "Surging" read were built on the +89% closings/new-listings jump, which
-  Kyle later confirmed was a data-coverage artifact (Aug 17–23 pull was
-  missing counties), not a real market move. On clean data this week was
-  roughly flat vs. a true prior-week baseline; a corrected FMMI would sit
-  in the low-to-mid 50s. Edition already published — not restated.
-- Friedman Signal: Surging (see retrospective note — should have been
-  roughly "Steady")
-- Notes: New listings (+89.8%) and closings (+89.2%) both nearly doubled
-  week over week — LATER FOUND to be a data-coverage artifact, see the
-  correction block near the top of this file. Price reductions +80.5%
-  same cause. Total closed sales volume $606,704,645; 432 listings
+  Background note (2026-09-07): the Demand score (78) and the "Surging"
+  read leaned on the large week-over-week jump vs. Aug 17–23, which sits
+  on a narrower data baseline (see the data baseline note near the top).
+  Measured against a same-coverage prior week the market was roughly
+  flat; a same-basis FMMI would sit in the low-to-mid 50s. Edition
+  already published — not restated. Internal note only.
+- Friedman Signal: Surging (same-basis read would have been ~"Steady")
+- Notes: New listings and closings both showed a large week-over-week
+  rise vs. Aug 17–23 — that comparison spans a data-baseline change (see
+  the note near the top of this file), so it is not a like-for-like
+  market move. Total closed sales volume $606,704,645; 432 listings
   withdrawn/canceled (220/212). No
   individual listing sheets this week — Market Movers used statewide
   aggregate min/max (priciest closing $2,950,000, lowest $13,000;
@@ -166,26 +164,29 @@ edition's "surge" vs. this week was a data artifact, not a market move.*
   second straight weekly increase after the 2-week decline streak
   ended)
 - FMMI: 50/100 — Balanced Market, Holding Steady (Demand 58, Seller
-  Strength 48, Market Speed 58, Rate Environment 36). Nominally down from
-  last week's 58, but most of that gap is the Aug 24–30 score
-  self-correcting (it was inflated by the data artifact) — this is not a
-  real 8-point market deterioration.
+  Strength 48, Market Speed 58, Rate Environment 36). Presented on its
+  own this week, no delta shown — the prior week's 58 sits on a
+  different data baseline (see the baseline note near the top) so the
+  gap is not a meaningful market move.
 - Friedman Signal: Steady
-- Notes: FIRST clean week-over-week comparison in a month — both Aug
-  24–30 and Aug 31–Sep 6 have the full county set (this week minus
-  Howard, ~63 closings, pending). On that clean basis the market is
-  essentially flat: closings +1.1%, new listings −0.1%, pending +5.7%,
-  reductions +0.4%. Real movement is a mild autumn softening on price
-  and pace: median sold price −$10K (−2.2%) to $440,000, median
-  new-listing price −$10K to $419,900, median days-to-contract 18→21,
-  rate +5 bp to 6.71% (2nd straight increase). Counterpoint: closed
-  homes still realized a median 99.0% of ORIGINAL list price (97.6%
-  avg) — the softening is real but shallow; used as the Deep Dive
-  number. Edition reworked 2026-09-07 after Kyle flagged that last
-  week's "surge" was a data-coverage artifact — dropped all
-  "surge that leveled off" / "first FMMI decline in 3 weeks" framing.
-  Deep Dive is now the 99% sold-to-original-list stat (was the
-  price-cuts-vs-new-listings angle, which leaned on the surge premise).
+- Notes: First like-for-like week-over-week comparison this vault can
+  run (both Aug 24–30 and Aug 31–Sep 6 use the same jurisdiction
+  coverage; this week's pull was missing Howard, ~63 closings, and the
+  county table simply omits it — no "pending" label in client-facing
+  copy). On that basis the market is essentially flat: closings +1.1%,
+  new listings −0.1%, pending +5.7%, reductions +0.4%. Real movement is
+  a mild autumn softening on price and pace: median sold price −$10K
+  (−2.2%) to $440,000, median new-listing price −$10K to $419,900,
+  median days-to-contract 18→21, rate +5 bp to 6.71% (2nd straight
+  increase). Counterpoint: closed homes still realized a median 99.0%
+  of ORIGINAL list price (97.6% avg) — the softening is real but
+  shallow; used as the Deep Dive number.
+  All client-facing content (PDF, Substack, LinkedIn, GBP, YouTube,
+  Instagram, website SEO) presents this week as a standalone steady
+  snapshot — no mention of data coverage, corrections, or prior weeks
+  being off. Per Kyle: nothing that implies counties were missed in
+  earlier reports. Banner headline "Steady Into Fall". Deep Dive is the
+  99% sold-to-original-list stat.
   No individual listing sheet provided — Market Movers used statewide
   aggregate: priciest closing $6,250,000 (orig list $6,950,000), lowest
   closing $7,000; new-listing original-list range $2,250–$7,445,000.

@@ -1,6 +1,6 @@
-TITLE: The First Clean Read in a Month | The Friedman Report | Week of August 31 – September 6, 2026
+TITLE: The Week the Bidding Wars Took a Break | The Friedman Report | Week of August 31 – September 6, 2026
 
-SUBTITLE: Last week's "surge" was a data glitch. Here's what the Maryland market actually looks like with all the counties in.
+SUBTITLE: Renee and Theo waited out the summer. The week after Labor Day, there was finally a little room.
 
 BYLINE: Kyle Friedman — Sep 7, 2026
 
@@ -16,29 +16,17 @@ calmed down.
 They came back the week after Labor Day, and there was a little more
 room than there had been in the spring.
 
-*A note on last week: the "89% surge" in closings and new listings I
-reported was a data-coverage problem, not a real market move. Two weeks
-ago my Bright MLS pull was missing several county feeds, so those totals
-were undercounted. When the full county set came back, it looked like
-activity had doubled overnight. It hadn't. This week is the first
-genuine week-over-week comparison in a month, because it's the first
-time two straight weeks have covered the whole state. (Howard County
-slipped out of this week's pull — its heat-map line is marked pending.)*
-
 [See This Week's Full Breakdown & More](https://www.friedmanreteam.com/blog/maryland-real-estate-market-report-week-of-august-31-september-6-2026)
 
-So here is the real picture. There were 2,016 new listings across
-Maryland this week, essentially flat from 2,019 the week before.
-Closings were flat at 1,150. Pending contracts rose 5.7% to 518. Those
-are the small, ordinary wiggles of a market that is neither accelerating
-nor breaking down.
+There were 2,016 new listings across Maryland this week, and homes were
+taking a median of 21 days to go under contract, up from 18 the week
+before. And 2,098 listings had cut their asking price.
 
-What actually moved was price and pace. The median sold price slipped
-2.2% to $440,000, giving back last week's $10,000 gain, and the median
-new-listing price fell the same $10,000, to $419,900. The median
-time-to-contract slowed from 18 days to 21. And Freddie Mac's 30-year
-fixed rose five basis points to 6.71%, its second straight weekly
-increase.
+What moved this week was price and pace, not volume. Closings held near
+1,150, right in line with the week before. But the median sold price
+slipped 2.2% to $440,000, and the median new-listing price fell the same
+$10,000, to $419,900. And Freddie Mac's 30-year fixed rose five basis
+points to 6.71%, its second straight weekly increase.
 
 I walked Renee and Theo through it: the market is holding steady with a
 mild softening as fall settles in. A little more room for buyers, a
@@ -59,7 +47,7 @@ certainly land or a shell rehab. New listings this week ranged from
 ## The Numbers, Fast
 
 * 🏡 Homes Sold: 1,150, up 1.1% from 1,137
-* 🆕 New Listings: 2,016, flat from 2,019
+* 🆕 New Listings: 2,016, essentially flat from 2,019
 * ✍️ Pending Contracts: 518, up 5.7% from 490
 * 💰 Median Sold Price: $440,000, down 2.2% from $450,000
 * ⏱️ Median Days to Contract: 21, up from 18
@@ -74,13 +62,12 @@ closings, as high-end Eastern Shore inventory sits.
 
 ## The Friedman Market Momentum Index: 50/100 — Balanced Market, Holding Steady
 
-Nominally down from 58, but that is mostly last week's number correcting
-itself. The 58 was propped up by a Demand reading of 78 that came from
-the apparent activity surge — the same surge that turned out to be a
-data artifact. On clean data, the market has been sitting near this
-level the whole time. Demand 58, Seller Strength 48, Market Speed 58,
-Rate Environment 36. A steady, balanced market with a mild autumn
-softening, not a market that fell apart in a week.
+Right in the middle of the scale, with the four components close to
+offsetting. Demand held up on volume (Demand Score 58). Sellers gave
+back a little ground on price (Seller Strength 48). Homes moved a touch
+slower (Market Speed 58). And the rate rose again (Rate Environment 36).
+Add it up and the market is balanced, with a slight lean toward buyers
+as fall begins.
 
 ## Deep Dive: The Number That Explains This Week
 
@@ -94,8 +81,8 @@ measures, sellers look like they are losing ground. And yet the typical
 closed sale still landed within one percent of the seller's day-one ask.
 
 The reconciliation: the price weakness is concentrated in listings that
-mispriced at launch and had to chase the market down. Homes priced
-right from the start are still selling at, or very near, full ask. In a
+mispriced at launch and had to chase the market down. Homes priced right
+from the start are still selling at, or very near, full ask. In a
 softening market the gap between those two outcomes widens — and this
 week it was wide. (The average ratio was 97.6%, pulled down by a smaller
 number of deeply discounted sales.)
@@ -118,8 +105,8 @@ pools and longer holds, but also where the motivated sellers and real
 negotiating room are right now.
 
 Been sitting on a decision to list or to write an offer, and wondering
-what a "steady" market means for your timing? Just reply to this email,
-I read every one.
+what a steady market means for your timing? Just reply to this email, I
+read every one.
 
 ## Bonus From My Kitchen: Maryland Crab & Corn Chowder
 

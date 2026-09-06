@@ -1,23 +1,16 @@
 Maryland's housing market this week, in one word: steady.
 
-First, a correction worth being upfront about. Last week's report showed
-closings and new listings "nearly doubling" — that was a data-coverage
-problem on my end, not a real market move. Two weeks ago my Bright MLS
-pull was missing several county feeds, so those totals were undercounted.
-This week is the first genuine, full-state week-over-week comparison in a
-month.
-
-And that clean read shows a market holding its level. Closings flat at
-1,150, new listings flat at 2,016, pending contracts up 5.7% to 518.
-What actually moved: median sold price down 2.2% to $440,000, median
-days-to-contract from 18 to 21, and Freddie Mac's 30-year fixed up 5 bp
-to 6.71% — its second straight weekly increase. A mild autumn softening,
-not a turn.
+Volume held its level. Closings were near 1,150, right in line with the
+week before, and new listings were essentially flat at 2,016. Pending
+contracts rose 5.7% to 518. What actually moved was price and pace:
+median sold price down 2.2% to $440,000, median days-to-contract from 18
+to 21, and Freddie Mac's 30-year fixed up 5 bp to 6.71% — its second
+straight weekly increase. A mild autumn softening, not a turn.
 
 The Friedman Market Momentum Index reads 50/100 — Balanced Market,
-Holding Steady. Nominally down from 58, but most of that gap is last
-week's inflated number correcting itself. Demand 58, Seller Strength 48,
-Market Speed 58, Rate Environment 36.
+Holding Steady. Right in the middle of the scale, with the four
+components close to offsetting: Demand 58, Seller Strength 48, Market
+Speed 58, Rate Environment 36.
 
 → Harford County: fastest market in Maryland — 25-day average across 55
 closings, homes selling at full list

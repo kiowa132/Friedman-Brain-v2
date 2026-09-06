@@ -19,7 +19,7 @@ aspect-ratio control, not the prompt text.
 ## 1. HERO — `maryland-real-estate-market-report-week-of-august-31-september-6-2026-hero.png`
 **In-image text:**
 - Kicker, gold uppercase letter-spaced: `THE FRIEDMAN REPORT`
-- Headline, large editorial serif, warm white: `The First Clean Read`
+- Headline, large editorial serif, warm white: `Steady Into Fall`
 - Thin gold rule, then italic subhead: `Week of August 31 – September 6, 2026`
 - Lower-left: `The Friedman Team` wordmark from LOGO
 
@@ -35,7 +35,7 @@ aspect-ratio control, not the prompt text.
 > two-thirds is open sky and soft foliage under a teal-to-transparent
 > scrim for legible text. Lay in exactly: gold letter-spaced kicker
 > "THE FRIEDMAN REPORT" upper-left, large elegant serif headline "The
-> First Clean Read" beneath in warm white, a thin gold rule, then italic
+> Steady Into Fall" beneath in warm white, a thin gold rule, then italic
 > subhead "Week of August 31 – September 6, 2026". "The Friedman Team"
 > wordmark lower-left from the uploaded LOGO. Match the uploaded SITE
 > typography; colors from the uploaded SWATCH. 35mm, f/2.8, photoreal.
@@ -47,7 +47,7 @@ aspect-ratio control, not the prompt text.
 **In-image text:**
 - Center gauge reading `50` with small `/100`
 - Under it, uppercase teal: `BALANCED MARKET, HOLDING STEADY`
-- Small caption: `nominal prior 58 - see note`
+- Small caption: `Numbers Over Guesswork`
 - Four bars: `DEMAND 58` / `SELLER STRENGTH 48` / `MARKET SPEED 58` / `RATE ENVIRONMENT 36`
 - Kicker, gold uppercase: `THE FRIEDMAN MARKET MOMENTUM INDEX`
 - Footer lower-right, small teal: `The Friedman Team · Numbers Over Guesswork`
@@ -60,7 +60,7 @@ aspect-ratio control, not the prompt text.
 > large near-black #0D2226 Georgia-serif "50" with a smaller "/100"
 > beside it. Beneath the gauge, small uppercase letter-spaced teal
 > #0F5C63 text "BALANCED MARKET, HOLDING STEADY", with a smaller muted
-> caption "nominal prior 58" under it. Below, four short
+> caption "Numbers Over Guesswork" under it. Below, four short
 > horizontal bars in teal with uppercase labels and bold near-black
 > figures, left to right: "DEMAND 58", "SELLER STRENGTH 48", "MARKET
 > SPEED 58", "RATE ENVIRONMENT 36". Subtle warm off-white paper texture,
@@ -82,7 +82,6 @@ aspect-ratio control, not the prompt text.
   - `GARRETT COUNTY — 114 DAYS`
   - `KENT COUNTY — 76 DAYS`
 - Kicker, gold uppercase: `FRIEDMAN HEAT MAP`
-- Small footer note, muted: `Howard County — data pending`
 - Lower-left: `The Friedman Team` wordmark
 
 **Prompt:**
@@ -98,8 +97,7 @@ aspect-ratio control, not the prompt text.
 > DOM" with three stacked loss-red pill-cards, cream text, reading
 > exactly "TALBOT COUNTY — 128 DAYS", "GARRETT COUNTY — 114 DAYS", "KENT
 > COUNTY — 76 DAYS". Soft shadows, generous white space, light grain.
-> Gold kicker "FRIEDMAN HEAT MAP" upper-left; small muted footer note
-> "Howard County — data pending" bottom-center; "The Friedman Team"
+> Gold kicker "FRIEDMAN HEAT MAP" upper-left; "The Friedman Team"
 > wordmark lower-left from the uploaded LOGO. Match type to uploaded
 > SITE, colors from uploaded SWATCH. Sharp, correctly spelled,
 > well-kerned text exactly as specified. Negative: no literal
