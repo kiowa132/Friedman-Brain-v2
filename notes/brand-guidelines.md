@@ -51,6 +51,16 @@ markdown pipeline.
   wholesaler voice. Applies across all content: report, listing materials,
   social, email tone.
 
+## Writing style — all content
+- **No em dashes (—) or en dashes used as punctuation, anywhere** — not
+  just the website SEO article, this applies to every deliverable: Gamma
+  deck input text, Substack, LinkedIn, Instagram, GBP, YouTube, PDFs, the
+  works. Kyle flagged this 2026-09-13 after a Gamma generation used dashes
+  throughout. Rewrite with commas, periods, or "and"/"but" instead. Hyphens
+  in actual compound words (well-priced, sold-to-original) and number
+  ranges (7–13) are fine — this is about the punctuation dash used to
+  join/interrupt clauses.
+
 ## Positioning
 - Core brand mission: "Numbers Over Guesswork"
 - Core values: honesty, empowerment over pressure

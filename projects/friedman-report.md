@@ -1,9 +1,24 @@
 # The Friedman Report — Weekly Standing Procedure
 
 This file documents Kyle Friedman's repeatable weekly Maryland market report
-workflow. When Kyle drops in this week's numbers/context, produce the full
-edition and its full distribution set without re-asking for the process —
-only ask for genuinely missing data.
+workflow. When Kyle drops in this week's numbers/context, follow the staged
+workflow below without re-asking for the process, only ask for genuinely
+missing data.
+
+## Staged workflow (changed 2026-09-21 per Kyle)
+Don't fan out to every channel immediately. Build in this order, with a real
+stop for Kyle's sign-off after step 1:
+1. Build `report-core.md` (the master narrative + all data/sections), then
+   render it as a **PDF review draft** and hand that to Kyle first. This is
+   the checkpoint: confirm the story, numbers, and angle are right before
+   anything else gets built.
+2. Once Kyle approves the PDF (or gives corrections and re-approves), build
+   Substack, then the website SEO article, then the remaining social
+   channels (LinkedIn, Instagram, GBP, YouTube).
+3. **Do not build a Gamma deck by default.** Gamma is slow and not worth it
+   most weeks, per Kyle. Only build one if Kyle explicitly asks for it that
+   week. The PDF from step 1 is now the standard flagship visual document,
+   not Gamma.
 
 ## What "this week's edition" contains — every time
 1. **Narrative story** — buyer- or seller-focused, told through named fictional
@@ -55,13 +70,20 @@ editions in `friedman-report-log.md` for tone and format.
 
 ## Other real-format elements confirmed from prior editions (not previously
 ## documented here — add to the edition checklist above)
-- **Market Spotlight** — two counties profiled with active/closed/avg-DOM
-  stats and a short editorial note.
+- **Market Spotlight** — as of 2026-09-21, default to covering the largest
+  8-11 counties by population/volume with their own paragraph (not just
+  2), plus a 3-week trend table (rate/price/pace) and a new-listings vs.
+  closings ratio per county, if the week's data supports it. This was a
+  one-off expansion Kyle asked for on 9/14 that should now be the standing
+  baseline depth, not something to rebuild from scratch only when asked.
 - **Market Movers / Price Extremes** — most/least expensive listing this
   week, ideally a real specific address+price+beds/baths from Kyle (ask
-  him for it, don't wait for him to volunteer it). Only fall back to
-  statewide aggregate min/max new-listing prices, with an explicit
-  caveat, when no specific listing sheet is available.
+  him for it, don't wait for him to volunteer it). **Also ask for the
+  actual listing URL at the same time** (his expPortal link), not just the
+  address/price/details — added 2026-09-21 after shipping a placeholder
+  URL that had to be swapped out later. Only fall back to statewide
+  aggregate min/max new-listing prices, with an explicit caveat, when no
+  specific listing sheet is available.
 - **Winners & Losers** — a short bulleted "winners this week" /
   "losing momentum" pair.
 - **"One Thing I'd Do This Week"** — three short takes: If I Were Buying /
@@ -98,14 +120,19 @@ separately so he drops them into Substack's editor directly, or note
 where they'd go without embedding a raw link inline.
 
 Structure, top to bottom:
-1. **Title** in the pattern `[Punchy hook] | The Friedman Report | Week of
-   [date range]`.
-2. **Subtitle** — one line, teases the story's turn.
+1. **Title** in the pattern `[Punchy hook] | Maryland Weekly Market
+   Report, Week of [date range]` (changed 2026-09-14 per Kyle: title
+   must contain "Maryland Weekly Market Report" and the date range, not
+   just "The Friedman Report" branding).
+2. **Subtitle**: one line, teases the story's turn.
 3. Opens directly with the narrative (2-3 short paragraphs), no header
    before it.
 4. Early callout, own line: `👉 [View the full interactive market report
    here](<gamma link>) — county by county data, the Friedman Signal, and
-   this week's heat map.`
+   this week's heat map.` Only include this line if a Gamma deck actually
+   exists that week (it's no longer the default, see Staged workflow
+   above); otherwise drop the line or point it at the PDF/website article
+   instead.
 5. A second link, own line: `[See This Week's Full Breakdown &
    More](<website article URL>)`.
 6. Continue the narrative with the week's headline numbers woven in.
@@ -132,14 +159,45 @@ Everything after that (like count, "Discussion about this post", related
 posts, the publication's own subscribe footer) is Substack's own
 auto-generated UI — never hand-write it into the draft.
 
+## Short-form video (added 2026-09-21)
+A separate deliverable from the "Suggested talking points" in the YouTube
+draft, that's for a longer talking-head video if Kyle wants one. The
+**default weekly video is a 15-20 second short** (Reels/Shorts/TikTok),
+NOT a 2-3 minute script, that was a real miss the first time this was
+asked for. Structure, modeled on Kyle's own real examples:
+1. A one-line setup naming the surprising thing that happened this week.
+2. One or two concrete data points delivering the contrast (a county-vs-
+   county gap, or a "you'd expect X, but Y happened" beat).
+3. A short punchy "lesson" or reframe line.
+4. A closing line that ties the lesson back to the viewer's own numbers or
+   decision, varied week to week, don't reuse the same closing line
+   multiple weeks running (Kyle flagged this after 5 similar closers in a
+   row).
+Total length: roughly 50-65 words, reads in 15-20 seconds. Write it as
+plain spoken lines, no headers, easy to read straight off a phone while
+recording. See `video-script.md` in a given week's drafts folder for the
+exact format once one exists.
+
+**Caption for the video post** is a separate, shorter piece of copy, not
+the script repeated. It should tease the payoff and create a curiosity
+gap rather than give away the "reveal," since a caption that summarizes
+the whole video kills the reason to tap play. Match Kyle's own younger,
+casual voice for Instagram/Reels captions specifically (see
+`../notes/brand-guidelines.md` if that gets documented there), 5 hashtags
+max, not a long tag block.
+
 ## Distribution — every edition goes to all of these
-- Gamma (custom theme ID `m6zymtbkauah9qd`)
+- PDF review draft (see Staged workflow above — built first, every week)
 - Substack
 - Website SEO article
 - LinkedIn
 - Instagram (carousel format — standard for every edition)
+- Short-form video script + a separate teaser caption for it (see
+  Short-form video section above) — added as a standing deliverable
+  2026-09-21
 - Google Business Profile
 - YouTube
+- Gamma — **on request only**, not a default (changed 2026-09-21)
 
 ## Standing build rules
 - Branding & tone: follow `../notes/brand-guidelines.md` — don't duplicate
@@ -147,9 +205,27 @@ auto-generated UI — never hand-write it into the draft.
 - Deep-dive topic pieces (e.g. Zestimate accuracy, 1031 exchanges, closing
   costs) get the same Instagram carousel + Substack distribution as standard
   editions when produced as standalone content.
+- **No em/en-dash punctuation anywhere** — every channel, not just the
+  website article. See `../notes/brand-guidelines.md` "Writing style".
+- **Before generating any branded image**, check how it will actually be
+  displayed in the destination (the site's component code, the platform's
+  aspect-ratio/crop rules) rather than assuming a format. Building the
+  9/7-13 hero at a 3:1 banner without first checking that the site
+  displays every hero in a fixed 16:9 `object-cover` box cost several
+  redundant image generations. When in doubt, grep the consuming
+  component before spending generation budget.
+- **Before calling any edition "done," do a pre-publish pass**: grep the
+  whole file (not just the section you touched) for every occurrence of
+  anything you just fixed (an address, a link, a stat), and confirm every
+  referenced image/asset path actually has a file behind it. A fix applied
+  to one occurrence and missed on a duplicate elsewhere, and a broken
+  `<img>` reference to a file that was never created, both shipped to the
+  live site the week of 9/7-13 because this wasn't checked before calling
+  it finished.
 
 ## Output format
-Deliver the full edition as a complete package: narrative + all data
-components assembled, plus platform-specific versions (Gamma deck, Substack
-post, SEO article draft, LinkedIn post, Instagram carousel copy, GBP post,
-YouTube description) ready to publish or lightly edit.
+Follow the Staged workflow above: PDF review draft first and wait for
+Kyle's sign-off, then assemble the rest of the platform-specific versions
+(Substack post, SEO article draft, LinkedIn post, Instagram carousel copy,
+GBP post, YouTube description) ready to publish or lightly edit. Build a
+Gamma deck only if Kyle asks for one that week.

@@ -43,13 +43,75 @@ prompt to `properties/<addr>/image-log.md`. `generated/` stays disposable.
 - `openai` size is `1536x1024` landscape by default (`-Size`). For a thin
   banner add **`-CropAspect "3:1"`** (also `21:9`, `16:9`) — center-crops
   after generation. Downscale to 1600x900 for blog heroes.
-- **Left-edge text clip fix:** gpt-image-1 ignores "leave a margin" but
-  respects a concrete visual anchor. Put in the prompt: *"a thin warm-gold
-  vertical hairline runs top-to-bottom ~12% in from the left edge; every
-  letter sits to the right of it, nothing touches the left edge."*
+- **Left-edge text clip fix (superseded for report heroes — see below):**
+  gpt-image-1 ignores "leave a margin" but respects a concrete visual
+  anchor somewhat better than nothing. Put in the prompt: *"a thin
+  warm-gold vertical hairline runs top-to-bottom ~12% in from the left
+  edge; every letter sits to the right of it, nothing touches the left
+  edge."* Still unreliable on its own — see the plate+composite method
+  below, which is now the standard for Friedman Report hero banners.
 - For a thin banner, also tell it the **top third is empty sky, bottom
   third is empty road** (blank trim margin) so the crop only removes
   emptiness.
+
+## Friedman Report hero banner — proven method (confirmed 2026-09-13)
+Baking title text into the AI image is unreliable no matter how the
+prompt is worded — gpt-image-1 clips the first letter of left-aligned
+lines often enough that it's not worth fighting. **Standard method now:
+generate a completely text-free background plate, then composite the
+title text on top with Python/Pillow for pixel-exact placement.**
+
+1. **Generate a text-free plate.** Same brand-palette prompt as usual,
+   but explicitly instruct *no text, no letters, no words, no numbers,
+   no logos, no watermark anywhere in the image*. `-Quality high`
+   (~$0.17), no `-Ref` needed (refs muddy the grade — see note above).
+2. **Vary the scene/angle every week.** Don't reuse the same eye-level
+   suburban-street-with-a-For-Sale-sign shot two weeks running — Kyle
+   flagged this as "too basic" the second time. Good alternatives:
+   an elevated three-quarter **aerial/drone view** over a neighborhood
+   with several small signs scattered across different lawns (reads as
+   "a wave of listings," ties to supply-surge stories), a different
+   season/time-of-day treatment, a different property type/density.
+   Pick something that matches that week's actual story angle.
+3. **Crop to a 3:1 banner** (long and skinny, not square-ish) with
+   Pillow — pick the vertical band that keeps the most interesting
+   content (signage, rooflines), not a blind center-crop.
+4. **Composite text with Pillow**, fonts substituted from what's on the
+   Windows box (brand fonts Avenir Next / Mrs Eaves aren't installed
+   locally):
+   - Kicker: `C:\Windows\Fonts\ArialNova-Bold.ttf`, ~30px, gold
+     `#C9A96A`, tracking +4px, uppercase
+   - Headline: `C:\Windows\Fonts\georgiab.ttf` (Georgia Bold), **92px**
+     — go big, this is the number one thing to get right — cream
+     `#FAF8F5`
+   - Subhead: `C:\Windows\Fonts\georgiai.ttf` (Georgia Italic), ~32px,
+     gold
+   - Wordmark ("THE FRIEDMAN TEAM"): `ArialNova-Bold.ttf`, ~32px, cream,
+     tracking +2px
+   - Vertically **center the whole text block** in the banner (compute
+     total block height, center it, don't just top-align with a big gap
+     before the wordmark)
+   - Left margin: **5% of image width**, not less — this is what
+     guarantees nothing clips, since it's real math now, not a model
+     guess
+   - Draw each text line with a **soft drop shadow** (offset ~2-3px,
+     black at ~120 alpha) — this alone does most of the legibility work
+   - **Left-side gradient scrim, but light:** a dark teal-black gradient
+     (`~(6,16,18)`) from the left edge, peak alpha **~150** (not higher —
+     215 read as "too dark" and killed the photo), fading out over
+     **~50% of the image width**. Do **not** add a full-frame darken
+     layer on top of the scrim — that flattened the whole photo and was
+     the main complaint the first time; the scrim + drop shadow alone is
+     enough contrast.
+5. Save the composited PNG, then re-encode to a ~1600px-wide JPG
+   (quality ~85-88) for web use, and copy it into
+   `The-friedman-team-website/public/images/uploads/` with the exact
+   frontmatter filename.
+
+This fully sidesteps gpt-image-1's unreliable text rendering — nothing
+can clip because placement is exact math, not a model guess. Use this
+method by default for every future Friedman Report hero; don't go back
+to baked-in AI text for this slot.
 - **Refs are "content to blend," not "settings."** Tested 2026-08:
   passing `swatch.png` as a `-Ref` muddies the grade instead of matching
   it. So: put the **hex values in the prompt text** (`deep teal #0F5C63`

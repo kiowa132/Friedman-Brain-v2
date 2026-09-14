@@ -214,3 +214,112 @@ reflects the wider data set, not the market.*
   maryland-real-estate-market-report-week-of-august-31-september-6-2026-
   hero.jpg — staged there, uncommitted). No em/en dashes (Kyle rule).
   Slug: maryland-real-estate-market-report-week-of-august-31-september-6-2026.
+
+## Week of September 7–13, 2026
+- Statewide: Closed 708 (median sold $445,000, median orig list
+  $450,000, corrected total volume ~$375,960,939 — see outlier note
+  below) · New Listings 2,366 (median $448,383) — this week confirmed
+  "Active" status with a date-range filter = new listings that went
+  active that week, same status-change convention as Closed/Pending,
+  not point-in-time inventory · Pending 481 (median $399,500) · Price
+  Reductions 2,011 (Active-status only; 2,087 across all statuses) ·
+  Median Days to Contract (Closed CDOM) 20 (median DOM 18) · Sold/Orig
+  List median 99.6% · Sold/List median 100.0%
+- Full county-by-county this week is unusually rich — Kyle's pull
+  included the complete status breakdown (Coming Soon / Active / AUC /
+  TOM / Pending / Withdrawn / Closed / Expired / Canceled) for all 24
+  jurisdictions, not just Closed. That means New Listings and Pending
+  are now available by county too, not just statewide. Full table
+  (Closed / median sold / avg DOM / New Listings / median new-list price
+  / Pending / New:Closed ratio):
+  Allegany 6/$117,950/37/26/$182,450/4/4.3x · Anne Arundel
+  86/$500,000/26/215/$495,000/60/2.5x · Baltimore City
+  62/$236,250/41/291/$240,000/64/4.7x · Baltimore County
+  83/$372,500/29/248/$375,000/90/3.0x · Calvert
+  12/$631,500/15/38/$500,000/7/3.2x · Caroline
+  8/$290,495/45/11/$319,000/1/1.4x · Carroll
+  21/$449,000/27/55/$475,000/22/2.6x · Cecil
+  10/$335,000/20/30/$439,995/9/3.0x · Charles
+  25/$479,500/35/103/$459,900/18/4.1x · Dorchester
+  2/$217,000/103/13/$319,000/1/6.5x (tiny sample) · Frederick
+  49/$455,000/29/134/$499,900/21/2.7x · Garrett
+  10/$707,500/93/14/$589,500/3/1.4x · Harford
+  44/$389,500/48/100/$402,500/30/2.3x · Howard
+  44/$595,000/28/107/$575,000/22/2.4x · Kent
+  5/$325,000/35/8/$319,500/2/1.6x · Montgomery
+  93/$625,000/25/420/$679,950/34/4.5x · Prince George's
+  49/$414,000/37/281/$455,000/57/5.7x · Queen Anne's
+  9/$515,000/41/24/$525,500/4/2.7x · St. Mary's
+  13/$470,000/14/37/$419,990/4/2.8x · Somerset
+  3/$310,000/52/11/$295,000/0/3.7x (tiny sample) · Talbot
+  13/$875,000/52/31/$749,990/1/2.4x · Washington
+  23/$294,000/53/68/$314,573/12/3.0x · Wicomico
+  11/$379,900/67/38/$327,500/4/3.5x · Worcester
+  27/$525,000/51/64/$444,450/11/2.4x
+- Fastest county: St. Mary's (14-day avg DOM, 13 closings). Slowest
+  (meaningful sample): Garrett (93-day avg DOM, 10 closings). Dorchester
+  posted 103-day avg but only 2 closings — tiny-sample footnote, not a
+  trend claim. Carroll (Kyle's home county) cooled to mid-pack (27-day
+  avg, 21 closings) after leading/near-leading much of August.
+- New this week — supply-pressure ratio (new listings ÷ closings) by
+  county, only possible because the county pulls included full status
+  breakdowns: statewide 3.3x. Highest (supply building fastest, most
+  buyer leverage): Prince George's 5.7x, Baltimore City 4.7x, Montgomery
+  4.5x. Lowest (tightest): Caroline 1.4x and Garrett 1.4x (both tiny
+  samples), Kent 1.6x, Harford 2.3x. This is a new one-week snapshot
+  metric with no historical baseline yet — framed as directional, not a
+  trend, until there's a second week to compare against.
+- Freddie Mac 30yr rate: 6.76% (week of 9/10/2026 release, pulled via
+  WebSearch; +5 bps, third straight weekly increase after 6.66% →
+  6.71% → 6.76%)
+- FMMI: 48/100 — Balanced Market, Pricing Power Returns (Demand 43,
+  Seller Strength 56, Market Speed 60, Rate Environment 32)
+- Friedman Signal: Resetting
+- Notes: Closed sales fell 38.4% w/w (1,150 → 708), the sharpest drop
+  tracked, but framed editorially as a Labor Day settlement-calendar
+  effect (9/7 was the holiday) rather than a demand collapse, since
+  Pending only fell 7.1% (a cleaner forward demand read) and every
+  price/pace metric improved (median sold price +1.1%, sold/orig list
+  99.0%→99.6%, CDOM 21→20). New Listings jumped +17.4% (2,016→2,366),
+  the largest w/w new-listing move tracked, median new-list price
+  +6.8% ($419,900→$448,383) — read as the "wait for after Labor Day"
+  seller cohort listing all at once. Price reductions fell -4.1%
+  (2,098→2,011), plausibly diluted by the wave of freshly-priced new
+  listings.
+  Data-entry outlier: Howard County's Closed pull showed one record
+  with Current Price $635,000,000 (Sold/Orig 96358.1%, Sold/List
+  100000.0%) — statewide Closed Sum showed $1,010,325,939 including it.
+  Kyle confirmed 2026-09-13 this was a fat-finger, should read $635,000.
+  Corrected statewide Closed volume ≈ $375,960,939 (708 closings).
+  Medians (statewide and Howard's own) were unaffected since a single
+  outlier doesn't move a median; only avg/sum needed correction. Not
+  surfaced in any client-facing copy — internal only, per standing
+  no-self-blame-in-client-copy rule (data is Bright MLS/agent-entry
+  error, not Kyle's).
+  Price Extremes / Market Movers (Kyle supplied full listing sheets
+  2026-09-13, both ACTIVE listings not closings, consistent with prior
+  weeks' convention): PRICIEST 6920 Travelers Rest Cir, Easton, MD
+  21601 (Talbot Co.) — $9,950,000; 20.58ac Tred Avon River waterfront
+  estate, 529ft water frontage, private pier w/ 3 slips + 2 boat lifts,
+  heated pool, separate 3bd/2ba guest house, 4bd/5.1ba main house,
+  6,421sf, built 1999; MLS MDTA2014818; Joe Bray/Sotheby's. MOST
+  AFFORDABLE 10509 Burton Park, Frostburg, MD 21532 (Allegany Co.) —
+  $15,000; manufactured home on rented lot ($450/mo lot rent + $100/mo
+  water/sewer/trash), 3bd/2ba, 980sf, built 1990, sold as-is, no real
+  property conveys; MLS MDAL2013432. Tie-in used: Market Spotlight this
+  week paired Allegany (most affordable) + Talbot (priciest) as a
+  "tale of two Marylands" instead of the usual fastest/slowest-county
+  pairing.
+  Recipe: Maryland Tomato Pie (end-of-season Eastern Shore classic,
+  seasonal contrast to the crab & corn chowder used the prior two
+  weeks).
+  Distribution drafted 2026-09-13: report-core, substack, website-seo
+  (SEO article expanded with a new "Supply Pressure by County" table +
+  section — Kyle asked for more use of the county-by-county data this
+  week since the pull included full status breakdowns per county for
+  the first time, not just Closed), linkedin, instagram-carousel (9
+  slides, added a supply-pressure slide), gbp-post, youtube,
+  image-prompts (added a 5th image slot for the new supply-pressure
+  graphic). Gamma deck / PDF / final images / website commit / social
+  posting not yet done — pending Kyle's call on Gamma vs. PDF (out of
+  Gamma credits as of last week) and image-generation spend approval.

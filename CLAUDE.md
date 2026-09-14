@@ -49,6 +49,8 @@ use it.
   monthly-card freebie funnel; how to pull the mail-merge list from FUB
 
 ## Reference
+- [[notes/accounts.md]] — logins/2FA recovery codes for business tools (not
+  git-tracked, local only)
 - [[notes/brand-guidelines.md]] — visual identity, naming rules, brand voice
 - [[notes/ai-video-tools.md]] — AI avatar / digital-twin video options
   (paid SaaS + free open-source stack) for realistic video of Kyle
