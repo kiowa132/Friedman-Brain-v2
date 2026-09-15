@@ -209,8 +209,63 @@ because:
 
 ## First listing (set up 2026-09-01)
 `content/listings/listing-1.md` — 315 Park Ave, Salisbury MD 21801 ·
-Pending · $199,999 · 6 bd / 3 bath / 3,080 sq ft · active: true.
-**Still needs:** hero photo, gallery photos, and a description — add via /admin.
+Pending · $199,999 · 6 bd / 3 bath / 3,080 sq ft · **active: false** (test
+listing, turned off 2026-09-15 when the real sign QR workflow went live).
+
+## Real sign QR code — generated and live 2026-09-15
+Kyle needed to order physical For Sale signs and wanted the QR target
+squared away first. Flipped `listing-1` off, added
+`content/listings/261-magothy-bridge-rd.md` (Blaine Welker, Coming Soon,
+$489,000, 4 bd / 3 ba / 2,456 sqft total finished, 0.3 ac, built 1967, no
+MLS # yet since it's pre-launch), committed + pushed (`8e55506`), verified
+live at both `/listings/261-magothy-bridge-rd` and the `/listings/active`
+redirect.
+
+Generated the actual printable QR PNG (1470x1470, `ERROR_CORRECT_H`,
+via the `qrcode` Python package) encoding the permanent target
+`https://www.friedmanreteam.com/listings/active`, saved to
+`notes/sign-qr/for-sale-sign-qr.png` and sent to Kyle for the sign order.
+This file only needs regenerating if the domain itself ever changes, not
+per listing, that's the whole point of the redirect.
+
+**Still needs:** hero photo, gallery photos for 261 Magothy Bridge Rd once
+the Sept 23 photo/3D-tour shoot happens (add via `/admin`), and the
+above-grade sqft should get corrected once professionally measured (used
+2,456 total finished as a placeholder, see `deck-corrections.md`).
+
+**Note for next listing switch:** `node`/`npm` are not on PATH in this
+environment, so the manifest/prebuild scripts can't be run or verified
+locally, changes have to be pushed and checked live on Vercel. The site is
+a client-rendered SPA, a `navigate` in the browser tool reports the
+pre-redirect URL/title immediately, the real title/content only shows up
+after `get_page_text` or a second read, don't judge success from the
+`navigate` result alone.
+
+## Premium "Showcase" redesign (2026-09-15)
+Kyle wanted `SignListingPage.tsx` to feel more like Zillow Showcase, more
+premium/immersive, not the plain contained-card layout it launched with.
+Rebuilt (`src/pages/SignListingPage.tsx`) reusing design tokens that
+already existed elsewhere on the site rather than inventing new ones:
+- **Full-bleed hero** (62vh, Ken Burns slow zoom via the existing
+  `.animate-kenburns` class) with status/address/price overlaid directly
+  on the photo, same gradient-overlay pattern as `LuxuryPage.tsx`'s hero.
+  When there's no photo yet, an ambient teal/gold radial-gradient plate
+  substitutes so it still looks intentional, not broken (see 261 Magothy,
+  live before its Sept 23 photo shoot).
+- **Floating glass stat card** (`.glass-luxury`) that overlaps the hero's
+  bottom seam via a negative margin, editorial serif numbers over thin
+  uppercase labels.
+- **Bento-style gallery grid** (first photo large, `col-span-2 row-span-2`)
+  instead of a uniform grid.
+- **Full-width dark CTA band** instead of a contained box.
+No new dependencies, no new CSS, just existing `glass-luxury`,
+`gold-gradient-text`, `animate-kenburns` from `index.css` applied here for
+the first time. Deployed straight to `main` (Kyle's call, no branch
+preview since this environment has no node/npm to build a local preview
+and there was no fast way to hand him a Vercel preview link either,
+verified after the fact via live screenshot + `get_page_text` instead).
+If Kyle wants to reuse this "Showcase" treatment elsewhere (e.g. the IDX
+`ListingDetailPage.tsx`), same token set, same pattern.
 
 ## Notes / possible future changes
 - The reusable-slot slug (`listing-1`) means page content rotates under a

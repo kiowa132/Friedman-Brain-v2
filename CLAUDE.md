@@ -20,10 +20,51 @@ use it.
   index; the detail lives here.
 - `listings/` — per-listing packages (CMA data, pricing, net-proceeds,
   paperwork field-maps). `listings/_forms/` holds the blank form templates.
+- `properties/` — hero-image generation staging for the weekly report, one
+  folder per property (`photos/` raw drops, `generated/` scratch AI
+  attempts, `final/` shipped compressed images, `image-log.md`). See
+  `properties/README.md` and [[projects/report-images.md]]. Not the same
+  thing as `listings/` — this is image production, not deal data.
+- `marketing/` — physical/print marketing assets and reusable copy: the
+  Avery mailing labels, the monthly-card mail-merge list (feeds
+  [[projects/mailing-list.md]]), and
+  [[marketing/listing-process-roadmap.md]] — the 10-step "WE ARE HERE"
+  listing roadmap card, **reusable for every listing presentation**.
+  [[projects/listing-presentation.md]] doesn't currently call this out as
+  a required deliverable component, confirm with Kyle whether it should.
+- `brand-assets/` — logo, headshot, and lockup image files referenced by
+  the PDF generator scripts and Gamma decks.
+- `scripts/` — reusable generators: `scripts/pdf/` (net-proceeds and
+  listing-presentation PDF/Excel builders, one script per past listing,
+  copy the closest match for a new one), `gen-image.ps1` / `keep-image.ps1`
+  (report hero images, see `properties/`), `compress-photos.py`.
+- `drafts/` — staging for in-progress content: `friedman-report/` (weekly
+  report drafts), `blog-articles/`, plus occasional one-off client email
+  drafts.
 - `decisions.md` — running log of open decisions and resolved calls, so
   nothing gets re-litigated or forgotten.
 
+## Sibling repos (same parent folder, not inside this one)
+- `friedman-crm/` — the Friedman CRM app itself. See
+  [[projects/crm-app.md]] here for the model/plan; the repo's own
+  `README.md` / `ARCHITECTURE.md` have the current build status.
+- `The-friedman-team-website/` — friedmanreteam.com. See
+  [[projects/friedmanreteam-website.md]] and [[projects/sign-listing-page.md]].
+- `Vendtrack/` — **a separate business**, a vending-machine inventory/cash
+  tracker, unrelated to real estate. Not part of The Friedman Team brain's
+  scope, listed here only so an agent poking around the parent folder
+  doesn't mistake it for a Friedman Team project.
+
 ## Standing procedures — start here for recurring work
+- [[projects/crm-app.md]] — **Friedman CRM**, the custom $0/mo Follow Up
+  Boss replacement (data model, cascade automations, screen list, build
+  phases). The actual app lives in the sibling folder `friedman-crm/` (its
+  own repo, nested inside this one on disk, see its `README.md` /
+  `ARCHITECTURE.md` for current build status, already well past planning:
+  Today screen, People, Person detail, Deals pipeline, Templates,
+  Settings, FUB import, Gmail send, 2-way Google Calendar sync, and AI
+  drafting/briefs are already built. Cutover off FUB targeted for
+  Oct 31, 2026.
 - [[projects/listing-presentation.md]] — seller listing presentation package
 - [[projects/listing-scripts.md]] — vetting-call script (qualify before booking)
   + listing-presentation close + objection handlers

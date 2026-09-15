@@ -39,12 +39,15 @@ markdown pipeline.
   `/images/uploads/charts/<post-slug>/<name>.svg`, embedded as
   `<img src="…" alt="[describe the takeaway]" style="width:100%;height:auto;margin:20px 0;" />`
 
-## Visual identity — Gamma decks (open question — see decisions.md)
-- Listing presentation decks currently use Gamma theme `aurum`
-  (`themeId: aurum`, `textMode: preserve`, `cardSplit: inputTextBreaks`)
+## Visual identity — Gamma decks
+- Listing presentation decks use Gamma theme **"friedman v2 test"**
+  (`themeId: dlup7kt5fa4f3r0`, `textMode: preserve`,
+  `cardSplit: inputTextBreaks`) — Kyle confirmed 2026-09-15, replacing the
+  earlier `aurum` theme.
 - Friedman Report uses a separate custom Gamma theme
   (`themeId: m6zymtbkauah9qd`)
-- Neither has been confirmed to move to the new teal/gold identity yet.
+- Friedman Report hasn't been confirmed to move to the new teal/gold
+  identity or to "friedman v2 test" — ask before changing it.
 
 ## Brand direction
 - Shifting toward $400K+ and luxury clientele — away from investor-grade /

@@ -1,9 +1,9 @@
 # Decisions Log
 
 ## Open
-- [ ] Should listing-presentation Gamma decks (currently Aurum theme) move to
-      the new teal/gold brand identity used on the website? — raised
-      2026-08-26
+- [ ] Should listing-presentation Gamma decks (now "friedman v2 test" theme,
+      switched from Aurum 2026-09-15) move to the new teal/gold brand
+      identity used on the website? — raised 2026-08-26, still open
 - [ ] IDX data approach for the website — not yet decided. Lofty API returns
       only 1 photo and no description per listing; IDX Broker identified as
       the likely upgrade path.

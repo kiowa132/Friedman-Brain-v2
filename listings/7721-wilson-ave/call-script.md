@@ -59,8 +59,9 @@ off your plate? ... Do you still have a mortgage on it, and roughly what's the
 balance? ... And are you fully clear of the agreement with your last agent?"
 
 **Then.** "Okay. I'll build you a net sheet so you see your exact walk-away
-number at each price. And since it came off the market, you're free to bring it
-back with whoever you want."
+number at each price." **If she's not clear on the agreement status, see the
+separate "Canceling with Mari" script for exactly how to walk her through
+it.**
 
 **Lead in.** "Let me walk you through what actually went wrong. Three things, and
 none of them are the house or you."

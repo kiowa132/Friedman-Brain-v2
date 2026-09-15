@@ -13,6 +13,11 @@ those out later.
 
 Draft 3, Sept 2026. Iterate here.
 
+There's also an interactive tap-through version of the appointment-setting
+call at `the-listing-call.html` in this same folder (a self-contained page,
+open it directly or via the `script` skill). Keep it in sync with this
+file when the script changes here.
+
 **Get to it fast:**
 - Type **`/script`** in Claude Code — pulls up the flows and the tool link.
   `/script expired` (or `followup` / `warm` / `close` / `objections`) for one
