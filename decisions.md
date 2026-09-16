@@ -9,6 +9,17 @@
       the likely upgrade path.
 
 ## Resolved
+- CRM auto-generating Gamma decks (2026-09-16): confirmed with Kyle he's
+  not upgrading Gamma to a Pro/Ultra/Team/Business plan right now, which
+  is required for API access no matter how it's called (direct API,
+  Zapier/Make/n8n — the gate is on Gamma's side, unrelated to which AI
+  or automation tool is calling it, and separately unrelated to paying
+  for Claude/ChatGPT credits, which don't touch Gamma at all). So the
+  CRM does NOT auto-generate decks — it organizes the data (comps,
+  market stats, property facts) and Kyle hands a "deck brief" to Claude
+  in chat to generate the deck manually, same as this session's own
+  workflow. Revisit if Kyle upgrades Gamma later — see crm-app.md item
+  10 for what the smaller follow-up build would look like.
 - Friedman Report FMMI methodology confirmed with Kyle 2026-08-30: no
   separate formula exists — four component scores (Demand, Seller
   Strength, Market Speed, Rate Environment) are set by editorial judgment

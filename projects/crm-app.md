@@ -426,6 +426,131 @@ Reusable task bundles ("New Seller Prep", "Buyer Under Contract",
       Mark signed (mark-signed fires `create_deal_from_contact`).
     - Standalone **Net Sheet** mode (Maryland closing costs + county
       transfer/recordation tax).
+    - **Built (2026-09-15):** on a Deal's own page, an "Upload signed
+      contract" card. Kyle picks the signed listing agreement / buyer
+      broker agreement (PDF or photo), the `ai` edge function's new
+      `extract` task sends it straight to Claude/Gemini as a document
+      (no separate text-extraction step, so it reads scanned/image-only
+      PDFs fine, same class of file as the scanned Wilson Ave listing
+      agreement that stumped pypdf earlier this session) and returns
+      property address, list price, commission %, signed/list dates,
+      MLS #, and the other side's agent + brokerage. Those values are
+      dropped straight into the existing editable Property / Numbers /
+      Key dates fields on `DealDetail.tsx` (not a separate review modal),
+      so Kyle edits anything off, then hits each section's own Save,
+      same as always — never a blind auto-fill. AI-flagged notes
+      (ambiguous fields, an expiration date with no dedicated column)
+      surface as a line under the upload button. **Fixed same day:** the
+      first version sent the file as base64 inside the edge function
+      call, which hit Supabase's free-tier ~2MB request-body cap on any
+      real scan ("that file is over 15MB" was misleading, even a 3MB
+      scan would've failed the same way). Rebuilt so the file uploads to
+      a new private Storage bucket (`deal-documents`, `fix-12-deal-
+      documents-storage.sql`) first, then the edge function downloads it
+      server-side with the service-role key before handing it to
+      Claude/Gemini. This also means the uploaded contract now persists
+      per deal (a small file list under the upload button, view via
+      signed URL, remove if needed), closing the earlier "not yet
+      built: storing the file" gap. **Fixed again same day:** the
+      20MB cap was sized for Claude's inline-document ceiling, but
+      Kyle actually runs `GEMINI_API_KEY` (the free tier, not Claude),
+      whose real limit is much higher — switched Gemini's path to its
+      Files API (raw bytes upload directly, no base64, no giant JSON
+      string) after a real file still crashed the function with
+      "Memory limit exceeded"; cap raised to 40MB. **Built (2026-09-
+      16):** the missing upload entry point from `PersonDetail.tsx` —
+      "Upload listing agreement" / "Upload buyer agreement" next to
+      "+ Listing"/"+ Buyer" on a contact's Deals card creates the deal,
+      uploads the file, and lands on the new deal's page with the
+      extraction already run (same review-before-save fields, just
+      skips picking the file twice).
+    - **Built (2026-09-16): standalone Net Sheet mode.** New
+      `Presentation.tsx` page (route `/presentations/:id`) backed by
+      the `presentations` table (existed in schema.sql since Phase 2/3
+      planning, never wired to any UI until now). Entry point: a
+      "Presentations" card on a contact's page (`+ Net Sheet`). Ports
+      the exact model from `scripts/pdf/net-proceeds-pdf.py` — three
+      price scenarios (Conservative/Mid/Target), commission %, a
+      single combined seller transfer-tax rate per county. **Expanded
+      2026-09-16** from the original 3-county reactive research into a
+      full pass over Kyle's whole service area at once (Kyle's own
+      framing: "do all research first... so it just needs to see what
+      county it's in"): Baltimore, Harford, Anne Arundel, Carroll,
+      Prince George's, and Frederick counties all have a real preset now,
+      each sourced against an official county page and/or Md. Real
+      Property §14-104 (the statewide default: county transfer AND
+      recordation tax split 50/50 unless local custom differs — Harford's
+      and Carroll's formulas were reverse-engineered against Kyle's own
+      past net-proceeds scripts, 1000 Beall Dr and 3070 Monroe St, and
+      both check out to the decimal). Two things kept deliberately
+      honest rather than smoothed over: every preset carries a
+      `verified` date shown right in its note (rates change — that's
+      the whole reason Kyle's process re-checks them per listing, so a
+      preset should never look permanently trustworthy), and Montgomery
+      County has NO flat preset despite being a real market Kyle
+      works — its transfer tax rate depends on the buyer's first-time-
+      homebuyer status and its recordation tax is price-bracketed, so a
+      single percentage would be right for some deals and silently
+      wrong for others. It's named explicitly in the county dropdown
+      with a caution note instead. Every other county (outside this
+      service area) still starts genuinely blank, same as before.
+      **Reminder for whoever touches this next:** these are the ONLY
+      counties actually researched — don't assume the "county + state
+      transfer, split 50/50, recordation sometimes included" pattern
+      generalizes to a county not in this list without checking; Anne
+      Arundel/Harford/Carroll/PG all include recordation in the split,
+      Baltimore alone treats it as buyer-only, so there's no safe
+      universal shortcut. Also has an editable flat-closing-cost list,
+      loan payoff, and an optional capital-gains note. Live-computed
+      on-screen table, Save (writes `target_list_price`/`suggested_
+      range_low`/`high`/`loan_payoff`/`est_net_proceeds` plus the full
+      calc into `net_sheet` jsonb), **Download PDF** (real generated
+      PDF via `@react-pdf/renderer`, not a browser print dialog —
+      added as an npm dependency; this repo has no committed lockfile
+      so Vercel just installs it fresh on the next deploy, no manual
+      step needed; went through two rounds of PDF sizing fixes after
+      the first pass left a third of the page blank and the second
+      pass overcorrected into a second page, plus removed em dashes
+      that leaked into client-facing text and fixed a row-alignment
+      bug), Mark sent, and an optional manual link to one of the
+      contact's existing deals. Delete + a "fill 3 scenarios from one
+      target price" shortcut both added same day after review.
+    - **Built (2026-09-16): comps + market-stats intake, and a deck-
+      brief export — but NOT Gamma auto-generation.** Kyle asked for
+      the CRM to trigger the actual Gamma deck itself. Hit a real,
+      confirmed blocker: Gamma's real REST API (`POST https://public-
+      api.gamma.app/v1.0/generations`, confirmed to exist and be
+      callable from a Supabase Edge Function the same way Claude/
+      Gemini already are) requires a Gamma Pro/Ultra/Team/Business
+      plan, and Kyle confirmed **"i cant do api key without
+      upgrading."** Neither Zapier/Make/n8n nor paying for Claude or
+      ChatGPT credits gets around this — the gate is on Gamma's side
+      regardless of what's calling it. So this round built the piece
+      that doesn't need that upgrade: the `extract_net_sheet` AI task
+      (same RPR/CMA upload already used for the Net Sheet) now also
+      pulls `comps` (address/price/beds/baths/sqft/status/DOM) and
+      `market_stats` (months of inventory, median DOM, median sold
+      price, sold-to-list %) into the `presentations.comps`/`market_
+      stats` jsonb columns — both already existed in schema.sql,
+      unused until now. New editable Comps table + Market Stats card
+      on `Presentation.tsx`, and a **"Copy deck brief"** button that
+      assembles property facts + price scenarios + comps + market
+      stats + the static "Your Listing Roadmap" card (ported verbatim
+      from `marketing/listing-process-roadmap.md`) into one block Kyle
+      hands to Claude in chat to actually generate the deck — same
+      manual step as always, just faster since the data's organized
+      and pulled from the report instead of retyped. The extraction
+      prompt also now explicitly distrusts an obviously-erroneous
+      outlier valuation (the kind caused by a sqft data-mismatch in
+      the report itself, like the $791,904 "Refined Value" caught by
+      hand on the 261 Magothy Bridge Rd CMA earlier this session) —
+      codified so future extractions catch that automatically. Theme
+      decision confirmed by Kyle: keep `"friedman v2 test"` as-is, not
+      resolving the open teal/gold item in `decisions.md` this round.
+      **If Kyle upgrades Gamma later**, the actual API-calling piece
+      (a new edge function, `GAMMA_API_KEY` secret, generation-status
+      polling UI) becomes a much smaller follow-up — the hard part
+      (clean structured data ready to send) is what this round solved.
 
 11. **Content Ideas** — miner output with evidence; status
     (new / queued / dismissed); "send to blog queue". Tab: **Objection
