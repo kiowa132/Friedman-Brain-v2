@@ -323,3 +323,96 @@ reflects the wider data set, not the market.*
   graphic). Gamma deck / PDF / final images / website commit / social
   posting not yet done — pending Kyle's call on Gamma vs. PDF (out of
   Gamma credits as of last week) and image-generation spend approval.
+
+## Week of September 14–20, 2026
+- Statewide: Closed 984 (median sold $449,900, avg $541,701, total volume
+  $533,034,256) · New Listings 2,269 (Active status with date filter, same
+  convention as prior weeks; median $429,990, avg $547,332) · Pending 482
+  (SUM OF THE 24 COUNTY PULLS, see data note below) · Price Reductions
+  1,786 (Active-only, same basis as last week's 2,011; 1,856 across all
+  statuses) · Median Days to Contract (Closed CDOM) 25 (median DOM 21) ·
+  Sold/Orig List median 98.4% (avg 98.9%) · Sold/List median 100.0% (avg
+  101.3%). Coming Soon 444, Active Under Contract 650 (new statuses in the
+  pull, no prior baseline).
+- County-by-county, 24 of 24 jurisdictions (Closed / median sold / avg DOM
+  / New Listings / median new-list price / Pending / New:Closed ratio):
+  Allegany 9/$125,000/35/29/$150,000/4/3.2x · Anne Arundel
+  110/$532,500/34/203/$512,900/50/1.8x · Baltimore City
+  86/$225,500/45/276/$245,000/58/3.2x · Baltimore County
+  102/$381,000/27/275/$377,545/88/2.7x · Calvert
+  22/$487,450/40/49/$499,000/6/2.2x · Caroline
+  10/$287,495/98/18/$323,900/2/1.8x · Carroll
+  29/$360,000/44/43/$474,550/20/1.5x · Cecil
+  18/$375,000/66/33/$388,000/11/1.8x · Charles
+  36/$425,000/59/84/$472,000/9/2.3x · Dorchester
+  7/$299,999/122/20/$360,000/3/2.9x (tiny sample) · Frederick
+  67/$527,425/37/97/$499,900/21/1.4x · Garrett
+  10/$393,750/102/17/$429,900/2/1.7x · Harford
+  47/$425,000/30/94/$423,850/33/2.0x · Howard
+  51/$700,000/26/92/$534,490/31/1.8x · Kent
+  3/$332,000/12/12/$409,450/1/4.0x (tiny sample) · Montgomery
+  151/$642,215/37/377/$644,500/50/2.5x · Prince George's
+  104/$471,995/33/282/$439,450/49/2.7x · Queen Anne's
+  12/$455,000/46/24/$577,450/5/2.0x · St. Mary's
+  17/$470,000/21/40/$422,450/4/2.4x · Somerset
+  4/$242,450/71/12/$250,000/4/3.0x (tiny sample) · Talbot
+  15/$680,000/57/22/$567,000/5/1.5x · Washington
+  27/$360,000/34/68/$382,500/15/2.5x · Wicomico
+  10/$375,250/57/32/$344,900/6/3.2x · Worcester
+  37/$464,200/66/72/$392,000/5/1.9x
+- Fastest county (meaningful sample): St. Mary's, 21-day avg DOM, 17
+  closings (Kent 12 days but only 3 closings, footnote only). Then Howard
+  26, Baltimore County 27. Slowest (meaningful sample): Garrett, 102-day
+  avg DOM, 10 closings (93 last week, so 2nd straight week at the bottom),
+  then Caroline 98 (10 closings). Dorchester 122 on 7 closings is tiny
+  sample. Highest median sold: Howard $700,000, Talbot $680,000, Montgomery
+  $642,215. Lowest (meaningful sample): Baltimore City $225,500.
+- Supply pressure (new listings / closings): statewide 2.3x, down from
+  3.3x last week, mostly because closings rebounded. Highest: Baltimore
+  City 3.2x, Wicomico 3.2x (10 closings), Baltimore County 2.7x, Prince
+  George's 2.7x. Tightest: Frederick 1.4x, Carroll 1.5x, Talbot 1.5x.
+  Last week's leaders (PG 5.7x, Baltimore City 4.7x, Montgomery 4.5x) all
+  fell sharply for the same reason.
+- Freddie Mac 30yr rate: 6.95% (week of 9/17/2026 release, pulled via
+  WebSearch; +19 bps, 4th straight weekly increase: 6.66 to 6.71 to 6.76
+  to 6.95; 6.26% a year ago; 15yr 6.26%). Freddie's economist gave no
+  specific cause ("continues to fluctuate as markets assess economic
+  data"), so no cause is claimed in copy.
+- FMMI: 44/100, Balanced Market, Cooling (Demand 54, Seller Strength 55,
+  Market Speed 42, Rate Environment 24). Component scores set by editorial
+  judgment per the standing method, PENDING KYLE'S SIGN-OFF via the PDF.
+- Friedman Signal: Cooling (confirmed by Kyle 2026-09-20, all channels published from it)
+- Notes: Closed sales +39.0% w/w (708 to 984) off the Labor Day settlement
+  gap, but still 14.4% below the 8/31-9/6 week (1,150), so a rebound, not a
+  surge. Pending flat (481 to 482, +0.2%). New listings -4.1% (2,366 to
+  2,269) and median new-list price -4.1% ($448,383 to $429,990). Median
+  sold price +1.1% ($445,000 to $449,900). Price reductions -11.2% (2,011
+  to 1,786). Softer spots: median days to contract 20 to 25 (5 days
+  slower, +25%) and median sold/original list 99.6% to 98.4% (buyers took
+  1.2 points more off the ask). Total closed volume $533.0M vs ~$376.0M
+  last week (+41.8%, holiday week base). Story chosen for the video and
+  report: rates jumped 19 bps to nearly 7%, prices held, but TIME is where
+  sellers are losing leverage (20 to 25 days to contract). Careful framing:
+  this week's closings are mostly contracts written weeks ago, so the rate
+  spike is not yet visible in the closed data; do not claim the rate caused
+  the slower pace.
+  DATA NOTES (internal only, never client-facing): (1) The statewide
+  multi-status pull hit Bright's 5,000-record cap (status rows sum to
+  exactly 5,000), so its Pending (81), Withdrawn (103), Expired (160) and
+  Canceled (244) rows are PARTIAL. Statewide Closed (984) and Active
+  (2,269) came from separate full pulls; 984 ties exactly to the county
+  Closed sum; county Active sums to 2,271 (2-record timing difference).
+  Pending 482 is the sum of the 24 county Pending counts. If a future
+  statewide multi-status pull is needed, split it or use county sums.
+  (2) Statewide avg sold/orig (98.9%) and avg sold/list (101.3%) are skewed
+  by one Baltimore City closing with a $1,000 original/list price that
+  closed at $16,000 (1,600%), which looks like an auction-style listing.
+  Medians unaffected and used. (3) Price Extremes / Market Movers: Kyle has
+  NOT yet supplied listing sheets or expPortal links this week. From the
+  pull: highest Active current price $9,500,000 (Anne Arundel, 541 DOM),
+  lowest $10,000 (Allegany and Baltimore City, likely auction opening
+  bids). Need real addresses + links before the report is built.
+  Distribution this week: video script FIRST (Kyle wants to record before
+  everything else is perfected), then PDF review draft as the blueprint,
+  then Substack, website SEO article and remaining channels. NO Gamma.
+- Sept 14-20 shipped 2026-09-20: video script, PDF, Substack, website article (pushed), LinkedIn, GBP, Instagram Reel caption. Price Extremes still the statewide aggregate fallback (Kyle never supplied listing sheets). Homepage FMMI gauge now 44 / Cooling.

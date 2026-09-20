@@ -15,6 +15,11 @@ stop for Kyle's sign-off after step 1:
 2. Once Kyle approves the PDF (or gives corrections and re-approves), build
    Substack, then the website SEO article, then the remaining social
    channels (LinkedIn, Instagram, GBP, YouTube).
+   Order that ran smoothly the week of 9/14-9/20 (Kyle's call: video first):
+   video script, PDF blueprint (sign-off), Substack, image prompts (Kyle
+   generates, then I composite/fix), website article + push, then LinkedIn,
+   GBP, Instagram Reel caption. Kyle said the PDF is "the blueprint" so the
+   team is on the same page before everything else gets built.
 3. **Do not build a Gamma deck by default.** Gamma is slow and not worth it
    most weeks, per Kyle. Only build one if Kyle explicitly asks for it that
    week. The PDF from step 1 is now the standard flagship visual document,
@@ -29,6 +34,22 @@ stop for Kyle's sign-off after step 1:
 5. **Friedman Signal**
 6. **Weekly comparison table** (vs. prior week/period)
 7. **A recipe** (closing lifestyle element)
+
+## Story of the Week rules (confirmed with Kyle 2026-09-20)
+- Fictional composite characters, **first names only, never a last name**
+  (Kyle changed "Denise and Walt Holloway" to "Denise and Walt").
+- Make it inspiring: it must end with a win, for example an offer in hand
+  or a repriced listing that starts getting showings. The agent in the
+  story reads the data and makes the right call early, so nobody in it
+  "fails" (Kyle: make it seem like I don't fail). Never let the agent look
+  slow or wrong.
+- The story is reused in the video setup, PDF, Substack, website, LinkedIn, and
+  GBP, so settle it once in `report-core.md` and copy it.
+- Never fabricate a data point to fill a chart or a sentence. Chart series
+  and "since we began tracking" claims use only weeks that exist in the log or
+  in prior published articles (days to contract, rate, FMMI history are in the
+  prior week's website article table). Unverifiable comparisons ("more than the
+  previous three weeks combined") get cut or reworded to what the data shows.
 
 ## Standing data dependency
 - Freddie Mac PMMS 30-year mortgage rate — query as:
@@ -186,18 +207,24 @@ casual voice for Instagram/Reels captions specifically (see
 `../notes/brand-guidelines.md` if that gets documented there), 5 hashtags
 max, not a long tag block.
 
-## Distribution — every edition goes to all of these
-- PDF review draft (see Staged workflow above — built first, every week)
-- Substack
-- Website SEO article
-- LinkedIn
-- Instagram (carousel format — standard for every edition)
-- Short-form video script + a separate teaser caption for it (see
-  Short-form video section above) — added as a standing deliverable
-  2026-09-21
-- Google Business Profile
-- YouTube
-- Gamma — **on request only**, not a default (changed 2026-09-21)
+## Distribution — every edition goes to all of these (updated 2026-09-20)
+- PDF review draft (see Staged workflow above, built first every week)
+- Substack (real Substack format above)
+- Website SEO article (must satisfy the homepage FMMI requirements below)
+- LinkedIn (put the article link in the first comment, not the body)
+- Short-form video script + Instagram Reel caption (see Short-form video
+  section). The Instagram caption replaces the old YouTube description; Kyle
+  said YouTube is not what he needs. Only write `youtube.md` if he asks.
+- Google Business Profile: a **miniature of the Substack**, plain text, about
+  1,400 to 1,480 characters (Kyle: "about 1500, no more, maybe a tad less").
+  Order: standalone hook line, 3 to 4 sentence story ending with the win,
+  THE NUMBERS, FAST (same emojis), fastest/slowest/tightest counties,
+  Price Extremes line, FMMI line with the four scores, DEEP DIVE, ONE THING
+  I'D DO (Buying/Selling/Investing one-liners), contact line + email +
+  tagline. CTA button "Learn more" to the article. No separate short version.
+- **No Instagram carousel for the weekly Friedman Report** (Kyle 2026-09-20).
+  Carousels stay for standalone deep-dive pieces only.
+- Gamma: **on request only**, not a default (changed 2026-09-21)
 
 ## Standing build rules
 - Branding & tone: follow `../notes/brand-guidelines.md` — don't duplicate
@@ -214,6 +241,23 @@ max, not a long tag block.
   displays every hero in a fixed 16:9 `object-cover` box cost several
   redundant image generations. When in doubt, grep the consuming
   component before spending generation budget.
+- **Website hero must be 16:9** (the site crops every hero to 16:9). This was
+  already documented above and was missed again on 9/14-9/20: the hero
+  went live as a 3:1 banner and got its text cut off at both ends, then had to
+  be rebuilt. Check the aspect ratio of Kyle's image before it goes in the
+  repo, and open the live blog card and article after deploy. Recipe in
+  `report-images.md` ("Website hero must be 16:9").
+- **Image prompts:** Kyle generates the images and drops them in chat. Check
+  each one against the source numbers (heat map, supply, FMMI graphics had to
+  be read digit by digit) and fix defects (e.g. a kicker fading into a cloud).
+  Save finished files into the report folder's `images/` with the slug
+  filenames, then copy the web ones into the website repo's
+  `public/images/uploads/`.
+- **Deliver files to Kyle with SendUserFile**; don't just cite paths.
+- **Publishing the website article means commit + push to main in the website
+  repo** (Kyle approves that step each week). The Substack links to it, so it
+  goes live first.
+- Reusable build kit lives in `scripts/report/` (see its README).
 - **Before calling any edition "done," do a pre-publish pass**: grep the
   whole file (not just the section you touched) for every occurrence of
   anything you just fixed (an address, a link, a stat), and confirm every
@@ -226,6 +270,9 @@ max, not a long tag block.
 ## Output format
 Follow the Staged workflow above: PDF review draft first and wait for
 Kyle's sign-off, then assemble the rest of the platform-specific versions
-(Substack post, SEO article draft, LinkedIn post, Instagram carousel copy,
-GBP post, YouTube description) ready to publish or lightly edit. Build a
+(Substack post, SEO article draft, LinkedIn post, GBP mini-Substack post,
+Instagram Reel caption) ready to publish or lightly edit. Build a
 Gamma deck only if Kyle asks for one that week.
+
+## Homepage FMMI gauge depends on the website article (learned 2026-09-20)
+The homepage gauge is rebuilt from each week's website article at deploy time (`scripts/generate-fmmi-data.mjs`). Every article MUST contain, inside the `## The Friedman Market Momentum Index` section: (1) the gauge image alt text "...Momentum Index at NN out of 100", (2) a `<p>` with the label (e.g. "Balanced Market, Cooling"), (3) a sub-score chart image whose alt is "...FMMI sub-scores: Demand NN%, Seller Strength NN%, Market Speed NN%, Rate Environment NN%" (the `%` signs are required), plus a `## The Friedman Signal: X` heading. Missing the label or sub-score alt blanks the bars and the "What's driving the score" panel on the homepage. `website-seo.md` generation template handles all of these.

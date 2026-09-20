@@ -9,6 +9,17 @@
       the likely upgrade path.
 
 ## Resolved
+- Gamma deck review + AI providers (2026-09-18): the Presentation page now
+  has a Step 4 that builds the whole Gamma deck as reviewable cards (numbers
+  from the same data as the net sheet, static copy from the approved Beall
+  deck), lets Kyle edit any card or ask AI to reword one (AI can't change a
+  number; the client discards an edit that introduces one), then "Copy for
+  Gamma" / "Copy for chat". Still NO Gamma API (paid plan), so it ends in a
+  paste. Code: `friedman-crm/src/lib/gammaDeck.ts`. Same day the `ai` edge
+  function gained OpenAI as a provider and an automatic fallback chain
+  (Claude, OpenAI, Gemini, or `AI_PROVIDER` first) because Gemini's free tier
+  kept returning "high demand"; OpenAI needs an API key with billing, a
+  ChatGPT Plus plan doesn't include it. See `friedman-crm/SETUP-AI.md`.
 - CRM auto-generating Gamma decks (2026-09-16): confirmed with Kyle he's
   not upgrading Gamma to a Pro/Ultra/Team/Business plan right now, which
   is required for API access no matter how it's called (direct API,
@@ -35,3 +46,4 @@
 - Website stack: custom React/TS/Vite chosen over WordPress + IDX.
 - Team name is "The Friedman Team" — "Friedman Real Estate Team" and any
   "real estate"-inclusive variant retired.
+- Friedman Report workflow retro (2026-09-20, week of 9/14-9/20, went smoothly): story uses first names only and ends with a win (offer in hand); GBP is a mini Substack of about 1,450 characters; Instagram Reel caption replaces the YouTube description; no Instagram carousel for the weekly report; website hero must be 16:9 (site crops); homepage FMMI gauge needs the label `<p>` and the sub-score alt text with `%` signs in each week's article; chart data uses verified weeks only; reusable generators saved in `scripts/report/`. Details in `projects/friedman-report.md`.

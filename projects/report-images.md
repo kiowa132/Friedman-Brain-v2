@@ -54,6 +54,9 @@ prompt to `properties/<addr>/image-log.md`. `generated/` stays disposable.
   third is empty road** (blank trim margin) so the crop only removes
   emptiness.
 
+## Website hero must be 16:9 (learned 2026-09-20)
+The website center-crops every blog hero to 16:9 (blog list card and article header). A 3:1 banner gets its text cut off at both ends. Ship the website hero as 1600x900 with all text inside the frame (headline on two lines is fine). A 3:1 banner is fine for other channels but never as the site `heroImage`. If only a wide banner exists, remove the text, stretch only the sky and lawn bands vertically to reach 16:9 (keep the house band 1:1), then re-composite the text.
+
 ## Friedman Report hero banner — proven method (confirmed 2026-09-13)
 Baking title text into the AI image is unreliable no matter how the
 prompt is worded — gpt-image-1 clips the first letter of left-aligned
