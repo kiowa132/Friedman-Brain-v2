@@ -47,6 +47,9 @@ the trademarks of their respective owners, who do not sponsor or endorse this."
 - The IG promo for the list uses headline "RELATIONSHIPS OVER ALGORITHMS."
   (see the image-prompt work, Sept 2026)
 
+## Monthly guide behind the AM card QR
+Each month's AM card QR opens a new guide on the website. Process: [[projects/monthly-am-card-guide.md]].
+
 ## Ideas / next
 - Point the QR codes on future magnet reprints at `/mailing-list` instead of
   (or alongside) the valuation page, so the schedule itself grows the list.
